@@ -1,0 +1,7 @@
+{
+  "action": "convergence",
+  "parameters": {
+    "count": 4096,
+    "oversampling": 2
+  }
+}

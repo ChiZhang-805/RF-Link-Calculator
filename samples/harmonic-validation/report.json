@@ -1,0 +1,285 @@
+{
+  "谐波反馈链路": {
+    "solver": {
+      "status": "converged",
+      "iterations": 1,
+      "relative_residual": 8.569185410407949e-13,
+      "tolerance": 1e-09,
+      "history": [
+        8.569185410407949e-13
+      ],
+      "input_peaks_sqrt_mw": [
+        0.08969929948976407
+      ]
+    },
+    "convergence": {
+      "status": "pass",
+      "harmonic_limits": [
+        64,
+        128
+      ],
+      "tolerance_db": 0.01,
+      "floor_dbm": -125.10193634120292,
+      "components": [
+        {
+          "frequency_hz": 0.0,
+          "delta_db": -1.4210854715202004e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 2000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 7000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 9000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 11000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 13000000.0,
+          "delta_db": -2.842170943040401e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 18000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 20000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 22000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 27000000.0,
+          "delta_db": 2.842170943040401e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 29000000.0,
+          "delta_db": -1.4210854715202004e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 31000000.0,
+          "delta_db": -2.842170943040401e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 33000000.0,
+          "delta_db": 1.4210854715202004e-14,
+          "status": "pass"
+        }
+      ],
+      "new_out_of_band_components": []
+    },
+    "calculation_hash": "de94bb99a5701c5bd823af85cd2e3da0bcc6f0a1781dcb34895094654a7b7121"
+  },
+  "谐波混频链路": {
+    "solver": {
+      "status": "converged",
+      "iterations": 2,
+      "relative_residual": 7.757919228897728e-17,
+      "tolerance": 1e-09,
+      "history": [
+        1.8488930320727188e-08,
+        7.757919228897728e-17
+      ],
+      "input_peaks_sqrt_mw": [
+        0.08944271909999159,
+        0.1796854381999832,
+        0.18033117533400567
+      ]
+    },
+    "convergence": {
+      "status": "pass",
+      "harmonic_limits": [
+        64,
+        128
+      ],
+      "tolerance_db": 0.01,
+      "floor_dbm": -121.05035515761881,
+      "components": [
+        {
+          "frequency_hz": 0.0,
+          "delta_db": -3.126388037344441e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 1000000.0,
+          "delta_db": -8.235190307459561e-11,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 2000000.0,
+          "delta_db": 3.552713678800501e-15,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 3000000.0,
+          "delta_db": -1.8616219676914625e-12,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 4000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 5000000.0,
+          "delta_db": -2.8421709430404007e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 6000000.0,
+          "delta_db": 6.963318810448982e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 7000000.0,
+          "delta_db": -1.4210854715202004e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 8000000.0,
+          "delta_db": 6.252776074688882e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 9000000.0,
+          "delta_db": 3.126388037344441e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 11000000.0,
+          "delta_db": 7.105427357601002e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 12000000.0,
+          "delta_db": 4.263256414560601e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 13000000.0,
+          "delta_db": 4.689582056016661e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 14000000.0,
+          "delta_db": 4.689582056016661e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 15000000.0,
+          "delta_db": 3.055333763768431e-12,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 16000000.0,
+          "delta_db": 0.0,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 18000000.0,
+          "delta_db": -3.552713678800501e-15,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 20000000.0,
+          "delta_db": -2.1316282072803006e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 22000000.0,
+          "delta_db": -1.4210854715202004e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 23000000.0,
+          "delta_db": -2.8350655156827997e-11,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 25000000.0,
+          "delta_db": -1.2079226507921703e-12,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 27000000.0,
+          "delta_db": -7.247535904753022e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 29000000.0,
+          "delta_db": -1.3073986337985843e-12,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 32000000.0,
+          "delta_db": 7.105427357601002e-14,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 34000000.0,
+          "delta_db": 4.121147867408581e-13,
+          "status": "pass"
+        },
+        {
+          "frequency_hz": 36000000.0,
+          "delta_db": -7.958078640513122e-13,
+          "status": "pass"
+        }
+      ],
+      "new_out_of_band_components": []
+    },
+    "calculation_hash": "0ccf5a121eb2a93918be9aba72bedfa47082857c5228e90ef8cbacde48046f62"
+  },
+  "镜像噪声链路": {
+    "nf_db": 6.079873577870746,
+    "image_gain_db": -36.0,
+    "calculation_hash": "341ed3479c813e9c31682fbff4d6a5647e849a2d71db79fbdd2a1a77454a384b"
+  },
+  "analytic": {
+    "status": "internal_only",
+    "rows": 52,
+    "error_summary": {
+      "phase_deg": {
+        "count": 13,
+        "max_abs_error": 0.0,
+        "rms_error": 0.0
+      },
+      "wave_real": {
+        "count": 13,
+        "max_abs_error": 1.0164395367051604e-20,
+        "rms_error": 3.9868038708052484e-21
+      },
+      "wave_imag": {
+        "count": 13,
+        "max_abs_error": 2.12616270188716e-20,
+        "rms_error": 8.865237908882181e-21
+      },
+      "power_dbm": {
+        "count": 13,
+        "max_abs_error": 0.0,
+        "rms_error": 0.0
+      }
+    }
+  }
+}

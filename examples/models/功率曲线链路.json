@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "fixture-功率曲线链路",
+  "project_name": "功率曲线链路",
+  "link_name": "功率曲线链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -10,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": true,
+      "each_tone_power_dbm": -20,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "curve-amplifier",
+      "order": 1,
+      "enabled": true,
+      "name": "放大器",
+      "type": "amplifier",
+      "gain_db": 20,
+      "noise": {
+        "mode": "manual",
+        "value_db": 2
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 10
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": -10
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic",
+        "note": "构造模型，仅用于软件验证"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": "合成数据，不代表真实器件或商业软件对标结果",
+  "lab": {
+    "models": {
+      "curve-amplifier": {
+        "nonlinear": {
+          "kind": "ampm",
+          "metadata": {
+            "filename": "synthetic-ampm.csv",
+            "sha256": "35a07421d3a57d35e284d1e4b25bca6a5786428126d0131175943d88e8376d95",
+            "source": "synthetic"
+          },
+          "phase_deg": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            3.0,
+            6.0,
+            12.0
+          ],
+          "pin_dbm": [
+            -80.0,
+            -40.0,
+            -30.0,
+            -20.0,
+            -15.0,
+            -10.0,
+            -5.0,
+            0.0
+          ],
+          "pout_dbm": [
+            -60.0,
+            -20.0,
+            -10.0,
+            0.0,
+            4.7,
+            9.0,
+            12.5,
+            14.0
+          ]
+        }
+      }
+    },
+    "settings": {}
+  }
+}

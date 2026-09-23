@@ -1,0 +1,7 @@
+{
+  "action": "image",
+  "parameters": {
+    "image_gain_db": -10,
+    "image_temperature_k": 290
+  }
+}

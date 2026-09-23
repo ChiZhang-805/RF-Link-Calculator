@@ -1,0 +1,589 @@
+{
+  "project_hash": "550863b0b43f8189062207e6f8d90c15d974adfb0f4402c81fa9407f0e414996",
+  "calculation_hash": "9abd9fcb84587a06df09113fc6fe1f20678feb767e807e3aed97f61604266f8f",
+  "created_at": "2026-09-23T13:05:53.806757+00:00",
+  "formula_version": "2.0.0",
+  "compression_model_version": "data_driven_v2",
+  "metrics": {
+    "frequency_output_hz": {
+      "value": 100000000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "gain_db": {
+      "value": 19.917045542538844,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "linear_output_dbm": {
+      "value": -40.082954457461156,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "nf_db": {
+      "value": 1.5116116513994615,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "te_k": {
+      "value": 120.73258931481135,
+      "unit": "K",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "noise_input_dbm": {
+      "value": -112.46357554282864,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "noise_output_dbm": {
+      "value": -92.54653000028979,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "snr_db": {
+      "value": 52.463575542828636,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "iip3_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "oip3_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "compressed_output_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "compression_db": {
+      "value": null,
+      "unit": "dB",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "tone_output_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "im3_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "ip1_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "op1_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "sensitivity_dbm": {
+      "value": -102.46357554282864,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "compression_dr_db": {
+      "value": null,
+      "unit": "dB",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "sfdr3_db": {
+      "value": null,
+      "unit": "dB",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "sfdr3_normalized": {
+      "value": null,
+      "unit": "dB·Hz^(2/3)",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_limit_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_span_db": {
+      "value": null,
+      "unit": "dB",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_input_dbm": {
+      "value": -40,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_total_dbm": {
+      "value": -36.98970004336019,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "im3_dbc": {
+      "value": null,
+      "unit": "dBc",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "波形非线性分析需要匹配的源与负载"
+    },
+    "tone_frequency_0_hz": {
+      "value": 99950000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_frequency_1_hz": {
+      "value": 100050000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_frequency_2_hz": {
+      "value": 99850000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_frequency_3_hz": {
+      "value": 100150000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    }
+  },
+  "stages": [
+    {
+      "stage_id": "sparameter-amplifier",
+      "name": "放大器",
+      "enabled": true,
+      "metrics": {
+        "frequency_input_hz": {
+          "value": 100000000.0,
+          "unit": "Hz",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "frequency_output_hz": {
+          "value": 100000000.0,
+          "unit": "Hz",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_gain_db": {
+          "value": 20.0,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "gain_db": {
+          "value": 19.917045542538844,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "linear_input_dbm": {
+          "value": -60.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "linear_output_dbm": {
+          "value": -40.082954457461156,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_nf_db": {
+          "value": 1.5422212088096554,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "noise_contribution_k": {
+          "value": 123.63770397932672,
+          "unit": "K",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "nf_db": {
+          "value": 1.5116116513994615,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "te_k": {
+          "value": 120.73258931481135,
+          "unit": "K",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "noise_input_dbm": {
+          "value": -112.46357554282864,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "noise_output_dbm": {
+          "value": -92.54653000028979,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "snr_db": {
+          "value": 52.463575542828636,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_iip3_dbm": {
+          "value": 10,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_oip3_dbm": {
+          "value": 30.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "iip3_dbm": {
+          "value": null,
+          "unit": "dBm",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "oip3_dbm": {
+          "value": null,
+          "unit": "dBm",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "stage_ip1_dbm": {
+          "value": -10,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "stage_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "compressed_input_dbm": {
+          "value": null,
+          "unit": "dBm",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "compressed_output_dbm": {
+          "value": null,
+          "unit": "dBm",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "stage_compression_db": {
+          "value": null,
+          "unit": "dB",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "compression_db": {
+          "value": null,
+          "unit": "dB",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "p1_margin_db": {
+          "value": null,
+          "unit": "dB",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "tone_output_dbm": {
+          "value": null,
+          "unit": "dBm",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "im3_dbm": {
+          "value": null,
+          "unit": "dBm",
+          "status": "unknown",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": "波形非线性分析需要匹配的源与负载"
+        },
+        "sensitivity_dbm": {
+          "value": -102.46357554282864,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        }
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "A002",
+      "severity": "warning",
+      "field_path": "lab.models",
+      "message": "波形非线性分析需要匹配的源与负载",
+      "stage_id": null,
+      "affected_metrics": [],
+      "suggestion": "请核对对应输入与数据来源"
+    }
+  ],
+  "assumptions": [
+    "二端口复数S参数与噪声波协方差级联，实参考阻抗归一化到50 Ω；线性插值，不做频率外推",
+    "逐级网络结果为截断前缀网络接指定终端后的预算，不是完整双向网络内部探针；主指标噪声为中心频点窄带预算，带内积分使用频谱页",
+    "有源S参数的NF需完整噪声参数；单个标量NF不足以确定失配噪声，缺失时返回未知",
+    "功率曲线采用复包络无记忆模型；最低测点以下延拓该点复增益，最高点以上不外推",
+    "记忆多项式由前半段IQ训练，后半段隔离验证；结果只针对训练采样率和幅度范围",
+    "频谱为前馈复包络FFT；IMT为固定驱动单RF+LO实测表；不等价于通用谐波平衡或全电路求解",
+    "谐波页使用显式实射频多项式二端口、频域端口连接和Newton-Krylov残差求解；需另验谐波截断，不含晶体管物理模型或大信号噪声",
+    "商业软件与硬件准确度需导入独立参考结果另行验收；合成数据只能验证实现"
+  ]
+}

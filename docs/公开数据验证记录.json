@@ -1,0 +1,380 @@
+{
+  "date": "2026-09-23",
+  "manufacturer": {
+    "status": "pass",
+    "conditions": 18,
+    "frequency_points": 684,
+    "comparisons": 2736,
+    "tolerance_db": 0.0050001,
+    "errors": {
+      "gain_db": {
+        "count": 684,
+        "max_abs_error": 0.004999999999999005,
+        "rms_error": 0.00296223192480692
+      },
+      "isolation_db": {
+        "count": 684,
+        "max_abs_error": 0.004999600000001436,
+        "rms_error": 0.0028817511076534843
+      },
+      "input_return_loss_db": {
+        "count": 684,
+        "max_abs_error": 0.004999500000000268,
+        "rms_error": 0.0029081373249286576
+      },
+      "output_return_loss_db": {
+        "count": 684,
+        "max_abs_error": 0.004999500000000268,
+        "rms_error": 0.0029143039652047295
+      }
+    },
+    "scope": "厂商S参数与同源官方表格的读取/单位/舍入一致性；不是独立器件测量"
+  },
+  "network": {
+    "status": "pass",
+    "reference": "scikit-rf 2.1.0 cascade plus terminated transducer-gain equation",
+    "frequencies": 71,
+    "comparisons": 426,
+    "errors": {
+      "gain_db": {
+        "count": 71,
+        "max_abs_error": 7.105427357601002e-15,
+        "rms_error": 1.9748067394571257e-15
+      },
+      "phase_deg": {
+        "count": 71,
+        "max_abs_error": 2.842170943040401e-14,
+        "rms_error": 8.262217928259632e-15
+      },
+      "s11_db": {
+        "count": 71,
+        "max_abs_error": 3.552713678800501e-15,
+        "rms_error": 1.1925484362460126e-15
+      },
+      "s22_db": {
+        "count": 71,
+        "max_abs_error": 7.105427357601002e-15,
+        "rms_error": 1.5202069368307449e-15
+      },
+      "s21_real": {
+        "count": 71,
+        "max_abs_error": 1.4210854715202004e-14,
+        "rms_error": 2.2822800689562744e-15
+      },
+      "s21_imag": {
+        "count": 71,
+        "max_abs_error": 7.105427357601002e-15,
+        "rms_error": 1.420047933132593e-15
+      }
+    },
+    "nf_status": "not_evaluated_missing_noise_parameters"
+  },
+  "published": {
+    "公开算例 · Friis 下变频": {
+      "status": "published_match",
+      "rows": 20,
+      "error_summary": {
+        "gain_db": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        },
+        "nf_db": {
+          "count": 4,
+          "max_abs_error": 0.0004653159035905574,
+          "rms_error": 0.0003290702171459321
+        },
+        "linear_output_dbm": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        },
+        "frequency_output_hz": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        }
+      },
+      "url": "https://www.mathworks.com/help/rf/ug/rf-budget-harmonic-balance-analysis-of-low-if-receiver-ip2-and-nf.html",
+      "scope": "完整三器件 Friis 链路；五项预算，NF 按文档 0.001 dB 显示精度比较"
+    },
+    "公开算例 · IP3 级联": {
+      "status": "published_match",
+      "rows": 20,
+      "error_summary": {
+        "gain_db": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        },
+        "nf_db": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        },
+        "iip3_dbm": {
+          "count": 3,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        },
+        "linear_output_dbm": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        },
+        "frequency_output_hz": {
+          "count": 4,
+          "max_abs_error": 0.0,
+          "rms_error": 0.0
+        }
+      },
+      "url": "https://www.mathworks.com/help/rf/ref/rfbudget.html",
+      "scope": "原文第一个算例的前三个 Friis 前缀；不包含第四级 passive.s2p"
+    }
+  },
+  "measured_iq": {
+    "status": "evaluated_no_product_acceptance_threshold",
+    "dataset": "OpenDPD DPA_200MHz",
+    "commit": "aba888b87199d7ae7802ce931987e3aa3c951410",
+    "amplitude_unit": "normalized",
+    "absolute_power_status": "not_calibrated_not_reported",
+    "sample_rate_hz": 800000000.0,
+    "split_samples": {
+      "train": 23040,
+      "val": 7680,
+      "test": 7680
+    },
+    "selection": "20 fixed candidates selected using validation split only; test outputs never used for training or candidate selection",
+    "warmup_samples": 7,
+    "selected": {
+      "order": 9,
+      "depth": 8,
+      "validation_nmse_db": -30.674567978612806,
+      "validation_samples": 7673
+    },
+    "candidates": [
+      {
+        "order": 1,
+        "depth": 1,
+        "validation_nmse_db": -20.02560121787644,
+        "validation_samples": 7673
+      },
+      {
+        "order": 1,
+        "depth": 3,
+        "validation_nmse_db": -25.113275153891266,
+        "validation_samples": 7673
+      },
+      {
+        "order": 1,
+        "depth": 5,
+        "validation_nmse_db": -25.65462250697161,
+        "validation_samples": 7673
+      },
+      {
+        "order": 1,
+        "depth": 8,
+        "validation_nmse_db": -25.910837454315477,
+        "validation_samples": 7673
+      },
+      {
+        "order": 3,
+        "depth": 1,
+        "validation_nmse_db": -20.808665203273854,
+        "validation_samples": 7673
+      },
+      {
+        "order": 3,
+        "depth": 3,
+        "validation_nmse_db": -28.31675317949474,
+        "validation_samples": 7673
+      },
+      {
+        "order": 3,
+        "depth": 5,
+        "validation_nmse_db": -29.561514280546373,
+        "validation_samples": 7673
+      },
+      {
+        "order": 3,
+        "depth": 8,
+        "validation_nmse_db": -30.20629037964046,
+        "validation_samples": 7673
+      },
+      {
+        "order": 5,
+        "depth": 1,
+        "validation_nmse_db": -20.84441505525146,
+        "validation_samples": 7673
+      },
+      {
+        "order": 5,
+        "depth": 3,
+        "validation_nmse_db": -28.618393249769724,
+        "validation_samples": 7673
+      },
+      {
+        "order": 5,
+        "depth": 5,
+        "validation_nmse_db": -29.9554145296189,
+        "validation_samples": 7673
+      },
+      {
+        "order": 5,
+        "depth": 8,
+        "validation_nmse_db": -30.652393167716614,
+        "validation_samples": 7673
+      },
+      {
+        "order": 7,
+        "depth": 1,
+        "validation_nmse_db": -20.845210371496762,
+        "validation_samples": 7673
+      },
+      {
+        "order": 7,
+        "depth": 3,
+        "validation_nmse_db": -28.627473523131318,
+        "validation_samples": 7673
+      },
+      {
+        "order": 7,
+        "depth": 5,
+        "validation_nmse_db": -29.96638909072322,
+        "validation_samples": 7673
+      },
+      {
+        "order": 7,
+        "depth": 8,
+        "validation_nmse_db": -30.662378049601834,
+        "validation_samples": 7673
+      },
+      {
+        "order": 9,
+        "depth": 1,
+        "validation_nmse_db": -20.84635644368044,
+        "validation_samples": 7673
+      },
+      {
+        "order": 9,
+        "depth": 3,
+        "validation_nmse_db": -28.635372714138782,
+        "validation_samples": 7673
+      },
+      {
+        "order": 9,
+        "depth": 5,
+        "validation_nmse_db": -29.978134181281927,
+        "validation_samples": 7673
+      },
+      {
+        "order": 9,
+        "depth": 8,
+        "validation_nmse_db": -30.674567978612806,
+        "validation_samples": 7673
+      }
+    ],
+    "test": {
+      "nmse_db": -30.784156488524598,
+      "evm_percent": 2.8892969263402177,
+      "evm_gain_aligned_percent": 2.8625136168067047,
+      "gain_real": 0.9978383396381947,
+      "gain_imag": 0.0037761734339864716
+    },
+    "linear_baseline_test": {
+      "nmse_db": -19.805664902429168,
+      "evm_percent": 10.226258222766104,
+      "evm_gain_aligned_percent": 10.277981767447978,
+      "gain_real": 0.9916262000315857,
+      "gain_imag": -3.801025011820957e-06
+    },
+    "nmse_improvement_db": 10.97849158609543,
+    "adjacent_channel": {
+      "acpr_left_dbc": {
+        "measured": -34.034987657056455,
+        "predicted": -34.45465125373575,
+        "error_db": -0.41966359667929254
+      },
+      "acpr_right_dbc": {
+        "measured": -32.08351755759101,
+        "predicted": -32.38059739834149,
+        "error_db": -0.29707984075048444
+      }
+    },
+    "metric_scope": "time-sample prediction EVM/NMSE; Hann-window 200 MHz bands at offsets +/-200 MHz; not standards-demodulated EVM or an OpenDPD benchmark reproduction"
+  },
+  "commercial_solver_executed": false,
+  "independent_target_hardware_measured": false,
+  "sources": [
+    {
+      "url": "https://www.minicircuits.com/pages/s-params/PGA-103+_S2P.zip",
+      "file": "PGA-103+_S2P.zip",
+      "bytes": 603104,
+      "sha256": "e897f981f5fcf59faa05b6404c620fcede6353e49c34b1805c49db156985c74a",
+      "source": "Mini-Circuits official product page PGA-103+; numeric device measurements"
+    },
+    {
+      "url": "https://www.minicircuits.com/pages/s-params/PGA-103+_VIEW.pdf",
+      "file": "PGA-103+_VIEW.pdf",
+      "bytes": 128885,
+      "sha256": "bc61fc7c6544424359f2f264fac7c48d529e2286bf5319c5778baf2e485f5a80",
+      "source": "Mini-Circuits official product page PGA-103+; numeric device measurements"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/LICENSE",
+      "file": "opendpd/LICENSE",
+      "bytes": 11350,
+      "sha256": "deb902d88d3c587ddc0aec3e144f85abf83f0b48ce08080ad2971f7dd358ef71",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/spec.json",
+      "file": "opendpd/spec.json",
+      "bytes": 502,
+      "sha256": "8b22413423a46a2cbb98f33452c4e97ecc4a99553b24ecd382686186806a0c07",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/train_input.csv",
+      "file": "opendpd/train_input.csv",
+      "bytes": 570842,
+      "sha256": "05da7e48c14d1eadb003a43363d6b9f658a164b564b660f5edee21b9e9d4d0f3",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/train_output.csv",
+      "file": "opendpd/train_output.csv",
+      "bytes": 570990,
+      "sha256": "f3d9b3173e78a4c292028b304271ee16c52c2262dd122f593ca7b8b65097dff3",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/val_input.csv",
+      "file": "opendpd/val_input.csv",
+      "bytes": 190341,
+      "sha256": "aa7b345c57eef8476ca6b5b5eb73fd0dce0f8d72f5e716ed36cfb0b91af8b8a3",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/val_output.csv",
+      "file": "opendpd/val_output.csv",
+      "bytes": 190335,
+      "sha256": "5c012ab8218062cd870eed700fc273dd7e72820462c480df8380f08cf4f1092a",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/test_input.csv",
+      "file": "opendpd/test_input.csv",
+      "bytes": 190211,
+      "sha256": "262e1fe4365992735ef9d6f67c4ff557e8e4d8a4f4885b7bc5c7011d07f1b4c0",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/test_output.csv",
+      "file": "opendpd/test_output.csv",
+      "bytes": 190275,
+      "sha256": "57d13dc65abf2b8cf77a05d0f1cf90ca0b3520f2da6bb85eb7ba31048d46d9a8",
+      "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+    }
+  ]
+}

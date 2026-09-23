@@ -1,0 +1,22 @@
+[
+  {
+    "path": "outputs\\构造基准B_接收链路_20260923T095428635413Z.zip",
+    "status": "success",
+    "verified_files": 7
+  },
+  {
+    "path": "samples\\构造基准D_200级长链路_20260923T100937806785Z.zip",
+    "status": "success",
+    "verified_files": 27
+  },
+  {
+    "path": "samples\\构造基准B_接收链路_20260923T100852895539Z.zip",
+    "status": "success",
+    "verified_files": 7
+  },
+  {
+    "path": "samples\\构造基准F_下变频链路_20260923T100848508115Z.zip",
+    "status": "success",
+    "verified_files": 7
+  }
+]

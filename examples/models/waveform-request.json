@@ -1,0 +1,8 @@
+{
+  "action": "waveform",
+  "parameters": {
+    "sample_rate_hz": 10000000.0,
+    "bandwidth_hz": 1000000.0,
+    "spacing_hz": 2000000.0
+  }
+}

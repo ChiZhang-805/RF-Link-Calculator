@@ -1,0 +1,114 @@
+{
+  "version": "2.2.0",
+  "source": "synthetic",
+  "cases": {
+    "NPN放大电路-circuit-dc": {
+      "calculation_hash": "c080f24430769856ba7c3a1950e501ceb61e4a4975c19d9c787ef0e6a10212ec",
+      "solver": {
+        "status": "converged",
+        "residual_a": 1.5178830414797062e-18,
+        "iterations": 50
+      }
+    },
+    "NPN放大电路-circuit-hb-convergence": {
+      "calculation_hash": "c080f24430769856ba7c3a1950e501ceb61e4a4975c19d9c787ef0e6a10212ec",
+      "solver": {
+        "status": "converged",
+        "residual_a": 5.703987629446239e-16,
+        "quadrature_residual_a": 5.70615603379121e-16,
+        "iterations": 4,
+        "dc_iterations": 50
+      },
+      "convergence": {
+        "status": "pass",
+        "harmonic_limits": [
+          8,
+          16
+        ],
+        "max_voltage_delta_v": 1.767503570294773e-11,
+        "limit_v": 1.0749260448828083e-05
+      },
+      "scope": "RC network; intrinsic reciprocal Ebers-Moll NPN; constant capacitances; no Early, high-injection, transit-time, breakdown or self-heating model"
+    },
+    "NPN放大电路-circuit-noise-convergence": {
+      "calculation_hash": "c080f24430769856ba7c3a1950e501ceb61e4a4975c19d9c787ef0e6a10212ec",
+      "convergence": {
+        "status": "pass",
+        "sideband_limits": [
+          8,
+          16
+        ],
+        "max_delta_db": 0.0,
+        "tolerance_db": 0.01,
+        "harmonic": {
+          "status": "pass",
+          "harmonic_limits": [
+            8,
+            16
+          ],
+          "max_voltage_delta_v": 1.767503570294773e-11,
+          "limit_v": 1.0749260448828083e-05
+        }
+      },
+      "stability": {
+        "status": "stable",
+        "spectral_radius": 1.540326516156237e-07
+      },
+      "scope": "one-sided time-average PSD; both positive and negative mixing sidebands; resistor thermal noise and independent forward-active NPN base/collector white shot noise; no flicker, transit-time noise correlation or oscillator phase noise"
+    },
+    "RC热噪声-circuit-dc": {
+      "calculation_hash": "8375347c88e0627740022aa22491745cc0d39e41fbbe0c0453e528c4b54a32d2",
+      "solver": {
+        "status": "converged",
+        "residual_a": 0.0,
+        "iterations": 0
+      }
+    },
+    "RC热噪声-circuit-hb-convergence": {
+      "calculation_hash": "8375347c88e0627740022aa22491745cc0d39e41fbbe0c0453e528c4b54a32d2",
+      "solver": {
+        "status": "converged",
+        "residual_a": 0.0,
+        "quadrature_residual_a": 0.0,
+        "iterations": 0,
+        "dc_iterations": 0
+      },
+      "convergence": {
+        "status": "pass",
+        "harmonic_limits": [
+          8,
+          16
+        ],
+        "max_voltage_delta_v": 0.0,
+        "limit_v": 1e-09
+      },
+      "scope": "RC network; intrinsic reciprocal Ebers-Moll NPN; constant capacitances; no Early, high-injection, transit-time, breakdown or self-heating model"
+    },
+    "RC热噪声-circuit-noise-convergence": {
+      "calculation_hash": "8375347c88e0627740022aa22491745cc0d39e41fbbe0c0453e528c4b54a32d2",
+      "convergence": {
+        "status": "pass",
+        "sideband_limits": [
+          8,
+          16
+        ],
+        "max_delta_db": 0.0,
+        "tolerance_db": 0.01,
+        "harmonic": {
+          "status": "pass",
+          "harmonic_limits": [
+            8,
+            16
+          ],
+          "max_voltage_delta_v": 0.0,
+          "limit_v": 1e-09
+        }
+      },
+      "stability": {
+        "status": "stable",
+        "spectral_radius": 0.3678794324486271
+      },
+      "scope": "one-sided time-average PSD; both positive and negative mixing sidebands; resistor thermal noise and independent forward-active NPN base/collector white shot noise; no flicker, transit-time noise correlation or oscillator phase noise"
+    }
+  }
+}

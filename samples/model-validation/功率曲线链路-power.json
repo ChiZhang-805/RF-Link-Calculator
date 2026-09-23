@@ -1,0 +1,811 @@
+{
+  "points": [
+    {
+      "pin_dbm": -40.0,
+      "pout_dbm": -20.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -39.75,
+      "pout_dbm": -19.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -39.5,
+      "pout_dbm": -19.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -39.25,
+      "pout_dbm": -19.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -39.0,
+      "pout_dbm": -19.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -38.75,
+      "pout_dbm": -18.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -38.5,
+      "pout_dbm": -18.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -38.25,
+      "pout_dbm": -18.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -38.0,
+      "pout_dbm": -18.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -37.75,
+      "pout_dbm": -17.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -37.5,
+      "pout_dbm": -17.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -37.25,
+      "pout_dbm": -17.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -37.0,
+      "pout_dbm": -17.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -36.75,
+      "pout_dbm": -16.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -36.5,
+      "pout_dbm": -16.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -36.25,
+      "pout_dbm": -16.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -36.0,
+      "pout_dbm": -16.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -35.75,
+      "pout_dbm": -15.750000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -35.5,
+      "pout_dbm": -15.499999999999998,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -35.25,
+      "pout_dbm": -15.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -35.0,
+      "pout_dbm": -15.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -34.75,
+      "pout_dbm": -14.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -34.5,
+      "pout_dbm": -14.500000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -34.25,
+      "pout_dbm": -14.249999999999998,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -34.0,
+      "pout_dbm": -14.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -33.75,
+      "pout_dbm": -13.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -33.5,
+      "pout_dbm": -13.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -33.25,
+      "pout_dbm": -13.250000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -33.0,
+      "pout_dbm": -13.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -32.75,
+      "pout_dbm": -12.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -32.5,
+      "pout_dbm": -12.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -32.25,
+      "pout_dbm": -12.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -32.0,
+      "pout_dbm": -12.000000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -31.75,
+      "pout_dbm": -11.749999999999996,
+      "compression_db": -3.552713678800501e-15
+    },
+    {
+      "pin_dbm": -31.5,
+      "pout_dbm": -11.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -31.25,
+      "pout_dbm": -11.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -31.0,
+      "pout_dbm": -11.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -30.75,
+      "pout_dbm": -10.750000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -30.5,
+      "pout_dbm": -10.499999999999998,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -30.25,
+      "pout_dbm": -10.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -30.0,
+      "pout_dbm": -10.000000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -29.75,
+      "pout_dbm": -9.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -29.5,
+      "pout_dbm": -9.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -29.25,
+      "pout_dbm": -9.249999999999998,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -29.0,
+      "pout_dbm": -9.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -28.75,
+      "pout_dbm": -8.750000000000002,
+      "compression_db": 1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -28.5,
+      "pout_dbm": -8.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -28.25,
+      "pout_dbm": -8.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -28.0,
+      "pout_dbm": -7.999999999999998,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -27.75,
+      "pout_dbm": -7.749999999999999,
+      "compression_db": -8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -27.5,
+      "pout_dbm": -7.5,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -27.25,
+      "pout_dbm": -7.250000000000001,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -27.0,
+      "pout_dbm": -7.000000000000003,
+      "compression_db": 2.6645352591003757e-15
+    },
+    {
+      "pin_dbm": -26.75,
+      "pout_dbm": -6.749999999999999,
+      "compression_db": -8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -26.5,
+      "pout_dbm": -6.499999999999999,
+      "compression_db": -8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -26.25,
+      "pout_dbm": -6.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -26.0,
+      "pout_dbm": -6.000000000000001,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -25.75,
+      "pout_dbm": -5.750000000000001,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -25.5,
+      "pout_dbm": -5.499999999999998,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -25.25,
+      "pout_dbm": -5.25,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -25.0,
+      "pout_dbm": -5.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -24.75,
+      "pout_dbm": -4.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -24.5,
+      "pout_dbm": -4.500000000000001,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -24.25,
+      "pout_dbm": -4.249999999999997,
+      "compression_db": -2.6645352591003757e-15
+    },
+    {
+      "pin_dbm": -24.0,
+      "pout_dbm": -3.9999999999999996,
+      "compression_db": -4.440892098500626e-16
+    },
+    {
+      "pin_dbm": -23.75,
+      "pout_dbm": -3.75,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -23.5,
+      "pout_dbm": -3.500000000000001,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -23.25,
+      "pout_dbm": -3.2500000000000013,
+      "compression_db": 1.3322676295501878e-15
+    },
+    {
+      "pin_dbm": -23.0,
+      "pout_dbm": -2.9999999999999982,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -22.75,
+      "pout_dbm": -2.7499999999999982,
+      "compression_db": -1.7763568394002505e-15
+    },
+    {
+      "pin_dbm": -22.5,
+      "pout_dbm": -2.500000000000001,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -22.25,
+      "pout_dbm": -2.2500000000000004,
+      "compression_db": 4.440892098500626e-16
+    },
+    {
+      "pin_dbm": -22.0,
+      "pout_dbm": -2.0000000000000013,
+      "compression_db": 1.3322676295501878e-15
+    },
+    {
+      "pin_dbm": -21.75,
+      "pout_dbm": -1.7499999999999973,
+      "compression_db": -2.6645352591003757e-15
+    },
+    {
+      "pin_dbm": -21.5,
+      "pout_dbm": -1.4999999999999987,
+      "compression_db": -1.3322676295501878e-15
+    },
+    {
+      "pin_dbm": -21.25,
+      "pout_dbm": -1.2500000000000002,
+      "compression_db": 2.220446049250313e-16
+    },
+    {
+      "pin_dbm": -21.0,
+      "pout_dbm": -1.0000000000000007,
+      "compression_db": 6.661338147750939e-16
+    },
+    {
+      "pin_dbm": -20.75,
+      "pout_dbm": -0.7500000000000009,
+      "compression_db": 8.881784197001252e-16
+    },
+    {
+      "pin_dbm": -20.5,
+      "pout_dbm": -0.49999999999999767,
+      "compression_db": -2.3314683517128287e-15
+    },
+    {
+      "pin_dbm": -20.25,
+      "pout_dbm": -0.24999999999999842,
+      "compression_db": -1.582067810090848e-15
+    },
+    {
+      "pin_dbm": -20.0,
+      "pout_dbm": 0.0,
+      "compression_db": 0.0
+    },
+    {
+      "pin_dbm": -19.75,
+      "pout_dbm": 0.23499999999999868,
+      "compression_db": 0.015000000000001318
+    },
+    {
+      "pin_dbm": -19.5,
+      "pout_dbm": 0.4699999999999993,
+      "compression_db": 0.030000000000000693
+    },
+    {
+      "pin_dbm": -19.25,
+      "pout_dbm": 0.7049999999999963,
+      "compression_db": 0.045000000000003704
+    },
+    {
+      "pin_dbm": -19.0,
+      "pout_dbm": 0.9400000000000024,
+      "compression_db": 0.05999999999999761
+    },
+    {
+      "pin_dbm": -18.75,
+      "pout_dbm": 1.1750000000000023,
+      "compression_db": 0.07499999999999774
+    },
+    {
+      "pin_dbm": -18.5,
+      "pout_dbm": 1.4099999999999993,
+      "compression_db": 0.09000000000000075
+    },
+    {
+      "pin_dbm": -18.25,
+      "pout_dbm": 1.6450000000000005,
+      "compression_db": 0.10499999999999954
+    },
+    {
+      "pin_dbm": -18.0,
+      "pout_dbm": 1.8799999999999983,
+      "compression_db": 0.12000000000000166
+    },
+    {
+      "pin_dbm": -17.75,
+      "pout_dbm": 2.1149999999999993,
+      "compression_db": 0.13500000000000068
+    },
+    {
+      "pin_dbm": -17.5,
+      "pout_dbm": 2.3500000000000014,
+      "compression_db": 0.14999999999999858
+    },
+    {
+      "pin_dbm": -17.25,
+      "pout_dbm": 2.5849999999999995,
+      "compression_db": 0.16500000000000048
+    },
+    {
+      "pin_dbm": -17.0,
+      "pout_dbm": 2.8200000000000007,
+      "compression_db": 0.17999999999999927
+    },
+    {
+      "pin_dbm": -16.75,
+      "pout_dbm": 3.054999999999999,
+      "compression_db": 0.19500000000000117
+    },
+    {
+      "pin_dbm": -16.5,
+      "pout_dbm": 3.289999999999999,
+      "compression_db": 0.21000000000000085
+    },
+    {
+      "pin_dbm": -16.25,
+      "pout_dbm": 3.5249999999999977,
+      "compression_db": 0.2250000000000023
+    },
+    {
+      "pin_dbm": -16.0,
+      "pout_dbm": 3.759999999999997,
+      "compression_db": 0.24000000000000288
+    },
+    {
+      "pin_dbm": -15.75,
+      "pout_dbm": 3.995000000000002,
+      "compression_db": 0.2549999999999981
+    },
+    {
+      "pin_dbm": -15.5,
+      "pout_dbm": 4.230000000000001,
+      "compression_db": 0.2699999999999987
+    },
+    {
+      "pin_dbm": -15.25,
+      "pout_dbm": 4.465000000000002,
+      "compression_db": 0.28499999999999837
+    },
+    {
+      "pin_dbm": -15.0,
+      "pout_dbm": 4.7,
+      "compression_db": 0.2999999999999998
+    },
+    {
+      "pin_dbm": -14.75,
+      "pout_dbm": 4.914999999999997,
+      "compression_db": 0.33500000000000263
+    },
+    {
+      "pin_dbm": -14.5,
+      "pout_dbm": 5.129999999999998,
+      "compression_db": 0.3700000000000019
+    },
+    {
+      "pin_dbm": -14.25,
+      "pout_dbm": 5.344999999999997,
+      "compression_db": 0.4050000000000029
+    },
+    {
+      "pin_dbm": -14.0,
+      "pout_dbm": 5.56,
+      "compression_db": 0.4400000000000004
+    },
+    {
+      "pin_dbm": -13.75,
+      "pout_dbm": 5.775,
+      "compression_db": 0.47499999999999964
+    },
+    {
+      "pin_dbm": -13.5,
+      "pout_dbm": 5.9899999999999975,
+      "compression_db": 0.5100000000000025
+    },
+    {
+      "pin_dbm": -13.25,
+      "pout_dbm": 6.204999999999997,
+      "compression_db": 0.5450000000000026
+    },
+    {
+      "pin_dbm": -13.0,
+      "pout_dbm": 6.419999999999998,
+      "compression_db": 0.5800000000000018
+    },
+    {
+      "pin_dbm": -12.75,
+      "pout_dbm": 6.635000000000001,
+      "compression_db": 0.6149999999999993
+    },
+    {
+      "pin_dbm": -12.5,
+      "pout_dbm": 6.85,
+      "compression_db": 0.6500000000000004
+    },
+    {
+      "pin_dbm": -12.25,
+      "pout_dbm": 7.065000000000001,
+      "compression_db": 0.6849999999999987
+    },
+    {
+      "pin_dbm": -12.0,
+      "pout_dbm": 7.280000000000003,
+      "compression_db": 0.7199999999999971
+    },
+    {
+      "pin_dbm": -11.75,
+      "pout_dbm": 7.495000000000001,
+      "compression_db": 0.754999999999999
+    },
+    {
+      "pin_dbm": -11.5,
+      "pout_dbm": 7.709999999999999,
+      "compression_db": 0.7900000000000009
+    },
+    {
+      "pin_dbm": -11.25,
+      "pout_dbm": 7.925,
+      "compression_db": 0.8250000000000002
+    },
+    {
+      "pin_dbm": -11.0,
+      "pout_dbm": 8.140000000000002,
+      "compression_db": 0.8599999999999977
+    },
+    {
+      "pin_dbm": -10.75,
+      "pout_dbm": 8.355000000000002,
+      "compression_db": 0.8949999999999978
+    },
+    {
+      "pin_dbm": -10.5,
+      "pout_dbm": 8.57,
+      "compression_db": 0.9299999999999997
+    },
+    {
+      "pin_dbm": -10.25,
+      "pout_dbm": 8.785,
+      "compression_db": 0.9649999999999999
+    },
+    {
+      "pin_dbm": -10.0,
+      "pout_dbm": 8.999999999999998,
+      "compression_db": 1.0000000000000018
+    },
+    {
+      "pin_dbm": -9.75,
+      "pout_dbm": 9.175,
+      "compression_db": 1.0749999999999993
+    },
+    {
+      "pin_dbm": -9.5,
+      "pout_dbm": 9.350000000000003,
+      "compression_db": 1.1499999999999968
+    },
+    {
+      "pin_dbm": -9.25,
+      "pout_dbm": 9.525,
+      "compression_db": 1.2249999999999996
+    },
+    {
+      "pin_dbm": -9.0,
+      "pout_dbm": 9.7,
+      "compression_db": 1.3000000000000007
+    },
+    {
+      "pin_dbm": -8.75,
+      "pout_dbm": 9.875,
+      "compression_db": 1.375
+    },
+    {
+      "pin_dbm": -8.5,
+      "pout_dbm": 10.05,
+      "compression_db": 1.4499999999999993
+    },
+    {
+      "pin_dbm": -8.25,
+      "pout_dbm": 10.225,
+      "compression_db": 1.5250000000000004
+    },
+    {
+      "pin_dbm": -8.0,
+      "pout_dbm": 10.399999999999999,
+      "compression_db": 1.6000000000000014
+    },
+    {
+      "pin_dbm": -7.75,
+      "pout_dbm": 10.575,
+      "compression_db": 1.6750000000000007
+    },
+    {
+      "pin_dbm": -7.5,
+      "pout_dbm": 10.749999999999996,
+      "compression_db": 1.7500000000000036
+    },
+    {
+      "pin_dbm": -7.25,
+      "pout_dbm": 10.925,
+      "compression_db": 1.8249999999999993
+    },
+    {
+      "pin_dbm": -7.0,
+      "pout_dbm": 11.100000000000003,
+      "compression_db": 1.8999999999999968
+    },
+    {
+      "pin_dbm": -6.75,
+      "pout_dbm": 11.274999999999997,
+      "compression_db": 1.9750000000000032
+    },
+    {
+      "pin_dbm": -6.5,
+      "pout_dbm": 11.449999999999998,
+      "compression_db": 2.0500000000000025
+    },
+    {
+      "pin_dbm": -6.25,
+      "pout_dbm": 11.625,
+      "compression_db": 2.125
+    },
+    {
+      "pin_dbm": -6.0,
+      "pout_dbm": 11.799999999999999,
+      "compression_db": 2.200000000000001
+    },
+    {
+      "pin_dbm": -5.75,
+      "pout_dbm": 11.975000000000001,
+      "compression_db": 2.2749999999999986
+    },
+    {
+      "pin_dbm": -5.5,
+      "pout_dbm": 12.15,
+      "compression_db": 2.3499999999999996
+    },
+    {
+      "pin_dbm": -5.25,
+      "pout_dbm": 12.324999999999998,
+      "compression_db": 2.4250000000000025
+    },
+    {
+      "pin_dbm": -5.0,
+      "pout_dbm": 12.499999999999998,
+      "compression_db": 2.5000000000000018
+    },
+    {
+      "pin_dbm": -4.75,
+      "pout_dbm": 12.575,
+      "compression_db": 2.6750000000000007
+    },
+    {
+      "pin_dbm": -4.5,
+      "pout_dbm": 12.649999999999999,
+      "compression_db": 2.8500000000000014
+    },
+    {
+      "pin_dbm": -4.25,
+      "pout_dbm": 12.724999999999998,
+      "compression_db": 3.025000000000002
+    },
+    {
+      "pin_dbm": -4.0,
+      "pout_dbm": 12.8,
+      "compression_db": 3.1999999999999993
+    },
+    {
+      "pin_dbm": -3.75,
+      "pout_dbm": 12.875,
+      "compression_db": 3.375
+    },
+    {
+      "pin_dbm": -3.5,
+      "pout_dbm": 12.950000000000001,
+      "compression_db": 3.549999999999999
+    },
+    {
+      "pin_dbm": -3.25,
+      "pout_dbm": 13.024999999999999,
+      "compression_db": 3.7250000000000014
+    },
+    {
+      "pin_dbm": -3.0,
+      "pout_dbm": 13.100000000000003,
+      "compression_db": 3.899999999999997
+    },
+    {
+      "pin_dbm": -2.75,
+      "pout_dbm": 13.175,
+      "compression_db": 4.074999999999999
+    },
+    {
+      "pin_dbm": -2.5,
+      "pout_dbm": 13.250000000000002,
+      "compression_db": 4.249999999999998
+    },
+    {
+      "pin_dbm": -2.25,
+      "pout_dbm": 13.325000000000003,
+      "compression_db": 4.424999999999997
+    },
+    {
+      "pin_dbm": -2.0,
+      "pout_dbm": 13.4,
+      "compression_db": 4.6
+    },
+    {
+      "pin_dbm": -1.75,
+      "pout_dbm": 13.475000000000001,
+      "compression_db": 4.774999999999999
+    },
+    {
+      "pin_dbm": -1.5,
+      "pout_dbm": 13.549999999999997,
+      "compression_db": 4.950000000000003
+    },
+    {
+      "pin_dbm": -1.25,
+      "pout_dbm": 13.625,
+      "compression_db": 5.125
+    },
+    {
+      "pin_dbm": -1.0,
+      "pout_dbm": 13.700000000000001,
+      "compression_db": 5.299999999999999
+    },
+    {
+      "pin_dbm": -0.75,
+      "pout_dbm": 13.775000000000002,
+      "compression_db": 5.474999999999998
+    },
+    {
+      "pin_dbm": -0.5,
+      "pout_dbm": 13.85,
+      "compression_db": 5.65
+    },
+    {
+      "pin_dbm": -0.25,
+      "pout_dbm": 13.925,
+      "compression_db": 5.824999999999999
+    },
+    {
+      "pin_dbm": 0.0,
+      "pout_dbm": 14.0,
+      "compression_db": 6.0
+    }
+  ],
+  "model": "data_driven_cw_power_scan_v2",
+  "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad"
+}

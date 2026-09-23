@@ -1,0 +1,11 @@
+*
+!Dockerfile
+!requirements-portal.txt
+!pyproject.toml
+!LICENSE
+!README.md
+!src/
+!src/**
+!container_entrypoint.py
+**/__pycache__/
+**/*.egg-info/

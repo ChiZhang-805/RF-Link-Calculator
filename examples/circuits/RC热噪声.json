@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "RC热噪声",
+  "project_name": "RC热噪声",
+  "link_name": "RC热噪声",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -60.0,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [],
+  "assumptions": [],
+  "notes": "",
+  "lab": {
+    "models": {},
+    "circuit": {
+      "version": 1,
+      "temperature_k": 300,
+      "models": {},
+      "metadata": {
+        "source": "synthetic"
+      },
+      "components": [
+        {
+          "id": "R1",
+          "type": "resistor",
+          "p": "out",
+          "n": "0",
+          "value": 1000.0
+        },
+        {
+          "id": "C1",
+          "type": "capacitor",
+          "p": "out",
+          "n": "0",
+          "value": 1e-09
+        }
+      ],
+      "output_resistor": "R1"
+    },
+    "settings": {
+      "circuit_base_hz": 1000000.0,
+      "circuit_harmonics": 8,
+      "circuit_sidebands": 8,
+      "circuit_offset_hz": 10000.0
+    }
+  }
+}

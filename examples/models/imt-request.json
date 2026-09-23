@@ -1,0 +1,6 @@
+{
+  "action": "spectrum",
+  "parameters": {
+    "mode": "imt"
+  }
+}

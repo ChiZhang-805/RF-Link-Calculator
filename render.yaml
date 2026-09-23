@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: rf-link-calculator
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    disk:
+      name: rf-link-data
+      mountPath: /var/lib/rflink
+      sizeGB: 1
+    envVars:
+      - key: RF_MODE
+        value: hosted
+      - key: RF_LINK_DATA_DIR
+        value: /var/lib/rflink/accounts
+      - key: RF_PUBLIC_URL
+        sync: false
+      - key: RF_SMTP_HOST
+        sync: false
+      - key: RF_SMTP_PORT
+        value: "587"
+      - key: RF_SMTP_USER
+        sync: false
+      - key: RF_SMTP_PASSWORD
+        sync: false
+      - key: RF_MAIL_FROM
+        sync: false

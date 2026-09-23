@@ -1,0 +1,6431 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "aaec630d-6688-5ee4-a930-f3a36347d424",
+  "project_name": "构造基准D",
+  "link_name": "200级长链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -30,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "1bc5f330-001b-5195-a0c3-a1c13d3ee36b",
+      "order": 1,
+      "enabled": true,
+      "name": "器件001",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "2a0319cf-008f-500f-82d7-a9ba6794c0b2",
+      "order": 2,
+      "enabled": true,
+      "name": "器件002",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "4a46198c-bdd6-5155-9ae0-f6bdb199e77e",
+      "order": 3,
+      "enabled": true,
+      "name": "器件003",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "253c5915-c228-5b93-963f-ff509c6d19f1",
+      "order": 4,
+      "enabled": true,
+      "name": "器件004",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d69db3f8-7a3b-54b8-a1e2-946a9a878d80",
+      "order": 5,
+      "enabled": true,
+      "name": "器件005",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "ba81bb66-bd74-5377-b51e-9908753c9521",
+      "order": 6,
+      "enabled": true,
+      "name": "器件006",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a713d5a3-84d4-5db5-acc8-098b388e0edb",
+      "order": 7,
+      "enabled": true,
+      "name": "器件007",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c7e4108d-edd5-5377-8423-02994d25569e",
+      "order": 8,
+      "enabled": true,
+      "name": "器件008",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "fef7a9b2-acba-5745-8c77-93e8e1f96ab6",
+      "order": 9,
+      "enabled": true,
+      "name": "器件009",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6a8821d5-eaaf-574d-be18-77a611f78542",
+      "order": 10,
+      "enabled": true,
+      "name": "器件010",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "3a85a2d7-7153-50b0-a049-22fd55bc371e",
+      "order": 11,
+      "enabled": true,
+      "name": "器件011",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "911cb9ce-ed99-5b92-9141-7db64984c5dd",
+      "order": 12,
+      "enabled": true,
+      "name": "器件012",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "9f7bf60e-c834-5130-8068-0205601ec909",
+      "order": 13,
+      "enabled": true,
+      "name": "器件013",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "2c6d8bda-7f04-58e8-a805-274dafef320c",
+      "order": 14,
+      "enabled": true,
+      "name": "器件014",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "cad699d5-5baf-512b-960c-7bd3df94fe53",
+      "order": 15,
+      "enabled": true,
+      "name": "器件015",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "88a50bd3-30f6-5d53-964f-b1762c6a3067",
+      "order": 16,
+      "enabled": true,
+      "name": "器件016",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e60d3d80-107d-5fa1-936e-f147dcaa0dcf",
+      "order": 17,
+      "enabled": true,
+      "name": "器件017",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "3af5f49e-8408-55b4-9ef8-3a8f83991aed",
+      "order": 18,
+      "enabled": true,
+      "name": "器件018",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "04283143-c0d8-544d-affd-ae4c2fdd7eaf",
+      "order": 19,
+      "enabled": true,
+      "name": "器件019",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e23ece70-c278-5755-bbd3-4baed986b9d7",
+      "order": 20,
+      "enabled": true,
+      "name": "器件020",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c45c426d-c721-52cb-b2fb-09ef6a443e38",
+      "order": 21,
+      "enabled": true,
+      "name": "器件021",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "2cf37b83-f63c-573a-adf6-c5ba09658690",
+      "order": 22,
+      "enabled": true,
+      "name": "器件022",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "3d986272-df99-5968-8dbf-88ae60baf658",
+      "order": 23,
+      "enabled": true,
+      "name": "器件023",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b14b95c5-82dc-52f7-8436-94017306fd9b",
+      "order": 24,
+      "enabled": true,
+      "name": "器件024",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "64460b50-dc57-568b-ba25-c1bb9d7eaae8",
+      "order": 25,
+      "enabled": true,
+      "name": "器件025",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "ed400e1c-381f-51c7-9bf0-2fd4983059e4",
+      "order": 26,
+      "enabled": true,
+      "name": "器件026",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8b9ce569-3aa9-5324-8c99-f430e2a46adc",
+      "order": 27,
+      "enabled": true,
+      "name": "器件027",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d00d1717-ea40-50d7-be9c-dc80d33fb6f9",
+      "order": 28,
+      "enabled": true,
+      "name": "器件028",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "83974caa-e448-57f8-b342-890cfd2c8afd",
+      "order": 29,
+      "enabled": true,
+      "name": "器件029",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "3d8f3adb-7d4b-5d07-b4d1-515adefbeb73",
+      "order": 30,
+      "enabled": true,
+      "name": "器件030",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "732b18ae-0f5b-5ef1-b277-22cfa5916362",
+      "order": 31,
+      "enabled": true,
+      "name": "器件031",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "db9f0fb6-b54f-5f86-ab7a-8fb4eab58cba",
+      "order": 32,
+      "enabled": true,
+      "name": "器件032",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "f019d8bb-69b9-5c0e-8a05-93ccc24c9eeb",
+      "order": 33,
+      "enabled": true,
+      "name": "器件033",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1ce6c56c-9bb4-5cd9-a10f-3ab258dad93e",
+      "order": 34,
+      "enabled": true,
+      "name": "器件034",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "533e240e-5168-5bcb-8480-f0b210389ccf",
+      "order": 35,
+      "enabled": true,
+      "name": "器件035",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8875dfaf-cfd0-50b4-8345-4e9bbd3456c8",
+      "order": 36,
+      "enabled": true,
+      "name": "器件036",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8bf18522-5cb9-5590-a356-f5ca4bd81afb",
+      "order": 37,
+      "enabled": true,
+      "name": "器件037",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a790fc98-c6de-541d-8983-a56cbf45f14a",
+      "order": 38,
+      "enabled": true,
+      "name": "器件038",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "afd0ca2e-8ea1-53da-a30a-a746b6f53a13",
+      "order": 39,
+      "enabled": true,
+      "name": "器件039",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "db4c415e-5ebe-5a4a-88ad-8e56a7d07f50",
+      "order": 40,
+      "enabled": true,
+      "name": "器件040",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "99612cf3-1c97-56dc-8b33-b119d17e0bf8",
+      "order": 41,
+      "enabled": true,
+      "name": "器件041",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "fab64c5a-b22e-5aee-a14f-af4affe6c8b5",
+      "order": 42,
+      "enabled": true,
+      "name": "器件042",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "f4003e1b-2629-54b9-9be2-f8f407bef3c9",
+      "order": 43,
+      "enabled": true,
+      "name": "器件043",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a961c3bd-b22b-5945-aa41-92aeb1dcefad",
+      "order": 44,
+      "enabled": true,
+      "name": "器件044",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "42f19471-fb91-5071-8c18-3d53724fe5d6",
+      "order": 45,
+      "enabled": true,
+      "name": "器件045",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c816feaf-b2fc-5a4c-b9ab-2c52dba12ab0",
+      "order": 46,
+      "enabled": true,
+      "name": "器件046",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "57108439-92c1-50fa-a9ae-b4b99c87068f",
+      "order": 47,
+      "enabled": true,
+      "name": "器件047",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "f7356bbb-f059-5f05-8345-a0c83f5031a0",
+      "order": 48,
+      "enabled": true,
+      "name": "器件048",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "eb8f5d8e-c166-55d6-b79b-03ce70fe652c",
+      "order": 49,
+      "enabled": true,
+      "name": "器件049",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "fa395827-31b5-5e19-bd3a-6b3d76c28fd4",
+      "order": 50,
+      "enabled": true,
+      "name": "器件050",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7351b542-ee2d-592a-8ed8-d37acc94c4d3",
+      "order": 51,
+      "enabled": true,
+      "name": "器件051",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "f1062d8a-c546-5975-b173-a825023f20dd",
+      "order": 52,
+      "enabled": true,
+      "name": "器件052",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "091eabb0-e180-5693-b194-127b9ebdcd19",
+      "order": 53,
+      "enabled": true,
+      "name": "器件053",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7b8af853-0a86-5415-b999-42506022139c",
+      "order": 54,
+      "enabled": true,
+      "name": "器件054",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e44c795c-cd2c-56bb-97f1-e2890d04b881",
+      "order": 55,
+      "enabled": true,
+      "name": "器件055",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "5a9c0508-f9a1-5ad1-bd7c-799fbc029d1c",
+      "order": 56,
+      "enabled": true,
+      "name": "器件056",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b995b086-3677-5069-9a6b-d07e0ababd8a",
+      "order": 57,
+      "enabled": true,
+      "name": "器件057",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "2c62baf7-b620-53a8-aac3-7fabe09cd286",
+      "order": 58,
+      "enabled": true,
+      "name": "器件058",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6f34b96a-a70c-52a9-82a2-d3f2cf348c67",
+      "order": 59,
+      "enabled": true,
+      "name": "器件059",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a9de8193-7153-51ad-9f66-7378477c88ae",
+      "order": 60,
+      "enabled": true,
+      "name": "器件060",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "f83f57b0-51d6-539c-8c75-7b58409cdc4f",
+      "order": 61,
+      "enabled": true,
+      "name": "器件061",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "35f161de-17c0-5c33-b880-7e671e30555c",
+      "order": 62,
+      "enabled": true,
+      "name": "器件062",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6c8cfdd3-8125-5e7b-bd5a-7c59fef5b1da",
+      "order": 63,
+      "enabled": true,
+      "name": "器件063",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "9087da70-4db5-5808-9e2c-4d316bf75f1f",
+      "order": 64,
+      "enabled": true,
+      "name": "器件064",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1d70da7b-e4d0-50c0-b204-3ed202593f5f",
+      "order": 65,
+      "enabled": true,
+      "name": "器件065",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1c7ff73c-2705-5dd2-836a-6af69a1d014f",
+      "order": 66,
+      "enabled": true,
+      "name": "器件066",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e386471d-1800-5d2d-91ff-78b75a1c4746",
+      "order": 67,
+      "enabled": true,
+      "name": "器件067",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "cc1aca82-98c2-50ab-9f8f-0c7313721e29",
+      "order": 68,
+      "enabled": true,
+      "name": "器件068",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "28d6f80c-1b9c-5bc0-a2f9-92b050534dd7",
+      "order": 69,
+      "enabled": true,
+      "name": "器件069",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c6bf02dd-5eb9-51b1-b1e6-aa3d4d92a413",
+      "order": 70,
+      "enabled": true,
+      "name": "器件070",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "bfd87aa1-804b-519e-9b80-d91561207353",
+      "order": 71,
+      "enabled": true,
+      "name": "器件071",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "fe610a6c-3373-5620-ab8b-d369e3983140",
+      "order": 72,
+      "enabled": true,
+      "name": "器件072",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "839dbfd7-0693-5063-8af1-f30b8ac97e0c",
+      "order": 73,
+      "enabled": true,
+      "name": "器件073",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "55cb9403-9ca5-516b-ae6d-7d593c32ddf2",
+      "order": 74,
+      "enabled": true,
+      "name": "器件074",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6bd4761f-be6d-5a3c-8a36-6fa476978de6",
+      "order": 75,
+      "enabled": true,
+      "name": "器件075",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d878e5ea-890c-584e-9b73-ceb33f026399",
+      "order": 76,
+      "enabled": true,
+      "name": "器件076",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7c34e7c6-ad97-5004-96fc-586ac9f26b85",
+      "order": 77,
+      "enabled": true,
+      "name": "器件077",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1e4da796-ba93-5c5d-962b-fd88dba68872",
+      "order": 78,
+      "enabled": true,
+      "name": "器件078",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "0dde6be0-3db0-5e15-8ec6-e67e2cd505d9",
+      "order": 79,
+      "enabled": true,
+      "name": "器件079",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e1e9a128-6e57-589a-a23a-b19628510e8d",
+      "order": 80,
+      "enabled": true,
+      "name": "器件080",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "9bd038ee-2db1-54a2-a674-3422a5a2643f",
+      "order": 81,
+      "enabled": true,
+      "name": "器件081",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "063f0956-4896-575d-a5f6-f73b36a17230",
+      "order": 82,
+      "enabled": true,
+      "name": "器件082",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "bbe1a993-2503-5704-a767-19a263fc8ea4",
+      "order": 83,
+      "enabled": true,
+      "name": "器件083",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6f0dc403-3aae-5fc5-8f59-f30b56df2cff",
+      "order": 84,
+      "enabled": true,
+      "name": "器件084",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "32899c3c-aec6-51ae-bdc2-49b50193243e",
+      "order": 85,
+      "enabled": true,
+      "name": "器件085",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "313af5bb-0741-53d1-a1cb-65855a2699fc",
+      "order": 86,
+      "enabled": true,
+      "name": "器件086",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d3fe06e0-20a5-53e9-999f-6061697146e8",
+      "order": 87,
+      "enabled": true,
+      "name": "器件087",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8af086cc-348d-561c-9b93-892bc98a0e0f",
+      "order": 88,
+      "enabled": true,
+      "name": "器件088",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d31aeaad-79e6-5f05-8fed-4613ca8e1e72",
+      "order": 89,
+      "enabled": true,
+      "name": "器件089",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b27f8d93-3365-595d-9a1f-7e53292c5699",
+      "order": 90,
+      "enabled": true,
+      "name": "器件090",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "fdd15ed8-45a6-5593-bb57-61c940bc6d52",
+      "order": 91,
+      "enabled": true,
+      "name": "器件091",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "455d9f08-6ccc-547c-975a-52de2b2a432f",
+      "order": 92,
+      "enabled": true,
+      "name": "器件092",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e4bcf3ea-30ac-59e1-b31d-32b50cffcf4c",
+      "order": 93,
+      "enabled": true,
+      "name": "器件093",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "732ef8a3-41df-51b1-ba62-fadee639c0ff",
+      "order": 94,
+      "enabled": true,
+      "name": "器件094",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "23985e91-0f03-5d30-ab63-9701582d227f",
+      "order": 95,
+      "enabled": true,
+      "name": "器件095",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7fa5ff98-dfbc-5b44-99f3-4f40d3931174",
+      "order": 96,
+      "enabled": true,
+      "name": "器件096",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "55ee666c-0b52-5f11-97af-a4a594589297",
+      "order": 97,
+      "enabled": true,
+      "name": "器件097",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "253cdf55-81ae-53d9-a17b-77ed20b82c73",
+      "order": 98,
+      "enabled": true,
+      "name": "器件098",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "4cdb5b84-3071-5c4c-9b7b-ef27b47ab0b6",
+      "order": 99,
+      "enabled": true,
+      "name": "器件099",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "74cdee77-bd50-57c2-8f1b-cbce75a8f87d",
+      "order": 100,
+      "enabled": true,
+      "name": "器件100",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "528ba4cf-436b-59cc-bda6-64b6cb96a668",
+      "order": 101,
+      "enabled": true,
+      "name": "器件101",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "21cdcd56-1a87-5834-a715-896615cb45e8",
+      "order": 102,
+      "enabled": true,
+      "name": "器件102",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b1b8cd0c-8b29-51bf-955e-d1e6d0f328ea",
+      "order": 103,
+      "enabled": true,
+      "name": "器件103",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "cddaac1d-eb42-5d21-bf14-8420a54ff44c",
+      "order": 104,
+      "enabled": true,
+      "name": "器件104",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a6c0826b-41f8-5a45-8f3a-cae8306aae51",
+      "order": 105,
+      "enabled": true,
+      "name": "器件105",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "ff4ed044-22fe-50e2-a8a6-29584392072e",
+      "order": 106,
+      "enabled": true,
+      "name": "器件106",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "59229d83-15f2-52db-959a-4e7f78498a0c",
+      "order": 107,
+      "enabled": true,
+      "name": "器件107",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "984fc821-08bd-573a-bab1-896659f68d9e",
+      "order": 108,
+      "enabled": true,
+      "name": "器件108",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a540375e-faf2-52fb-b949-099c03368635",
+      "order": 109,
+      "enabled": true,
+      "name": "器件109",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8c0f5f4e-0917-58bd-b330-867b703fa120",
+      "order": 110,
+      "enabled": true,
+      "name": "器件110",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "353c31a5-174b-5e3f-91e5-5d6a6735292c",
+      "order": 111,
+      "enabled": true,
+      "name": "器件111",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "32b81ae6-457b-5935-9d31-d8fa554c9fa2",
+      "order": 112,
+      "enabled": true,
+      "name": "器件112",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "87cc7e53-7dcf-511e-8550-158988b236f5",
+      "order": 113,
+      "enabled": true,
+      "name": "器件113",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d836eeb1-7d36-5e18-979b-057d500f2924",
+      "order": 114,
+      "enabled": true,
+      "name": "器件114",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "0043d9c8-c33a-55c6-8412-e33417a3ec4b",
+      "order": 115,
+      "enabled": true,
+      "name": "器件115",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "eb9d176e-86fc-5312-8faf-34729994eeb7",
+      "order": 116,
+      "enabled": true,
+      "name": "器件116",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "ab724f1f-73c3-5b29-a828-647bbf9430b8",
+      "order": 117,
+      "enabled": true,
+      "name": "器件117",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "bd058bf0-e886-5eeb-83c0-bc9eed6e4b20",
+      "order": 118,
+      "enabled": true,
+      "name": "器件118",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "618ff6b1-2191-5607-8b65-4bb7c04c10a0",
+      "order": 119,
+      "enabled": true,
+      "name": "器件119",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b05e4d41-d6f5-5ef8-a13e-8bed0c221acc",
+      "order": 120,
+      "enabled": true,
+      "name": "器件120",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "70d0db10-8c0b-51fd-b4a4-9a2045ec05eb",
+      "order": 121,
+      "enabled": true,
+      "name": "器件121",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "97c2fc5e-e2f2-544f-9344-5c111bcf8d78",
+      "order": 122,
+      "enabled": true,
+      "name": "器件122",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b8de00e3-da39-50bc-8023-8e4fb76cc220",
+      "order": 123,
+      "enabled": true,
+      "name": "器件123",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "76eca929-cc12-58bc-ae93-c344b9ee75a0",
+      "order": 124,
+      "enabled": true,
+      "name": "器件124",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "4166286e-148f-59fc-b488-5615add2be70",
+      "order": 125,
+      "enabled": true,
+      "name": "器件125",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a9c148d0-287f-5500-bc48-740fcc1fa0f2",
+      "order": 126,
+      "enabled": true,
+      "name": "器件126",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "79186453-3543-52fb-a306-68b1bc03d023",
+      "order": 127,
+      "enabled": true,
+      "name": "器件127",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7af5c9a1-7509-51d5-bfd4-542e16f0f420",
+      "order": 128,
+      "enabled": true,
+      "name": "器件128",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "41711219-1572-5ba3-9e34-7a7a04d69a04",
+      "order": 129,
+      "enabled": true,
+      "name": "器件129",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d6645f37-cfd8-59b9-8255-2a1101161472",
+      "order": 130,
+      "enabled": true,
+      "name": "器件130",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1489f47a-be82-563d-9485-63de4c2d3cf0",
+      "order": 131,
+      "enabled": true,
+      "name": "器件131",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "40d691f3-05f5-5879-9b85-e203da0d5dc7",
+      "order": 132,
+      "enabled": true,
+      "name": "器件132",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "087e40c0-bc19-5785-bc76-cd2d8bb2e010",
+      "order": 133,
+      "enabled": true,
+      "name": "器件133",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e6eac2b8-2ed7-5a7c-88a4-5099865c3c12",
+      "order": 134,
+      "enabled": true,
+      "name": "器件134",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "0da06e1d-c4fa-536d-b120-0923c26ab3f9",
+      "order": 135,
+      "enabled": true,
+      "name": "器件135",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a91252ab-365d-5fa2-a0cf-6840f732cdba",
+      "order": 136,
+      "enabled": true,
+      "name": "器件136",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1d9807cf-f80e-5e98-a532-52a75fbdeb35",
+      "order": 137,
+      "enabled": true,
+      "name": "器件137",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c79dfa68-3a40-54d1-b783-4008ca945342",
+      "order": 138,
+      "enabled": true,
+      "name": "器件138",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "354895df-788a-5fa2-851f-1eaa59340cc9",
+      "order": 139,
+      "enabled": true,
+      "name": "器件139",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "5180ce97-f8dc-539b-9330-5de4c85f3897",
+      "order": 140,
+      "enabled": true,
+      "name": "器件140",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "bab03d88-503b-5b52-968f-487731ff1cc9",
+      "order": 141,
+      "enabled": true,
+      "name": "器件141",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "537c596f-ff85-55b9-af43-c4dac8c2f13f",
+      "order": 142,
+      "enabled": true,
+      "name": "器件142",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "5b4e0246-cf96-5b63-8902-a04e79e152c8",
+      "order": 143,
+      "enabled": true,
+      "name": "器件143",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "9a593bbf-32a5-5209-b903-19236b89bcbf",
+      "order": 144,
+      "enabled": true,
+      "name": "器件144",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "3f0617ac-dbec-50f2-9baf-5a1419f262b6",
+      "order": 145,
+      "enabled": true,
+      "name": "器件145",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "22548086-d5ae-5f31-8d65-1ad987329379",
+      "order": 146,
+      "enabled": true,
+      "name": "器件146",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6f506deb-4547-53f3-ba0b-52b8827e6367",
+      "order": 147,
+      "enabled": true,
+      "name": "器件147",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "abaaf3ce-f697-50df-bb4e-349e946df730",
+      "order": 148,
+      "enabled": true,
+      "name": "器件148",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "be0c0a28-c277-5524-a23e-98b93e39b4b3",
+      "order": 149,
+      "enabled": true,
+      "name": "器件149",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "37b61094-2be8-55a2-9ad2-ecb841c479e9",
+      "order": 150,
+      "enabled": true,
+      "name": "器件150",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d601692f-b6a1-52e8-8d92-e9102a57fc22",
+      "order": 151,
+      "enabled": true,
+      "name": "器件151",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8e63dd2a-01f4-56e4-9ff4-ed992ab47401",
+      "order": 152,
+      "enabled": true,
+      "name": "器件152",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "400a3e61-8b8f-511b-a5ec-a2f46d9d8b5f",
+      "order": 153,
+      "enabled": true,
+      "name": "器件153",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "ae3cc1bf-bb99-56a5-a4ab-70cb5d0bdb7f",
+      "order": 154,
+      "enabled": true,
+      "name": "器件154",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "9780f601-8c3d-5085-a9e3-df96f482f8ac",
+      "order": 155,
+      "enabled": true,
+      "name": "器件155",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a426cb9f-357b-50cd-8b4f-e3a4a6612d27",
+      "order": 156,
+      "enabled": true,
+      "name": "器件156",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6389ca3c-dc10-517f-9859-a076261bb1be",
+      "order": 157,
+      "enabled": true,
+      "name": "器件157",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "38e01812-edfd-5b38-a06f-334587593404",
+      "order": 158,
+      "enabled": true,
+      "name": "器件158",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "05a00b02-5621-56cc-9202-db5471639e0a",
+      "order": 159,
+      "enabled": true,
+      "name": "器件159",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "88202e6f-8a16-5539-80f4-204b0bd9a69a",
+      "order": 160,
+      "enabled": true,
+      "name": "器件160",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "08ce28d1-7ac2-5135-9b92-69d66f259eba",
+      "order": 161,
+      "enabled": true,
+      "name": "器件161",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a18619b6-2197-50cb-9ec9-36f5ce4cd329",
+      "order": 162,
+      "enabled": true,
+      "name": "器件162",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "f3cb9b79-3793-572d-8fdf-4ad090634e85",
+      "order": 163,
+      "enabled": true,
+      "name": "器件163",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "041046bd-fca4-5ed4-9666-91ac84326b50",
+      "order": 164,
+      "enabled": true,
+      "name": "器件164",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "713f74dc-8f64-5328-b0d8-7583e8af6c62",
+      "order": 165,
+      "enabled": true,
+      "name": "器件165",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d7853984-0ae6-578d-9321-7d26654b5dff",
+      "order": 166,
+      "enabled": true,
+      "name": "器件166",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "45fd6d18-c012-51e0-815f-24c62efe59e3",
+      "order": 167,
+      "enabled": true,
+      "name": "器件167",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "6c50b0af-4a02-52e9-9260-d49972f6a0a1",
+      "order": 168,
+      "enabled": true,
+      "name": "器件168",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "138ccaef-ff35-5a83-ba18-c66fca51fbfb",
+      "order": 169,
+      "enabled": true,
+      "name": "器件169",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1f36f856-552b-5229-8802-ee1b3f1821fb",
+      "order": 170,
+      "enabled": true,
+      "name": "器件170",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "3b5fbd17-5d8d-5eb9-b403-7e2a5f606b9c",
+      "order": 171,
+      "enabled": true,
+      "name": "器件171",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "55aa3a90-9567-5668-bb2c-7b2d72cc8178",
+      "order": 172,
+      "enabled": true,
+      "name": "器件172",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b202c272-ccab-5b3c-97ce-e0439ce03290",
+      "order": 173,
+      "enabled": true,
+      "name": "器件173",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "a872a502-5b4b-5395-9941-32cb604d06c8",
+      "order": 174,
+      "enabled": true,
+      "name": "器件174",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "4554f52a-4b42-53b7-9445-269dbe532416",
+      "order": 175,
+      "enabled": true,
+      "name": "器件175",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7cf6a53e-ba8e-590e-b2b0-29dd326d4acd",
+      "order": 176,
+      "enabled": true,
+      "name": "器件176",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "96ced4d9-ec68-57c3-b160-6d2491606326",
+      "order": 177,
+      "enabled": true,
+      "name": "器件177",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c72d7f4e-346a-573a-8a61-a93389efdf8f",
+      "order": 178,
+      "enabled": true,
+      "name": "器件178",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "c8090327-5cab-56f4-90ac-9d951d919102",
+      "order": 179,
+      "enabled": true,
+      "name": "器件179",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "4de32517-6f69-58c4-8931-3122c867ae16",
+      "order": 180,
+      "enabled": true,
+      "name": "器件180",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1df38e4c-7dfe-5037-b3c1-a898b8bdd5c6",
+      "order": 181,
+      "enabled": true,
+      "name": "器件181",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "2e2b1e3e-96c7-5928-9a7a-82ef386308a6",
+      "order": 182,
+      "enabled": true,
+      "name": "器件182",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "5c595f43-f05f-5ebf-a633-231851181bca",
+      "order": 183,
+      "enabled": true,
+      "name": "器件183",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "8894f2ee-61c5-5a4b-9302-1b047bd160cb",
+      "order": 184,
+      "enabled": true,
+      "name": "器件184",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "507d38bb-d11c-5fa3-aec3-ea9c5bd1d350",
+      "order": 185,
+      "enabled": true,
+      "name": "器件185",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "47798dcb-13d3-5bf5-a3c7-6cdd7ee9e53f",
+      "order": 186,
+      "enabled": true,
+      "name": "器件186",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "197901c4-7616-5774-a6e9-9044fdc9fa61",
+      "order": 187,
+      "enabled": true,
+      "name": "器件187",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "1035a4a1-0fc9-5f51-996a-ef0121f122bc",
+      "order": 188,
+      "enabled": true,
+      "name": "器件188",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "7f07abb0-e733-597c-be8f-187aaf8b6e3e",
+      "order": 189,
+      "enabled": true,
+      "name": "器件189",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "ffaefe97-4f30-5f22-bf88-88423ec41d16",
+      "order": 190,
+      "enabled": true,
+      "name": "器件190",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "b80d7970-f0f8-5d3d-aa1d-a614a65e96cb",
+      "order": 191,
+      "enabled": true,
+      "name": "器件191",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "55bc738f-ded8-5275-beee-93062e9578b4",
+      "order": 192,
+      "enabled": true,
+      "name": "器件192",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "363a4581-e94b-571c-84ab-c9b5b0deee40",
+      "order": 193,
+      "enabled": true,
+      "name": "器件193",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "cbf98ed5-e8b7-5904-99f4-89ad4831c659",
+      "order": 194,
+      "enabled": true,
+      "name": "器件194",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "80c95e69-c686-5c53-bbb0-f0fcf2632d7d",
+      "order": 195,
+      "enabled": true,
+      "name": "器件195",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "70edc54f-951f-5043-987a-c6c17e43d67b",
+      "order": 196,
+      "enabled": true,
+      "name": "器件196",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "d34855e9-11ad-587f-b2c0-3f0ae55d3b8f",
+      "order": 197,
+      "enabled": true,
+      "name": "器件197",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "9cc07c37-ca19-5020-9681-c9f0fc4d876b",
+      "order": 198,
+      "enabled": true,
+      "name": "器件198",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e99f9c71-7459-5002-9bd9-de967873c61d",
+      "order": 199,
+      "enabled": true,
+      "name": "器件199",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "072b12d5-f102-54cc-aec6-05413af9ff0b",
+      "order": 200,
+      "enabled": true,
+      "name": "器件200",
+      "type": "attenuator",
+      "gain_db": -0.01,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": ""
+}

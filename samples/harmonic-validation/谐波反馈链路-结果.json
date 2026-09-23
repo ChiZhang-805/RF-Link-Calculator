@@ -1,0 +1,305 @@
+{
+  "points": [
+    {
+      "frequency_hz": 0.0,
+      "power_dbm": -74.06638008890492,
+      "phase_deg": 0.0,
+      "wave_real": 0.00020209025832313674,
+      "wave_imag": 0.0,
+      "product": "DC",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 0.0,
+          "power_dbm": -73.8890924193006
+        }
+      ]
+    },
+    {
+      "frequency_hz": 2000000.0,
+      "power_dbm": -77.1222005586647,
+      "phase_deg": -5.918634709578037,
+      "wave_real": 9.99811403344771e-05,
+      "wave_imag": -1.0364911717407402e-05,
+      "product": "2",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 2000000.0,
+          "power_dbm": -76.94491288906039
+        }
+      ]
+    },
+    {
+      "frequency_hz": 7000000.0,
+      "power_dbm": -101.04769771623145,
+      "phase_deg": 159.8109159351242,
+      "wave_real": -6.003796758037779e-06,
+      "wave_imag": 2.207668507513926e-06,
+      "product": "7",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 7000000.0,
+          "power_dbm": -100.87041004662711
+        }
+      ]
+    },
+    {
+      "frequency_hz": 9000000.0,
+      "power_dbm": -25.101936341202915,
+      "phase_deg": -24.75830085061917,
+      "wave_real": 0.036423181645620695,
+      "wave_imag": -0.016797715525362595,
+      "product": "9",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 9000000.0,
+          "power_dbm": -24.9246486715986
+        }
+      ]
+    },
+    {
+      "frequency_hz": 11000000.0,
+      "power_dbm": -25.462679279908524,
+      "phase_deg": -29.408516598661564,
+      "wave_real": 0.033519983191666824,
+      "wave_imag": -0.01889410483594415,
+      "product": "11",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 11000000.0,
+          "power_dbm": -25.28539161030421
+        }
+      ]
+    },
+    {
+      "frequency_hz": 13000000.0,
+      "power_dbm": -102.13045228242717,
+      "phase_deg": 145.68222206928849,
+      "wave_real": -4.66408593075944e-06,
+      "wave_imag": 3.1837447682792743e-06,
+      "product": "13",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 13000000.0,
+          "power_dbm": -101.95316461282283
+        }
+      ]
+    },
+    {
+      "frequency_hz": 18000000.0,
+      "power_dbm": -85.75724841089234,
+      "phase_deg": -43.747570218560774,
+      "wave_real": 2.6869566919165092e-05,
+      "wave_imag": -2.571983091768416e-05,
+      "product": "18",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 18000000.0,
+          "power_dbm": -85.57996074128803
+        }
+      ]
+    },
+    {
+      "frequency_hz": 20000000.0,
+      "power_dbm": -80.19501354210195,
+      "phase_deg": -46.83084009903438,
+      "wave_real": 4.827841234272294e-05,
+      "wave_imag": -5.146677401444672e-05,
+      "product": "20",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 20000000.0,
+          "power_dbm": -80.01772587249764
+        }
+      ]
+    },
+    {
+      "frequency_hz": 22000000.0,
+      "power_dbm": -86.67330853689575,
+      "phase_deg": -49.61975920939286,
+      "wave_real": 2.168519204267597e-05,
+      "wave_imag": -2.5497824929563363e-05,
+      "product": "22",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 22000000.0,
+          "power_dbm": -86.49602086729143
+        }
+      ]
+    },
+    {
+      "frequency_hz": 27000000.0,
+      "power_dbm": -114.69277220638861,
+      "phase_deg": 124.30364023397546,
+      "wave_real": -7.493163651177291e-07,
+      "wave_imag": 1.0983068121183086e-06,
+      "product": "27",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 27000000.0,
+          "power_dbm": -114.5154845367843
+        }
+      ]
+    },
+    {
+      "frequency_hz": 29000000.0,
+      "power_dbm": -105.58114121861179,
+      "phase_deg": 122.31513188871818,
+      "wave_real": -2.029090552333846e-06,
+      "wave_imag": 3.2078278531980767e-06,
+      "product": "29",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 29000000.0,
+          "power_dbm": -105.40385354900747
+        }
+      ]
+    },
+    {
+      "frequency_hz": 31000000.0,
+      "power_dbm": -106.00145097364188,
+      "phase_deg": 120.50118732236604,
+      "wave_real": -1.835527898029389e-06,
+      "wave_imag": 3.1159603599995906e-06,
+      "product": "31",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 31000000.0,
+          "power_dbm": -105.82416330403754
+        }
+      ]
+    },
+    {
+      "frequency_hz": 33000000.0,
+      "power_dbm": -115.95318257763586,
+      "phase_deg": 118.84211572447181,
+      "wave_real": -5.547476452027004e-07,
+      "wave_imag": 1.007327585417292e-06,
+      "product": "33",
+      "path": [
+        {
+          "stage_id": "feedback",
+          "frequency_hz": 33000000.0,
+          "power_dbm": -115.77589490803155
+        }
+      ]
+    }
+  ],
+  "model": "real_polynomial_power_wave_harmonic_balance_v1",
+  "fundamental_hz": 1000000.0,
+  "harmonics": 128,
+  "samples": 770,
+  "input_tones": [
+    {
+      "frequency_hz": 9000000.0,
+      "power_dbm": -30
+    },
+    {
+      "frequency_hz": 11000000.0,
+      "power_dbm": -30
+    }
+  ],
+  "power_convention": "output delivered to real load; per-stage path is the forward outgoing power wave, not net absorbed power",
+  "solver": {
+    "status": "converged",
+    "iterations": 1,
+    "relative_residual": 8.569185410407949e-13,
+    "tolerance": 1e-09,
+    "history": [
+      8.569185410407949e-13
+    ],
+    "input_peaks_sqrt_mw": [
+      0.08969929948976407
+    ]
+  },
+  "scope": "explicit real polynomial two-ports, commensurate tones and pumps, real constant terminations; residual convergence does not certify stability or harmonic truncation",
+  "convergence": {
+    "status": "pass",
+    "harmonic_limits": [
+      64,
+      128
+    ],
+    "tolerance_db": 0.01,
+    "floor_dbm": -125.10193634120292,
+    "components": [
+      {
+        "frequency_hz": 0.0,
+        "delta_db": -1.4210854715202004e-14,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 2000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 7000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 9000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 11000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 13000000.0,
+        "delta_db": -2.842170943040401e-14,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 18000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 20000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 22000000.0,
+        "delta_db": 0.0,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 27000000.0,
+        "delta_db": 2.842170943040401e-14,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 29000000.0,
+        "delta_db": -1.4210854715202004e-14,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 31000000.0,
+        "delta_db": -2.842170943040401e-14,
+        "status": "pass"
+      },
+      {
+        "frequency_hz": 33000000.0,
+        "delta_db": 1.4210854715202004e-14,
+        "status": "pass"
+      }
+    ],
+    "new_out_of_band_components": []
+  },
+  "calculation_hash": "de94bb99a5701c5bd823af85cd2e3da0bcc6f0a1781dcb34895094654a7b7121"
+}

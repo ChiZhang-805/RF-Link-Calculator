@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "fixture-混频杂散链路",
+  "project_name": "混频杂散链路",
+  "link_name": "混频杂散链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 2400000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -20,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "imt-mixer",
+      "order": 1,
+      "enabled": true,
+      "name": "混频器",
+      "type": "mixer",
+      "gain_db": -10,
+      "noise": {
+        "mode": "manual",
+        "value_db": 6
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 20
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 5
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": {
+        "lo_frequency_hz": 2300000000.0,
+        "relation": "difference",
+        "noise_convention": "SSB",
+        "noise_compatible": true,
+        "lo_power_dbm": 10
+      },
+      "absolute_max_input_dbm": null,
+      "source": {},
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": "合成数据，不代表真实器件或商业软件对标结果",
+  "lab": {
+    "models": {
+      "imt-mixer": {
+        "mixer": {
+          "kind": "imt",
+          "m": [
+            1.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "metadata": {
+            "filename": "synthetic-imt.csv",
+            "lo_dbm": 10,
+            "lo_hz": 2300000000.0,
+            "rf_dbm": -20,
+            "rf_hz": 2400000000.0,
+            "sha256": "90aa83fbba60f9c6f8c1e14fbc183adc6b03f6509f91b2ed43bb46b41e46156f",
+            "source": "synthetic"
+          },
+          "n": [
+            -1.0,
+            -1.0,
+            -2.0,
+            1.0
+          ],
+          "output_dbm": [
+            -30.0,
+            -70.0,
+            -80.0,
+            -60.0
+          ]
+        }
+      }
+    },
+    "settings": {
+      "image_gain_db": -10,
+      "image_temperature_k": 290
+    }
+  }
+}

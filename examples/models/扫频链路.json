@@ -1,0 +1,123 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "fixture-扫频链路",
+  "project_name": "扫频链路",
+  "link_name": "扫频链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -60.0,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": true,
+      "each_tone_power_dbm": -40,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "frequency-amplifier",
+      "order": 1,
+      "enabled": true,
+      "name": "放大器",
+      "type": "amplifier",
+      "gain_db": 20,
+      "noise": {
+        "mode": "manual",
+        "value_db": 2
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 10
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": -10
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic",
+        "note": "构造模型，仅用于软件验证"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": "合成数据，不代表真实器件或商业软件对标结果",
+  "lab": {
+    "models": {
+      "frequency-amplifier": {
+        "linear": {
+          "frequency_hz": [
+            80000000.0,
+            90000000.0,
+            100000000.0,
+            110000000.0,
+            120000000.0
+          ],
+          "gain_db": [
+            18.0,
+            19.5,
+            20.0,
+            19.5,
+            18.0
+          ],
+          "iip3_dbm": [
+            8.0,
+            9.0,
+            10.0,
+            9.0,
+            8.0
+          ],
+          "ip1_dbm": [
+            -12.0,
+            -11.0,
+            -10.0,
+            -11.0,
+            -12.0
+          ],
+          "kind": "frequency",
+          "metadata": {
+            "filename": "synthetic-frequency.csv",
+            "sha256": "2e1052131fb09262f5760383e95cfd29d90bac191be005b1839bab5ded9eb3d4",
+            "source": "synthetic"
+          },
+          "nf_db": [
+            2.5,
+            2.1,
+            2.0,
+            2.1,
+            2.5
+          ],
+          "phase_deg": [
+            30.0,
+            15.0,
+            0.0,
+            -15.0,
+            -30.0
+          ]
+        }
+      }
+    },
+    "settings": {
+      "sweep_high_hz": 120000000.0,
+      "sweep_low_hz": 80000000.0
+    }
+  }
+}

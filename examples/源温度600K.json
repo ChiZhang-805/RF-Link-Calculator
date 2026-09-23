@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "b7ba5f80-bcad-5298-a104-4458d67b3f05",
+  "project_name": "构造基准E",
+  "link_name": "源温度600K",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 600,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -50,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "a7b5bdaa-303a-5154-83a6-50d5fda1fd2f",
+      "order": 1,
+      "enabled": true,
+      "name": "10 dB放大器",
+      "type": "amplifier",
+      "gain_db": 10,
+      "noise": {
+        "mode": "manual",
+        "value_db": 3
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 10
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 0
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": 2,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "构造演示值，不代表实测或任何厂商"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": ""
+}

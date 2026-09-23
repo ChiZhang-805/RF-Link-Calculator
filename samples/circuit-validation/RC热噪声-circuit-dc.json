@@ -1,0 +1,20 @@
+{
+  "model": "intrinsic_ebers_moll_rc_v1",
+  "nodes": [
+    {
+      "node": "0",
+      "voltage_v": 0.0
+    },
+    {
+      "node": "out",
+      "voltage_v": 0.0
+    }
+  ],
+  "devices": [],
+  "solver": {
+    "status": "converged",
+    "residual_a": 0.0,
+    "iterations": 0
+  },
+  "calculation_hash": "8375347c88e0627740022aa22491745cc0d39e41fbbe0c0453e528c4b54a32d2"
+}

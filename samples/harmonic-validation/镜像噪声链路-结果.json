@@ -1,0 +1,33 @@
+{
+  "model": "matched_two_sideband_noise_v1",
+  "signal_frequency_hz": 100000000.0,
+  "image_frequency_hz": 80000000.0,
+  "frequency_output_hz": 10000000.0,
+  "gain_db": 3.0000000000000004,
+  "image_gain_db": -36.0,
+  "image_temperature_k": 290.0,
+  "equivalent_noise_temperature_k": 885.9405209427716,
+  "nf_db": 6.079873577870746,
+  "noise_output_dbm": -104.89531361635736,
+  "contributions": [
+    {
+      "name": "信号通道",
+      "density_w_hz": 1.5939741740607947e-20
+    },
+    {
+      "name": "镜像通道",
+      "density_w_hz": 1.5939741740607956e-20
+    },
+    {
+      "name": "混频器内部",
+      "density_w_hz": 5.148193933569631e-22
+    },
+    {
+      "name": "后级",
+      "density_w_hz": 0.0
+    }
+  ],
+  "bandwidth_hz": 1000000.0,
+  "scope": "center-frequency small-signal matched two-sideband SSB budget; no nonlinear pumped-noise claim",
+  "calculation_hash": "341ed3479c813e9c31682fbff4d6a5647e849a2d71db79fbdd2a1a77454a384b"
+}

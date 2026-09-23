@@ -1,0 +1,7 @@
+{
+  "action": "spectrum",
+  "parameters": {
+    "count": 4096,
+    "oversampling": 2
+  }
+}

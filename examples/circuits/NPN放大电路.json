@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "NPN放大电路",
+  "project_name": "NPN放大电路",
+  "link_name": "NPN放大电路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -60.0,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [],
+  "assumptions": [],
+  "notes": "",
+  "lab": {
+    "models": {},
+    "circuit": {
+      "version": 1,
+      "temperature_k": 300,
+      "metadata": {
+        "source": "synthetic",
+        "model": "intrinsic Ebers-Moll, constant junction capacitances"
+      },
+      "models": {
+        "NPN1": {
+          "type": "npn_ebers_moll",
+          "is_a": 1e-15,
+          "bf": 100.0,
+          "br": 1.0,
+          "cbe_f": 2e-11,
+          "cbc_f": 2e-12,
+          "max_current_a": 0.02,
+          "max_vbe_v": 0.9,
+          "max_vce_v": 12.0
+        }
+      },
+      "components": [
+        {
+          "id": "VCC",
+          "type": "voltage",
+          "p": "vcc",
+          "n": "0",
+          "dc_v": 5.0,
+          "tones": []
+        },
+        {
+          "id": "VIN",
+          "type": "voltage",
+          "p": "in",
+          "n": "0",
+          "dc_v": 0.72,
+          "tones": [
+            {
+              "harmonic": 1,
+              "peak_v": 0.01,
+              "phase_deg": 0.0
+            }
+          ]
+        },
+        {
+          "id": "RB",
+          "type": "resistor",
+          "p": "in",
+          "n": "b",
+          "value": 1000.0
+        },
+        {
+          "id": "RC",
+          "type": "resistor",
+          "p": "vcc",
+          "n": "c",
+          "value": 1000.0
+        },
+        {
+          "id": "RL",
+          "type": "resistor",
+          "p": "c",
+          "n": "0",
+          "value": 10000.0
+        },
+        {
+          "id": "Q1",
+          "type": "npn",
+          "b": "b",
+          "c": "c",
+          "e": "0",
+          "model": "NPN1"
+        }
+      ],
+      "output_resistor": "RL"
+    },
+    "settings": {
+      "circuit_base_hz": 1000000.0,
+      "circuit_harmonics": 8,
+      "circuit_sidebands": 8,
+      "circuit_offset_hz": 10000.0
+    }
+  }
+}

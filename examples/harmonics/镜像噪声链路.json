@@ -1,0 +1,153 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "镜像噪声链路",
+  "project_name": "镜像噪声链路",
+  "link_name": "镜像噪声链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -60.0,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "select",
+      "order": 1,
+      "enabled": true,
+      "name": "预选滤波器",
+      "type": "filter_bpf",
+      "gain_db": -1,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {},
+      "notes": ""
+    },
+    {
+      "id": "lna",
+      "order": 2,
+      "enabled": true,
+      "name": "低噪声放大器",
+      "type": "lna",
+      "gain_db": 10,
+      "noise": {
+        "mode": "manual",
+        "value_db": 2
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {},
+      "notes": ""
+    },
+    {
+      "id": "down",
+      "order": 3,
+      "enabled": true,
+      "name": "下变频器",
+      "type": "mixer",
+      "gain_db": -6,
+      "noise": {
+        "mode": "manual",
+        "value_db": 4
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": {
+        "lo_frequency_hz": 90000000.0,
+        "relation": "difference",
+        "noise_convention": "SSB",
+        "noise_compatible": true,
+        "lo_power_dbm": null
+      },
+      "absolute_max_input_dbm": null,
+      "source": {},
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": "构造行为模型，未经商用软件或目标器件验收",
+  "lab": {
+    "models": {
+      "select": {
+        "linear": {
+          "kind": "frequency",
+          "metadata": {
+            "source": "synthetic",
+            "filename": "synthetic-preselector.csv",
+            "sha256": "ea21ec4d6c620c4353842d60f3c3061bb5d18ea57adfc8d89bd51e86cd5b852e"
+          },
+          "frequency_hz": [
+            75000000.0,
+            80000000.0,
+            95000000.0,
+            105000000.0
+          ],
+          "gain_db": [
+            -45.0,
+            -40.0,
+            -1.0,
+            -1.0
+          ]
+        }
+      }
+    },
+    "settings": {
+      "image_temperature_k": 290
+    }
+  }
+}

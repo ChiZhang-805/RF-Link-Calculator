@@ -1,0 +1,13 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: rf link intrinsic ebers-moll rc reference
+
+Doing analysis at TEMP = 26.850000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+@q6[ic] = 8.847798553559000e-04
+@q6[gm] = 3.422482450021438e-02
+ngspice-41 done

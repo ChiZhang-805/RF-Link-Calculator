@@ -1,0 +1,8 @@
+{
+  "image_gain_db": -10.0,
+  "image_temperature_k": 290.0,
+  "equivalent_noise_temperature_k": 864.5107946051422,
+  "noise_output_dbm": -117.9751871942281,
+  "model": "ssb_image_termination_replacement_v2",
+  "calculation_hash": "f025b822559e264b9b547bbf8da4eaf9446131935ac350670e855fad82bd93f7"
+}

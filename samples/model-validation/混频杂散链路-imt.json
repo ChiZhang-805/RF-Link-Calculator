@@ -1,0 +1,54 @@
+{
+  "points": [
+    {
+      "frequency_hz": 100000000.0,
+      "power_dbm": -30.0,
+      "origin": "imt-mixer",
+      "product": "1RF-1LO",
+      "path": [
+        {
+          "stage_id": "imt-mixer",
+          "power_dbm": -30.0
+        }
+      ]
+    },
+    {
+      "frequency_hz": 2500000000.0,
+      "power_dbm": -70.0,
+      "origin": "imt-mixer",
+      "product": "2RF-1LO",
+      "path": [
+        {
+          "stage_id": "imt-mixer",
+          "power_dbm": -70.0
+        }
+      ]
+    },
+    {
+      "frequency_hz": 2200000000.0,
+      "power_dbm": -80.0,
+      "origin": "imt-mixer",
+      "product": "1RF-2LO",
+      "path": [
+        {
+          "stage_id": "imt-mixer",
+          "power_dbm": -80.0
+        }
+      ]
+    },
+    {
+      "frequency_hz": 2300000000.0,
+      "power_dbm": -60.0,
+      "origin": "imt-mixer",
+      "product": "0RF+1LO",
+      "path": [
+        {
+          "stage_id": "imt-mixer",
+          "power_dbm": -60.0
+        }
+      ]
+    }
+  ],
+  "model": "measured_single_rf_lo_imt_v2",
+  "calculation_hash": "f025b822559e264b9b547bbf8da4eaf9446131935ac350670e855fad82bd93f7"
+}

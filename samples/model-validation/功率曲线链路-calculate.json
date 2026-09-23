@@ -1,0 +1,589 @@
+{
+  "project_hash": "eac323341dd29578b30d3b8450b6954288bb56dc6fde2820d9f82c6dc17c9839",
+  "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad",
+  "created_at": "2026-09-23T13:05:53.705090+00:00",
+  "formula_version": "2.0.0",
+  "compression_model_version": "data_driven_v2",
+  "metrics": {
+    "frequency_output_hz": {
+      "value": 100000000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "gain_db": {
+      "value": 20.0,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "linear_output_dbm": {
+      "value": 10.0,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "nf_db": {
+      "value": 2.0000000000000004,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "te_k": {
+      "value": 169.61902581372294,
+      "unit": "K",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "noise_input_dbm": {
+      "value": -111.97518719422811,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "noise_output_dbm": {
+      "value": -91.97518719422811,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "snr_db": {
+      "value": 101.97518719422811,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "iip3_dbm": {
+      "value": 10.0,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "oip3_dbm": {
+      "value": 30.0,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_output",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "compressed_output_dbm": {
+      "value": 8.999999999999998,
+      "unit": "dBm",
+      "status": "estimated",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "compression_db": {
+      "value": 1.0000000000000018,
+      "unit": "dB",
+      "status": "estimated",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_output_dbm": {
+      "value": 0.0,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "im3_dbm": {
+      "value": null,
+      "unit": "dBm",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "使用频谱分析计算独立双音结果"
+    },
+    "ip1_dbm": {
+      "value": -10.0,
+      "unit": "dBm",
+      "status": "estimated",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "op1_dbm": {
+      "value": 9.0,
+      "unit": "dBm",
+      "status": "estimated",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "sensitivity_dbm": {
+      "value": -101.97518719422811,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "compression_dr_db": {
+      "value": 88.97518719422811,
+      "unit": "dB",
+      "status": "estimated",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "sfdr3_db": {
+      "value": 81.31679146281874,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "sfdr3_normalized": {
+      "value": 121.31679146281874,
+      "unit": "dB·Hz^(2/3)",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_limit_dbm": {
+      "value": -30.65839573140937,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_span_db": {
+      "value": 71.31679146281874,
+      "unit": "dB",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_input_dbm": {
+      "value": -20,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_total_dbm": {
+      "value": -16.989700043360187,
+      "unit": "dBm",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "im3_dbc": {
+      "value": null,
+      "unit": "dBc",
+      "status": "unknown",
+      "reference": "chain_input",
+      "model": "data_driven_rf_v2",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": "使用频谱分析计算独立双音结果"
+    },
+    "tone_frequency_0_hz": {
+      "value": 99950000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_frequency_1_hz": {
+      "value": 100050000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_frequency_2_hz": {
+      "value": 99850000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    },
+    "tone_frequency_3_hz": {
+      "value": 100150000.0,
+      "unit": "Hz",
+      "status": "valid",
+      "reference": "chain_input",
+      "model": "scalar_matched_v1",
+      "assumptions": [],
+      "dependencies": [],
+      "reason": ""
+    }
+  },
+  "stages": [
+    {
+      "stage_id": "curve-amplifier",
+      "name": "放大器",
+      "enabled": true,
+      "metrics": {
+        "frequency_input_hz": {
+          "value": 100000000.0,
+          "unit": "Hz",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "frequency_output_hz": {
+          "value": 100000000.0,
+          "unit": "Hz",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_gain_db": {
+          "value": 20.0,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "gain_db": {
+          "value": 20.0,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "linear_input_dbm": {
+          "value": -10.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "linear_output_dbm": {
+          "value": 10.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_nf_db": {
+          "value": 2.0,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "noise_contribution_k": {
+          "value": 169.61902581372294,
+          "unit": "K",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "nf_db": {
+          "value": 2.0000000000000004,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "te_k": {
+          "value": 169.61902581372294,
+          "unit": "K",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "noise_input_dbm": {
+          "value": -111.97518719422811,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "noise_output_dbm": {
+          "value": -91.97518719422811,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "snr_db": {
+          "value": 101.97518719422811,
+          "unit": "dB",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_iip3_dbm": {
+          "value": 10,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_oip3_dbm": {
+          "value": 30.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "iip3_dbm": {
+          "value": 10.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "oip3_dbm": {
+          "value": 30.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_output",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_ip1_dbm": {
+          "value": -10.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "stage_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "compressed_input_dbm": {
+          "value": -10.0,
+          "unit": "dBm",
+          "status": "estimated",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "compressed_output_dbm": {
+          "value": 8.999999999999998,
+          "unit": "dBm",
+          "status": "estimated",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "stage_compression_db": {
+          "value": 1.0000000000000018,
+          "unit": "dB",
+          "status": "estimated",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "compression_db": {
+          "value": 1.0000000000000018,
+          "unit": "dB",
+          "status": "estimated",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "p1_margin_db": {
+          "value": 0.0,
+          "unit": "dB",
+          "status": "estimated",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "tone_output_dbm": {
+          "value": 0.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "im3_dbm": {
+          "value": -60.0,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "scalar_matched_v1",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        },
+        "sensitivity_dbm": {
+          "value": -101.97518719422811,
+          "unit": "dBm",
+          "status": "valid",
+          "reference": "chain_input",
+          "model": "data_driven_rf_v2",
+          "assumptions": [],
+          "dependencies": [],
+          "reason": ""
+        }
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "W006",
+      "severity": "warning",
+      "field_path": "p1db",
+      "message": "接近P1或进入深压缩；当前输出仅为模型估算",
+      "stage_id": "curve-amplifier",
+      "affected_metrics": [],
+      "suggestion": "请核对对应输入与数据来源"
+    }
+  ],
+  "assumptions": [
+    "二端口复数S参数与噪声波协方差级联，实参考阻抗归一化到50 Ω；线性插值，不做频率外推",
+    "逐级网络结果为截断前缀网络接指定终端后的预算，不是完整双向网络内部探针；主指标噪声为中心频点窄带预算，带内积分使用频谱页",
+    "有源S参数的NF需完整噪声参数；单个标量NF不足以确定失配噪声，缺失时返回未知",
+    "功率曲线采用复包络无记忆模型；最低测点以下延拓该点复增益，最高点以上不外推",
+    "记忆多项式由前半段IQ训练，后半段隔离验证；结果只针对训练采样率和幅度范围",
+    "频谱为前馈复包络FFT；IMT为固定驱动单RF+LO实测表；不等价于通用谐波平衡或全电路求解",
+    "谐波页使用显式实射频多项式二端口、频域端口连接和Newton-Krylov残差求解；需另验谐波截断，不含晶体管物理模型或大信号噪声",
+    "商业软件与硬件准确度需导入独立参考结果另行验收；合成数据只能验证实现"
+  ]
+}

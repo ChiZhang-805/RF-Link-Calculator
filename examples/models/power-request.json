@@ -1,0 +1,8 @@
+{
+  "action": "power",
+  "parameters": {
+    "low": -40,
+    "high": 0,
+    "count": 161
+  }
+}

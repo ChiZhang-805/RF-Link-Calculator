@@ -1,0 +1,7 @@
+{
+  "action": "noise",
+  "parameters": {
+    "low": 99500000.0,
+    "high": 100500000.0
+  }
+}

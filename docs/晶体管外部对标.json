@@ -1,0 +1,453 @@
+{
+  "version": "2.2.0",
+  "software": "******\n** ngspice-41 : Circuit level simulation program\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2023, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Mar 25 2024   19:11:16\n******",
+  "binary_sha256": "41a6bda700d9160089f2a39a14f94408172f7748215b68b81d39ea1bc26e300c",
+  "source": "independent",
+  "scope": "actual ngspice DC, transient Fourier and stationary noise; pumped noise is NOT compared to ngspice .noise",
+  "checks": [
+    {
+      "case": "dc-0",
+      "temperature_k": 290.0,
+      "bias_v": 0.66,
+      "node": "b",
+      "delta_v": 2.141437438485383e-08,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-0",
+      "temperature_k": 290.0,
+      "bias_v": 0.66,
+      "node": "c",
+      "delta_v": 1.9467616212409666e-06,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-1",
+      "temperature_k": 290.0,
+      "bias_v": 0.7,
+      "node": "b",
+      "delta_v": 6.625622439582202e-08,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-1",
+      "temperature_k": 290.0,
+      "bias_v": 0.7,
+      "node": "c",
+      "delta_v": 6.023293158019527e-06,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-2",
+      "temperature_k": 290.0,
+      "bias_v": 0.74,
+      "node": "b",
+      "delta_v": 1.2314953523606675e-07,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-2",
+      "temperature_k": 290.0,
+      "bias_v": 0.74,
+      "node": "c",
+      "delta_v": 1.1195411516951026e-05,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-3",
+      "temperature_k": 300.0,
+      "bias_v": 0.66,
+      "node": "b",
+      "delta_v": 9.67576230248568e-09,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-3",
+      "temperature_k": 300.0,
+      "bias_v": 0.66,
+      "node": "c",
+      "delta_v": 8.796150456902296e-07,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-4",
+      "temperature_k": 300.0,
+      "bias_v": 0.7,
+      "node": "b",
+      "delta_v": 3.6825079763325164e-08,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-4",
+      "temperature_k": 300.0,
+      "bias_v": 0.7,
+      "node": "c",
+      "delta_v": 3.347734718772699e-06,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-5",
+      "temperature_k": 300.0,
+      "bias_v": 0.74,
+      "node": "b",
+      "delta_v": 9.062815120586265e-08,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-5",
+      "temperature_k": 300.0,
+      "bias_v": 0.74,
+      "node": "c",
+      "delta_v": 8.238922792003223e-06,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-6",
+      "temperature_k": 320.0,
+      "bias_v": 0.66,
+      "node": "b",
+      "delta_v": 1.9798366279744073e-09,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-6",
+      "temperature_k": 320.0,
+      "bias_v": 0.66,
+      "node": "c",
+      "delta_v": 1.7998542745090162e-07,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-7",
+      "temperature_k": 320.0,
+      "bias_v": 0.7,
+      "node": "b",
+      "delta_v": 8.460046663216758e-09,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-7",
+      "temperature_k": 320.0,
+      "bias_v": 0.7,
+      "node": "c",
+      "delta_v": 7.690954477723722e-07,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-8",
+      "temperature_k": 320.0,
+      "bias_v": 0.74,
+      "node": "b",
+      "delta_v": 3.106692703092051e-08,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "dc-8",
+      "temperature_k": 320.0,
+      "bias_v": 0.74,
+      "node": "c",
+      "delta_v": 2.8242661302968486e-06,
+      "limit_v": 2e-05,
+      "pass": true
+    },
+    {
+      "case": "transient_fourier",
+      "harmonic": 0,
+      "voltage_complex_error_v": 5.606322941886788e-06,
+      "delta_db": 1.3053653775615952e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "transient_fourier",
+      "harmonic": 1,
+      "voltage_complex_error_v": 5.163591365538049e-07,
+      "delta_db": -4.0289399529261034e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "transient_fourier",
+      "harmonic": 2,
+      "voltage_complex_error_v": 1.9856849239682245e-08,
+      "delta_db": 1.3689901944657132e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "transient_fourier",
+      "harmonic": 3,
+      "voltage_complex_error_v": 1.7438549208283438e-09,
+      "delta_db": 1.5373571481979892e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "transient_fourier",
+      "harmonic": 4,
+      "voltage_complex_error_v": 1.7077968011857606e-10,
+      "delta_db": -5.334932707104595e-06,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 10000.0,
+      "delta_db": -4.9815534519734664e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 510000.0,
+      "delta_db": -4.858542131245695e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 1010000.0,
+      "delta_db": -4.549982504360126e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 1510000.0,
+      "delta_db": -4.1606435064914644e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 2010000.0,
+      "delta_db": -3.777417151438087e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 2510000.0,
+      "delta_db": -3.4434813937165364e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 3010000.0,
+      "delta_db": -3.1693938711056304e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 3510000.0,
+      "delta_db": -2.9501860761788714e-05,
+      "limit_db": 0.001,
+      "pass": true
+    },
+    {
+      "case": "stationary_noise",
+      "frequency_hz": 4010000.0,
+      "delta_db": -2.776116946829247e-05,
+      "limit_db": 0.001,
+      "pass": true
+    }
+  ],
+  "status": "passed",
+  "files": [
+    {
+      "path": "samples\\circuit-validation\\ngspice\\constants.cir",
+      "sha256": "cccbae71b1fb22bc94db7201dd2cfa2bf53f869314f5846f928ccdf258754360"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\constants.log",
+      "sha256": "93470366a037f39b7af61cbd657ff0d96c8ed50719b90ad2a0355460f6a782e5"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\constants.txt",
+      "sha256": "93470366a037f39b7af61cbd657ff0d96c8ed50719b90ad2a0355460f6a782e5"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-0.cir",
+      "sha256": "9add7f5862ad04aca867d6bbbb7fe014c9dbe7058f9007af342825a34dbcffdf"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-0.log",
+      "sha256": "e850ce75880c24872fcdc612f93d81e6dfc57238b38c9bdb3685e95f683d8a4a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-0.tsv",
+      "sha256": "13325235353a69761588623ea284ec4e93b21e7c2beb948a000b0926aad4b876"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-0.txt",
+      "sha256": "e850ce75880c24872fcdc612f93d81e6dfc57238b38c9bdb3685e95f683d8a4a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-1.cir",
+      "sha256": "35fa4d8b7042cf12956dc375fd77b94d0be0310d5c67072eab8b31cd13881dbb"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-1.log",
+      "sha256": "e850ce75880c24872fcdc612f93d81e6dfc57238b38c9bdb3685e95f683d8a4a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-1.tsv",
+      "sha256": "60cde64fc1b5642821a2cf32fe454ced7e6ed5371332dff6e9d43fccc99d08c9"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-1.txt",
+      "sha256": "e850ce75880c24872fcdc612f93d81e6dfc57238b38c9bdb3685e95f683d8a4a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-2.cir",
+      "sha256": "ef8849250f4d305a207e8e91ce77216533880b46267fb7a62b449ce803d9000a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-2.log",
+      "sha256": "e850ce75880c24872fcdc612f93d81e6dfc57238b38c9bdb3685e95f683d8a4a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-2.tsv",
+      "sha256": "f4455bd4b699f26fd86424b90f45dfad9e52d7d1ccb5c5f3560e55adbeab18c2"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-2.txt",
+      "sha256": "e850ce75880c24872fcdc612f93d81e6dfc57238b38c9bdb3685e95f683d8a4a"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-3.cir",
+      "sha256": "2b577dd3c104cc2cb6f510406b2faeb010ed397c2dd23b4ccb560a5ed3ab7ddc"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-3.log",
+      "sha256": "d2df114c60243dbe6900a64c4405caec4585c8d4e7ad73b5e2d5175b0c139100"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-3.tsv",
+      "sha256": "2f147a5f65d38f68b3e99059a30bf75863ed3db182ee22edc2a2a24caa999489"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-3.txt",
+      "sha256": "d2df114c60243dbe6900a64c4405caec4585c8d4e7ad73b5e2d5175b0c139100"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-4.cir",
+      "sha256": "197e4af6273cd63ee6dc6d405931f57005ef4eb14ff4f7a23be8711cce155543"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-4.log",
+      "sha256": "d2df114c60243dbe6900a64c4405caec4585c8d4e7ad73b5e2d5175b0c139100"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-4.tsv",
+      "sha256": "54172ef8af0d8cefb4b464a53328d5cfff62e9617dbb328aa1bb403b906e0e37"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-4.txt",
+      "sha256": "d2df114c60243dbe6900a64c4405caec4585c8d4e7ad73b5e2d5175b0c139100"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-5.cir",
+      "sha256": "956f3f5bcf920788f46172be8c3b53f1c5910dc3b45ea5ffe3e0c2e22e23d642"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-5.log",
+      "sha256": "d2df114c60243dbe6900a64c4405caec4585c8d4e7ad73b5e2d5175b0c139100"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-5.tsv",
+      "sha256": "fae666ac92876d4bb789ee65fae1005936076211135644b30bcd7176d63db965"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-5.txt",
+      "sha256": "d2df114c60243dbe6900a64c4405caec4585c8d4e7ad73b5e2d5175b0c139100"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-6.cir",
+      "sha256": "f6471d22943239642090ce69030668019d11a5e223bd79cedf78ae93ab60de1e"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-6.log",
+      "sha256": "ba52395f7f7ef4062129e65df29e83752b554f95ce188d4d52388ab5efd7ba99"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-6.tsv",
+      "sha256": "45589ece0b1d814c13fb7f108eed6beb523b1cc5af173f722752e4abd925134b"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-6.txt",
+      "sha256": "ba52395f7f7ef4062129e65df29e83752b554f95ce188d4d52388ab5efd7ba99"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-7.cir",
+      "sha256": "efc9d71a6d3c3c01900dbe296b84898914a31d107ff1b87bea718c818d9034c0"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-7.log",
+      "sha256": "ba52395f7f7ef4062129e65df29e83752b554f95ce188d4d52388ab5efd7ba99"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-7.tsv",
+      "sha256": "f5a96079f7982e506a681bbda436eceab52492ac7510940a9a0a9c13f0e8a345"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-7.txt",
+      "sha256": "ba52395f7f7ef4062129e65df29e83752b554f95ce188d4d52388ab5efd7ba99"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-8.cir",
+      "sha256": "4bb7c832aa56716461efaebb39430716bc717c1f42b11eaa594b3cf8207a55ae"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-8.log",
+      "sha256": "ba52395f7f7ef4062129e65df29e83752b554f95ce188d4d52388ab5efd7ba99"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-8.tsv",
+      "sha256": "09b1ed823e84414b34bdd4781efa951a465e6d6517eebb1994679f7dda434a66"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dc-8.txt",
+      "sha256": "ba52395f7f7ef4062129e65df29e83752b554f95ce188d4d52388ab5efd7ba99"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dynamic.cir",
+      "sha256": "fe310493e3daecbdf80edbbefbe9ba95bb7af42e43b03d6ba70c561ab8019ea1"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dynamic.log",
+      "sha256": "43b11544d0b2101b7100fdf8d382199f1f59afc11944746de25667bd2dd341dc"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\dynamic.txt",
+      "sha256": "43b11544d0b2101b7100fdf8d382199f1f59afc11944746de25667bd2dd341dc"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\noise.tsv",
+      "sha256": "c5b4da87541c44a6d5eca0d8034004f7c92dc75b5ba90b7a6501cd40635a50c7"
+    },
+    {
+      "path": "samples\\circuit-validation\\ngspice\\transient.tsv",
+      "sha256": "465110f855951697f4ec5db1b091c90b5802b460d5e7bc675a7569ab978d593e"
+    }
+  ]
+}

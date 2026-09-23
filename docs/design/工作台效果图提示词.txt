@@ -1,0 +1,26 @@
+Use case: ui-mockup.
+Create ONE high-fidelity, production-plausible desktop UI design screenshot for a Chinese RF signal-chain engineering application named "RF Link". This is a new design, not an edit of the existing app. 1920 x 1080 landscape, razor-sharp legible Simplified Chinese typography, flat front-facing app UI only, no computer bezel, no browser chrome, no operating system taskbar, no surrounding presentation, no callout arrows.
+
+Design intent: a compact single-screen engineering workbench. The entire application fits in this one viewport with absolutely NO page scrollbar and no cropped controls. Attractive precise restrained desktop software, not a marketing dashboard. Light neutral cool-gray background, white working panels, slate typography, one muted teal accent for selected item and primary action, 1px hairline borders, 6px corner radii, 14-16px standard type, compact 36px controls, 24px page margins, polished optical alignment. Generous readable spacing without enormous titles or empty decorative areas.
+
+Layout:
+1. One compact 64px top bar. Small RF wave icon + "RF Link" at left, followed by project selector "接收链路" and small chevron. Three navigation tabs in the middle: "链路", "分析", "框图", with "链路" selected by a teal underline. On the right, icon-only actions for new file, open folder, save, undo, redo; then a teal button with play icon and "计算", an outlined button with export icon and "导出", and a small gear icon. No gigantic page title.
+2. Under the header a compact horizontal conditions strip, about 90px tall, with only short field labels and editable numeric controls: "输入功率" [-60.00 | dBm], "工作频率" [100.00 | MHz dropdown], "噪声带宽" [1.00 | MHz dropdown], "源温度" [290 | K]. Then segmented control "单音 | 双音" with 单音 selected and an icon+label button "条件". All fields sit on one row. Units are visually attached to values inside the controls.
+3. Main workspace occupies the rest except a bottom 112px metrics strip. Two columns: left about 73%, right 27%, 18px gutter. Right panel is a selected-device inspector and stays within viewport. LEFT upper panel about 265px high: heading "链路" plus count "3", small fit-view and zoom icons on far right. A clean vector-like RF block chain centered horizontally with distinct engineering symbols, Input -> bandpass filter rectangle with filter-response curve -> LNA triangle -> IF amplifier triangle -> Output. Exactly three devices, thin orthogonal or straight connected lines, arrowheads. Labels "输入", "输入滤波器", "低噪声放大器", "中频放大器", "输出". Highlight the LNA with pale teal rounded selection surround. Small concise numerical labels only: filter "-2 dB", LNA "20 dB", IF "10 dB". No other annotation paragraphs.
+4. LEFT lower panel: a compact editable device table filling the available lower space, with a 48px toolbar, heading "器件", an icon+label "+ 添加", and icon-only duplicate, delete, move-up, move-down buttons. Table headers exactly: "启用", "器件", "类型", "增益 / dB", "NF / dB", "IIP3 / dBm", "IP1 / dBm". Three rows with checkboxes on:
+row1: 输入滤波器 | 带通滤波器 | -2.00 | 2.00 | — | —
+row2: 低噪声放大器 | LNA | 20.00 | 1.50 | 5.00 | -9.00
+row3: 中频放大器 | 放大器 | 10.00 | 5.00 | 10.00 | 6.00
+Second row selected with a subtle teal tint. Clear thin horizontal dividers, numerals aligned. Bottom-right table pagination: left chevron, "1 / 1", right chevron, small "8 / 页" dropdown. No vertical or horizontal scrollbars.
+5. RIGHT device inspector white panel, header "低噪声放大器", small three-dot menu. Tabs "参数", "频率", "来源" with 参数 selected. Fields labels above inputs, compact:
+"名称" [低噪声放大器]
+"类型" [LNA dropdown]
+two columns "增益" [20.00 dB] and "噪声系数" [1.50 dB]
+"IP3" [输出 dropdown] [25.00 dBm]
+"P1" [实际输出 dropdown] [10.00 dBm]
+two columns "物理温度" [290 K] and "压缩形状" [2.00]
+bottom a compact "启用" toggle on.
+No instructional prose, no help cards, no apply/save duplicate button in inspector.
+6. Fixed bottom results strip spanning entire width, with six equally spaced concise metrics separated by subtle vertical rules, not six oversized decorative cards. Labels and values: "总增益" "28.00 dB"; "噪声系数" "3.57 dB"; "系统 IIP3" "-8.14 dBm"; "输入 P1" "-12.21 dBm"; "输出功率" "-32.00 dBm"; "SFDR" "68.18 dB". Numbers prominent but restrained 28px, labels 13px. No titles, explanation, footnotes, or interpretation prose below metrics.
+
+Important constraints: only meaningful controls, field labels, device names, necessary units and numerical results on screen. NO explanatory captions, disclaimers, onboarding text, status banners, technical implementation notes, upload drop-zone, "5MB", "JSON", "CSV", "VSDX", "未启用", "模型估算", "本地中文工具", "匹配标量预算", "示例均为构造值", "Deploy", "Profile", user avatars, search bar, cloud collaboration, fake decorative widgets, neon gradients, glass effects or big hero heading. No illustration beyond functional RF schematic. Every visible control should look genuinely usable. Accurate high-quality Simplified Chinese text and data are essential. Render one coherent complete UI screen.

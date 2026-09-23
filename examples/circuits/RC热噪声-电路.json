@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "temperature_k": 300,
+  "models": {},
+  "metadata": {
+    "source": "synthetic"
+  },
+  "components": [
+    {
+      "id": "R1",
+      "type": "resistor",
+      "p": "out",
+      "n": "0",
+      "value": 1000.0
+    },
+    {
+      "id": "C1",
+      "type": "capacitor",
+      "p": "out",
+      "n": "0",
+      "value": 1e-09
+    }
+  ],
+  "output_resistor": "R1"
+}

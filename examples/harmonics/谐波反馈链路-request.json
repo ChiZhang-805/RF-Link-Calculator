@@ -1,0 +1,17 @@
+{
+  "action": "harmonic-convergence",
+  "parameters": {
+    "fundamental_hz": 1000000.0,
+    "harmonics": 64,
+    "tones": [
+      {
+        "frequency_hz": 9000000.0,
+        "power_dbm": -30
+      },
+      {
+        "frequency_hz": 11000000.0,
+        "power_dbm": -30
+      }
+    ]
+  }
+}

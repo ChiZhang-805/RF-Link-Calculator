@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "venv": "Q:\\CodexData\\Workspaces\\RF-Link-Calculator\\artifacts\\clean-install-1790175764787851100\\venv",
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "package_path": "Q:\\CodexData\\Workspaces\\RF-Link-Calculator\\artifacts\\clean-install-1790175764787851100\\venv\\Lib\\site-packages\\rf_link_calculator\\__init__.py",
+  "version": "2.2.0",
+  "workbench_assets": {
+    "/": 1055,
+    "/app.js": 67231,
+    "/advanced.js": 26624,
+    "/circuit.js": 13066,
+    "/style.css": 25320,
+    "/icons.svg": 2889,
+    "/api/bootstrap": 399070
+  },
+  "gain_db": 28.0,
+  "export_status": "success",
+  "ui_exceptions": 0,
+  "example_count": 15,
+  "advanced_example_count": 5,
+  "published_example_count": 2,
+  "harmonic_example_count": 3,
+  "circuit_example_count": 2,
+  "waveform_validation_nmse_db": -298.5614145303571,
+  "wheel_sha256": "024f5c0c3d78c9277f96d012506dc308ad044c7841228f02a9965827cf0e289b"
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "a564de3f-9203-5c77-a58a-d23c67dcc1b7",
+  "project_name": "构造基准A",
+  "link_name": "两级放大器",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -30,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": true,
+      "each_tone_power_dbm": -30,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "2f996e9f-a030-58e7-8824-f65c22788ebc",
+      "order": 1,
+      "enabled": true,
+      "name": "放大器A",
+      "type": "amplifier",
+      "gain_db": 10,
+      "noise": {
+        "mode": "manual",
+        "value_db": 3
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 10
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 0
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": 2,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "构造演示值，不代表实测或任何厂商"
+      },
+      "notes": ""
+    },
+    {
+      "id": "0ed06258-f7fd-5875-b34b-17563dee4380",
+      "order": 2,
+      "enabled": true,
+      "name": "放大器B",
+      "type": "amplifier",
+      "gain_db": 10,
+      "noise": {
+        "mode": "manual",
+        "value_db": 6
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 20
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 5
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": 2,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "构造演示值，不代表实测或任何厂商"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": ""
+}

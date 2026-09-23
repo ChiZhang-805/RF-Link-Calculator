@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "scenarios": [
+    {
+      "name": "baseline",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "pin",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "bandwidth",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "temperature",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "gain",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "nf",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "ip3",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "p1",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "missing_nf",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "missing_p1",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "disabled",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "mixed_p",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "reorder",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "add",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "delete_by_clear",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "invalid_default_p",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "two_tone_high",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "receiver_B",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "compression_C",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "passive_D",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "temperature_E",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "mixer_F",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "ideal",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "all_disabled",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "mixer_noise_unknown",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    },
+    {
+      "name": "long_200",
+      "pass": true,
+      "mismatches": [],
+      "formula_errors": []
+    }
+  ],
+  "started_at": 1790153778.8973222,
+  "excel_version": "12.0",
+  "excel_build": "29161.0",
+  "automation_reported_name": "Microsoft Excel",
+  "application_path": "C:\\Users\\zju20\\AppData\\Local\\Kingsoft\\WPSOFF~1\\12.1.0.29161\\office6",
+  "executable": "E:\\D\\softmove\\soft\\WPS Office (12.1.0.26375)\\35\\12.1.0.29161\\office6\\et.exe",
+  "actual_engine": "WPS Spreadsheet"
+}

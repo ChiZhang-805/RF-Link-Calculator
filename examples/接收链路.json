@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "1bac4caa-420e-5c20-b7e1-d8374a475622",
+  "project_name": "构造基准B",
+  "link_name": "接收链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -60.0,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": true,
+      "each_tone_power_dbm": -40,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "2df19caa-6edc-583d-b126-f6f4b66ce99b",
+      "order": 1,
+      "enabled": true,
+      "name": "输入滤波器",
+      "type": "filter_bpf",
+      "gain_db": -2,
+      "noise": {
+        "mode": "passive_thermal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    },
+    {
+      "id": "e9faac40-1a91-5ab0-853c-0c1dcd4c31c2",
+      "order": 2,
+      "enabled": true,
+      "name": "低噪声放大器",
+      "type": "lna",
+      "gain_db": 20,
+      "noise": {
+        "mode": "manual",
+        "value_db": 1.5
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "output",
+        "value_dbm": 25
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "actual_output",
+        "value_dbm": 10
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": 2,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "构造演示值，不代表实测或任何厂商"
+      },
+      "notes": ""
+    },
+    {
+      "id": "57ee82f8-87b3-57b5-98a9-be3155b02623",
+      "order": 3,
+      "enabled": true,
+      "name": "中频放大器",
+      "type": "amplifier",
+      "gain_db": 10,
+      "noise": {
+        "mode": "manual",
+        "value_db": 5
+      },
+      "ip3": {
+        "mode": "finite",
+        "reference": "input",
+        "value_dbm": 10
+      },
+      "p1db": {
+        "mode": "finite",
+        "reference": "actual_output",
+        "value_dbm": 15
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": 2,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "构造演示值，不代表实测或任何厂商"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": ""
+}

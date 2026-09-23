@@ -1,0 +1,76 @@
+{
+  "version": "2.2.0",
+  "automated_tests": 127,
+  "status": "passed",
+  "scope": "Internal numerical/interface verification passed; public-data evidence recorded separately; locally executed commercial solver and target hardware acceptance pending",
+  "fixtures": {
+    "功率曲线链路-calculate.json": {
+      "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad",
+      "sha256": "c34a4631577a8a42846d0457f0a7ef7c0965bed1d8c48f9250d41a69119d8d5c"
+    },
+    "功率曲线链路-convergence.json": {
+      "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad",
+      "sha256": "ada3061b9e6cb14baa778c06be19624eb30adcea3bbd38ef82d5487f4e7f25d7",
+      "convergence": "fail"
+    },
+    "功率曲线链路-power.json": {
+      "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad",
+      "sha256": "3b24732354d76fc45f7bdd0819cc9b97359bf026f0aab73db0acd98f232a5832"
+    },
+    "功率曲线链路-spectrum.json": {
+      "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad",
+      "sha256": "a65586f456a3169fb15f74dd57efde2f4513dad55e18c17c13bbe4492599cefa"
+    },
+    "失配链路-calculate.json": {
+      "calculation_hash": "9abd9fcb84587a06df09113fc6fe1f20678feb767e807e3aed97f61604266f8f",
+      "sha256": "5e12a9903eb97918a62b3889624bb80441d814ac4a331e3b6f5ed9600bce8262"
+    },
+    "失配链路-sweep.json": {
+      "calculation_hash": "9abd9fcb84587a06df09113fc6fe1f20678feb767e807e3aed97f61604266f8f",
+      "sha256": "6129748c99488e35e12c0e85448f389e8344acdd07fd64d2b85ee0dc5c6421b6"
+    },
+    "宽带记忆链路-calculate.json": {
+      "calculation_hash": "2fdf3d60495b0de3c2c10610e8903f88f5836b2318b56b1f56e5cea5038e9fc6",
+      "sha256": "727df9e97d9029f4beffdbd855c89d6a6bec3b5b1575d17cb18d38339496bbc5"
+    },
+    "宽带记忆链路-waveform.json": {
+      "calculation_hash": "2fdf3d60495b0de3c2c10610e8903f88f5836b2318b56b1f56e5cea5038e9fc6",
+      "sha256": "59d8c1ae78c5d4c584d4f347e9794bcc6dc274055f02d6f6507c4b137e31e223",
+      "validation": {
+        "nmse_db": -298.5614145303571,
+        "evm_percent": 1.1801284315716734e-13,
+        "evm_gain_aligned_percent": 2.2794466451604428e-14,
+        "gain_real": 1.0000000000000013,
+        "gain_imag": -4.429643394620502e-17
+      }
+    },
+    "扫频链路-calculate.json": {
+      "calculation_hash": "6f945140d20030e10a41fc3d09d1f0f2b7e4560ecbc12c7e08232daa600766e5",
+      "sha256": "bbd38e033bf3894d4071a702794f80ffcbe529e876e4c6d3ac750322d0ce46d8"
+    },
+    "扫频链路-noise.json": {
+      "calculation_hash": "6f945140d20030e10a41fc3d09d1f0f2b7e4560ecbc12c7e08232daa600766e5",
+      "sha256": "8f7ca1f7b259af98f21bd48982705af312fffd2b7e9dc0ccac7a7bc4bed777e6"
+    },
+    "扫频链路-sweep.json": {
+      "calculation_hash": "6f945140d20030e10a41fc3d09d1f0f2b7e4560ecbc12c7e08232daa600766e5",
+      "sha256": "bf5cc3d1bccfabe04b1b076bba2ef69e0bd9b550e355137cb4837aa6e7ebdd29"
+    },
+    "混频杂散链路-calculate.json": {
+      "calculation_hash": "f025b822559e264b9b547bbf8da4eaf9446131935ac350670e855fad82bd93f7",
+      "sha256": "133588e11177c39171c20d195450f46389e8ae98f92f9a264fb6095b5329cdf2"
+    },
+    "混频杂散链路-image.json": {
+      "calculation_hash": "f025b822559e264b9b547bbf8da4eaf9446131935ac350670e855fad82bd93f7",
+      "sha256": "0e948c0a0160b1d64b8d94ee06bc6b277ac61bbc9a6e42a84f483cf24052635e"
+    },
+    "混频杂散链路-imt.json": {
+      "calculation_hash": "f025b822559e264b9b547bbf8da4eaf9446131935ac350670e855fad82bd93f7",
+      "sha256": "8b7c07e3c62670e739f5c386e6bdb2f4441d36c9ae1bd885357f7c8a5512e29f"
+    }
+  },
+  "public_validation": "公开数据验证记录.json",
+  "harmonic_validation": "谐波与镜像验证.json",
+  "circuit_reference_report": "晶体管外部对标.json",
+  "circuit_report": "晶体管与周期噪声验证.json"
+}

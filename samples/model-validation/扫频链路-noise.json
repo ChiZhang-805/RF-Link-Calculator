@@ -1,0 +1,2414 @@
+{
+  "points": [
+    {
+      "frequency_hz": 99500000.0,
+      "frequency_output_hz": 99500000.0,
+      "power_dbm": -151.9951871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99502500.0,
+      "frequency_output_hz": 99502500.0,
+      "power_dbm": -151.99508719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99505000.0,
+      "frequency_output_hz": 99505000.0,
+      "power_dbm": -151.99498719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99507500.0,
+      "frequency_output_hz": 99507500.0,
+      "power_dbm": -151.9948871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99510000.0,
+      "frequency_output_hz": 99510000.0,
+      "power_dbm": -151.9947871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99512500.0,
+      "frequency_output_hz": 99512500.0,
+      "power_dbm": -151.9946871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99515000.0,
+      "frequency_output_hz": 99515000.0,
+      "power_dbm": -151.9945871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99517500.0,
+      "frequency_output_hz": 99517500.0,
+      "power_dbm": -151.9944871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99520000.0,
+      "frequency_output_hz": 99520000.0,
+      "power_dbm": -151.9943871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99522500.0,
+      "frequency_output_hz": 99522500.0,
+      "power_dbm": -151.9942871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99525000.0,
+      "frequency_output_hz": 99525000.0,
+      "power_dbm": -151.99418719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99527500.0,
+      "frequency_output_hz": 99527500.0,
+      "power_dbm": -151.99408719422811,
+      "path": []
+    },
+    {
+      "frequency_hz": 99530000.0,
+      "frequency_output_hz": 99530000.0,
+      "power_dbm": -151.9939871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99532500.0,
+      "frequency_output_hz": 99532500.0,
+      "power_dbm": -151.9938871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99535000.0,
+      "frequency_output_hz": 99535000.0,
+      "power_dbm": -151.9937871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99537500.0,
+      "frequency_output_hz": 99537500.0,
+      "power_dbm": -151.9936871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99540000.0,
+      "frequency_output_hz": 99540000.0,
+      "power_dbm": -151.9935871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99542500.0,
+      "frequency_output_hz": 99542500.0,
+      "power_dbm": -151.9934871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99545000.0,
+      "frequency_output_hz": 99545000.0,
+      "power_dbm": -151.9933871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99547500.0,
+      "frequency_output_hz": 99547500.0,
+      "power_dbm": -151.99328719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99550000.0,
+      "frequency_output_hz": 99550000.0,
+      "power_dbm": -151.9931871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99552500.0,
+      "frequency_output_hz": 99552500.0,
+      "power_dbm": -151.9930871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99555000.0,
+      "frequency_output_hz": 99555000.0,
+      "power_dbm": -151.9929871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99557500.0,
+      "frequency_output_hz": 99557500.0,
+      "power_dbm": -151.9928871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99560000.0,
+      "frequency_output_hz": 99560000.0,
+      "power_dbm": -151.9927871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99562500.0,
+      "frequency_output_hz": 99562500.0,
+      "power_dbm": -151.9926871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99565000.0,
+      "frequency_output_hz": 99565000.0,
+      "power_dbm": -151.9925871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99567500.0,
+      "frequency_output_hz": 99567500.0,
+      "power_dbm": -151.9924871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99570000.0,
+      "frequency_output_hz": 99570000.0,
+      "power_dbm": -151.99238719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99572500.0,
+      "frequency_output_hz": 99572500.0,
+      "power_dbm": -151.9922871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99575000.0,
+      "frequency_output_hz": 99575000.0,
+      "power_dbm": -151.9921871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99577500.0,
+      "frequency_output_hz": 99577500.0,
+      "power_dbm": -151.9920871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99580000.0,
+      "frequency_output_hz": 99580000.0,
+      "power_dbm": -151.9919871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99582500.0,
+      "frequency_output_hz": 99582500.0,
+      "power_dbm": -151.9918871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99585000.0,
+      "frequency_output_hz": 99585000.0,
+      "power_dbm": -151.9917871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99587500.0,
+      "frequency_output_hz": 99587500.0,
+      "power_dbm": -151.9916871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99590000.0,
+      "frequency_output_hz": 99590000.0,
+      "power_dbm": -151.9915871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99592500.0,
+      "frequency_output_hz": 99592500.0,
+      "power_dbm": -151.9914871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99595000.0,
+      "frequency_output_hz": 99595000.0,
+      "power_dbm": -151.9913871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99597500.0,
+      "frequency_output_hz": 99597500.0,
+      "power_dbm": -151.9912871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99600000.0,
+      "frequency_output_hz": 99600000.0,
+      "power_dbm": -151.9911871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99602500.0,
+      "frequency_output_hz": 99602500.0,
+      "power_dbm": -151.9910871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99605000.0,
+      "frequency_output_hz": 99605000.0,
+      "power_dbm": -151.9909871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99607500.0,
+      "frequency_output_hz": 99607500.0,
+      "power_dbm": -151.9908871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99610000.0,
+      "frequency_output_hz": 99610000.0,
+      "power_dbm": -151.99078719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99612500.0,
+      "frequency_output_hz": 99612500.0,
+      "power_dbm": -151.9906871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99615000.0,
+      "frequency_output_hz": 99615000.0,
+      "power_dbm": -151.9905871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99617500.0,
+      "frequency_output_hz": 99617500.0,
+      "power_dbm": -151.9904871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99620000.0,
+      "frequency_output_hz": 99620000.0,
+      "power_dbm": -151.9903871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99622500.0,
+      "frequency_output_hz": 99622500.0,
+      "power_dbm": -151.9902871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99625000.0,
+      "frequency_output_hz": 99625000.0,
+      "power_dbm": -151.9901871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99627500.0,
+      "frequency_output_hz": 99627500.0,
+      "power_dbm": -151.9900871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99630000.0,
+      "frequency_output_hz": 99630000.0,
+      "power_dbm": -151.9899871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99632500.0,
+      "frequency_output_hz": 99632500.0,
+      "power_dbm": -151.98988719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99635000.0,
+      "frequency_output_hz": 99635000.0,
+      "power_dbm": -151.9897871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99637500.0,
+      "frequency_output_hz": 99637500.0,
+      "power_dbm": -151.9896871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99640000.0,
+      "frequency_output_hz": 99640000.0,
+      "power_dbm": -151.9895871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99642500.0,
+      "frequency_output_hz": 99642500.0,
+      "power_dbm": -151.9894871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99645000.0,
+      "frequency_output_hz": 99645000.0,
+      "power_dbm": -151.9893871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99647500.0,
+      "frequency_output_hz": 99647500.0,
+      "power_dbm": -151.9892871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99650000.0,
+      "frequency_output_hz": 99650000.0,
+      "power_dbm": -151.9891871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99652500.0,
+      "frequency_output_hz": 99652500.0,
+      "power_dbm": -151.9890871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99655000.0,
+      "frequency_output_hz": 99655000.0,
+      "power_dbm": -151.98898719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99657500.0,
+      "frequency_output_hz": 99657500.0,
+      "power_dbm": -151.98888719422808,
+      "path": []
+    },
+    {
+      "frequency_hz": 99660000.0,
+      "frequency_output_hz": 99660000.0,
+      "power_dbm": -151.9887871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99662500.0,
+      "frequency_output_hz": 99662500.0,
+      "power_dbm": -151.9886871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99665000.0,
+      "frequency_output_hz": 99665000.0,
+      "power_dbm": -151.9885871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99667500.0,
+      "frequency_output_hz": 99667500.0,
+      "power_dbm": -151.9884871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99670000.0,
+      "frequency_output_hz": 99670000.0,
+      "power_dbm": -151.98838719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99672500.0,
+      "frequency_output_hz": 99672500.0,
+      "power_dbm": -151.9882871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99675000.0,
+      "frequency_output_hz": 99675000.0,
+      "power_dbm": -151.9881871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99677500.0,
+      "frequency_output_hz": 99677500.0,
+      "power_dbm": -151.98808719422811,
+      "path": []
+    },
+    {
+      "frequency_hz": 99680000.0,
+      "frequency_output_hz": 99680000.0,
+      "power_dbm": -151.9879871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99682500.0,
+      "frequency_output_hz": 99682500.0,
+      "power_dbm": -151.9878871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99685000.0,
+      "frequency_output_hz": 99685000.0,
+      "power_dbm": -151.9877871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99687500.0,
+      "frequency_output_hz": 99687500.0,
+      "power_dbm": -151.9876871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99690000.0,
+      "frequency_output_hz": 99690000.0,
+      "power_dbm": -151.9875871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99692500.0,
+      "frequency_output_hz": 99692500.0,
+      "power_dbm": -151.98748719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99695000.0,
+      "frequency_output_hz": 99695000.0,
+      "power_dbm": -151.9873871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99697500.0,
+      "frequency_output_hz": 99697500.0,
+      "power_dbm": -151.9872871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99700000.0,
+      "frequency_output_hz": 99700000.0,
+      "power_dbm": -151.9871871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99702500.0,
+      "frequency_output_hz": 99702500.0,
+      "power_dbm": -151.9870871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99705000.0,
+      "frequency_output_hz": 99705000.0,
+      "power_dbm": -151.9869871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99707500.0,
+      "frequency_output_hz": 99707500.0,
+      "power_dbm": -151.9868871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99710000.0,
+      "frequency_output_hz": 99710000.0,
+      "power_dbm": -151.9867871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99712500.0,
+      "frequency_output_hz": 99712500.0,
+      "power_dbm": -151.9866871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99715000.0,
+      "frequency_output_hz": 99715000.0,
+      "power_dbm": -151.98658719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99717500.0,
+      "frequency_output_hz": 99717500.0,
+      "power_dbm": -151.98648719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99720000.0,
+      "frequency_output_hz": 99720000.0,
+      "power_dbm": -151.9863871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99722500.0,
+      "frequency_output_hz": 99722500.0,
+      "power_dbm": -151.9862871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99725000.0,
+      "frequency_output_hz": 99725000.0,
+      "power_dbm": -151.9861871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99727500.0,
+      "frequency_output_hz": 99727500.0,
+      "power_dbm": -151.9860871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99730000.0,
+      "frequency_output_hz": 99730000.0,
+      "power_dbm": -151.9859871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99732500.0,
+      "frequency_output_hz": 99732500.0,
+      "power_dbm": -151.9858871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99735000.0,
+      "frequency_output_hz": 99735000.0,
+      "power_dbm": -151.9857871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99737500.0,
+      "frequency_output_hz": 99737500.0,
+      "power_dbm": -151.98568719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99740000.0,
+      "frequency_output_hz": 99740000.0,
+      "power_dbm": -151.98558719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99742500.0,
+      "frequency_output_hz": 99742500.0,
+      "power_dbm": -151.98548719422809,
+      "path": []
+    },
+    {
+      "frequency_hz": 99745000.0,
+      "frequency_output_hz": 99745000.0,
+      "power_dbm": -151.9853871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99747500.0,
+      "frequency_output_hz": 99747500.0,
+      "power_dbm": -151.9852871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99750000.0,
+      "frequency_output_hz": 99750000.0,
+      "power_dbm": -151.9851871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99752500.0,
+      "frequency_output_hz": 99752500.0,
+      "power_dbm": -151.9850871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99755000.0,
+      "frequency_output_hz": 99755000.0,
+      "power_dbm": -151.9849871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99757500.0,
+      "frequency_output_hz": 99757500.0,
+      "power_dbm": -151.9848871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99760000.0,
+      "frequency_output_hz": 99760000.0,
+      "power_dbm": -151.98478719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99762500.0,
+      "frequency_output_hz": 99762500.0,
+      "power_dbm": -151.98468719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99765000.0,
+      "frequency_output_hz": 99765000.0,
+      "power_dbm": -151.98458719422808,
+      "path": []
+    },
+    {
+      "frequency_hz": 99767500.0,
+      "frequency_output_hz": 99767500.0,
+      "power_dbm": -151.9844871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99770000.0,
+      "frequency_output_hz": 99770000.0,
+      "power_dbm": -151.9843871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99772500.0,
+      "frequency_output_hz": 99772500.0,
+      "power_dbm": -151.9842871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99775000.0,
+      "frequency_output_hz": 99775000.0,
+      "power_dbm": -151.98418719422813,
+      "path": []
+    },
+    {
+      "frequency_hz": 99777500.0,
+      "frequency_output_hz": 99777500.0,
+      "power_dbm": -151.9840871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99780000.0,
+      "frequency_output_hz": 99780000.0,
+      "power_dbm": -151.9839871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99782500.0,
+      "frequency_output_hz": 99782500.0,
+      "power_dbm": -151.98388719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99785000.0,
+      "frequency_output_hz": 99785000.0,
+      "power_dbm": -151.9837871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99787500.0,
+      "frequency_output_hz": 99787500.0,
+      "power_dbm": -151.9836871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99790000.0,
+      "frequency_output_hz": 99790000.0,
+      "power_dbm": -151.9835871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99792500.0,
+      "frequency_output_hz": 99792500.0,
+      "power_dbm": -151.9834871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99795000.0,
+      "frequency_output_hz": 99795000.0,
+      "power_dbm": -151.9833871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99797500.0,
+      "frequency_output_hz": 99797500.0,
+      "power_dbm": -151.98328719422813,
+      "path": []
+    },
+    {
+      "frequency_hz": 99800000.0,
+      "frequency_output_hz": 99800000.0,
+      "power_dbm": -151.9831871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99802500.0,
+      "frequency_output_hz": 99802500.0,
+      "power_dbm": -151.9830871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99805000.0,
+      "frequency_output_hz": 99805000.0,
+      "power_dbm": -151.98298719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99807500.0,
+      "frequency_output_hz": 99807500.0,
+      "power_dbm": -151.9828871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99810000.0,
+      "frequency_output_hz": 99810000.0,
+      "power_dbm": -151.98278719422808,
+      "path": []
+    },
+    {
+      "frequency_hz": 99812500.0,
+      "frequency_output_hz": 99812500.0,
+      "power_dbm": -151.9826871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99815000.0,
+      "frequency_output_hz": 99815000.0,
+      "power_dbm": -151.9825871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99817500.0,
+      "frequency_output_hz": 99817500.0,
+      "power_dbm": -151.9824871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99820000.0,
+      "frequency_output_hz": 99820000.0,
+      "power_dbm": -151.98238719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99822500.0,
+      "frequency_output_hz": 99822500.0,
+      "power_dbm": -151.9822871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99825000.0,
+      "frequency_output_hz": 99825000.0,
+      "power_dbm": -151.9821871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99827500.0,
+      "frequency_output_hz": 99827500.0,
+      "power_dbm": -151.98208719422811,
+      "path": []
+    },
+    {
+      "frequency_hz": 99830000.0,
+      "frequency_output_hz": 99830000.0,
+      "power_dbm": -151.9819871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99832500.0,
+      "frequency_output_hz": 99832500.0,
+      "power_dbm": -151.9818871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99835000.0,
+      "frequency_output_hz": 99835000.0,
+      "power_dbm": -151.9817871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99837500.0,
+      "frequency_output_hz": 99837500.0,
+      "power_dbm": -151.9816871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99840000.0,
+      "frequency_output_hz": 99840000.0,
+      "power_dbm": -151.9815871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99842500.0,
+      "frequency_output_hz": 99842500.0,
+      "power_dbm": -151.98148719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99845000.0,
+      "frequency_output_hz": 99845000.0,
+      "power_dbm": -151.98138719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99847500.0,
+      "frequency_output_hz": 99847500.0,
+      "power_dbm": -151.9812871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99850000.0,
+      "frequency_output_hz": 99850000.0,
+      "power_dbm": -151.9811871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99852500.0,
+      "frequency_output_hz": 99852500.0,
+      "power_dbm": -151.9810871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99855000.0,
+      "frequency_output_hz": 99855000.0,
+      "power_dbm": -151.9809871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99857500.0,
+      "frequency_output_hz": 99857500.0,
+      "power_dbm": -151.9808871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99860000.0,
+      "frequency_output_hz": 99860000.0,
+      "power_dbm": -151.9807871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99862500.0,
+      "frequency_output_hz": 99862500.0,
+      "power_dbm": -151.9806871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99865000.0,
+      "frequency_output_hz": 99865000.0,
+      "power_dbm": -151.98058719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99867500.0,
+      "frequency_output_hz": 99867500.0,
+      "power_dbm": -151.98048719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99870000.0,
+      "frequency_output_hz": 99870000.0,
+      "power_dbm": -151.9803871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99872500.0,
+      "frequency_output_hz": 99872500.0,
+      "power_dbm": -151.9802871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99875000.0,
+      "frequency_output_hz": 99875000.0,
+      "power_dbm": -151.9801871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99877500.0,
+      "frequency_output_hz": 99877500.0,
+      "power_dbm": -151.9800871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99880000.0,
+      "frequency_output_hz": 99880000.0,
+      "power_dbm": -151.9799871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99882500.0,
+      "frequency_output_hz": 99882500.0,
+      "power_dbm": -151.9798871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99885000.0,
+      "frequency_output_hz": 99885000.0,
+      "power_dbm": -151.9797871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99887500.0,
+      "frequency_output_hz": 99887500.0,
+      "power_dbm": -151.97968719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99890000.0,
+      "frequency_output_hz": 99890000.0,
+      "power_dbm": -151.97958719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99892500.0,
+      "frequency_output_hz": 99892500.0,
+      "power_dbm": -151.9794871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99895000.0,
+      "frequency_output_hz": 99895000.0,
+      "power_dbm": -151.9793871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99897500.0,
+      "frequency_output_hz": 99897500.0,
+      "power_dbm": -151.9792871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99900000.0,
+      "frequency_output_hz": 99900000.0,
+      "power_dbm": -151.9791871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99902500.0,
+      "frequency_output_hz": 99902500.0,
+      "power_dbm": -151.9790871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99905000.0,
+      "frequency_output_hz": 99905000.0,
+      "power_dbm": -151.97898719422813,
+      "path": []
+    },
+    {
+      "frequency_hz": 99907500.0,
+      "frequency_output_hz": 99907500.0,
+      "power_dbm": -151.9788871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99910000.0,
+      "frequency_output_hz": 99910000.0,
+      "power_dbm": -151.97878719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99912500.0,
+      "frequency_output_hz": 99912500.0,
+      "power_dbm": -151.97868719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99915000.0,
+      "frequency_output_hz": 99915000.0,
+      "power_dbm": -151.9785871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99917500.0,
+      "frequency_output_hz": 99917500.0,
+      "power_dbm": -151.9784871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99920000.0,
+      "frequency_output_hz": 99920000.0,
+      "power_dbm": -151.9783871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99922500.0,
+      "frequency_output_hz": 99922500.0,
+      "power_dbm": -151.9782871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99925000.0,
+      "frequency_output_hz": 99925000.0,
+      "power_dbm": -151.9781871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99927500.0,
+      "frequency_output_hz": 99927500.0,
+      "power_dbm": -151.97808719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99930000.0,
+      "frequency_output_hz": 99930000.0,
+      "power_dbm": -151.9779871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99932500.0,
+      "frequency_output_hz": 99932500.0,
+      "power_dbm": -151.97788719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99935000.0,
+      "frequency_output_hz": 99935000.0,
+      "power_dbm": -151.9777871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99937500.0,
+      "frequency_output_hz": 99937500.0,
+      "power_dbm": -151.9776871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99940000.0,
+      "frequency_output_hz": 99940000.0,
+      "power_dbm": -151.9775871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99942500.0,
+      "frequency_output_hz": 99942500.0,
+      "power_dbm": -151.9774871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99945000.0,
+      "frequency_output_hz": 99945000.0,
+      "power_dbm": -151.9773871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99947500.0,
+      "frequency_output_hz": 99947500.0,
+      "power_dbm": -151.9772871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99950000.0,
+      "frequency_output_hz": 99950000.0,
+      "power_dbm": -151.97718719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99952500.0,
+      "frequency_output_hz": 99952500.0,
+      "power_dbm": -151.9770871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99955000.0,
+      "frequency_output_hz": 99955000.0,
+      "power_dbm": -151.97698719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99957500.0,
+      "frequency_output_hz": 99957500.0,
+      "power_dbm": -151.9768871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99960000.0,
+      "frequency_output_hz": 99960000.0,
+      "power_dbm": -151.9767871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99962500.0,
+      "frequency_output_hz": 99962500.0,
+      "power_dbm": -151.9766871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99965000.0,
+      "frequency_output_hz": 99965000.0,
+      "power_dbm": -151.9765871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99967500.0,
+      "frequency_output_hz": 99967500.0,
+      "power_dbm": -151.9764871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99970000.0,
+      "frequency_output_hz": 99970000.0,
+      "power_dbm": -151.9763871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99972500.0,
+      "frequency_output_hz": 99972500.0,
+      "power_dbm": -151.97628719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99975000.0,
+      "frequency_output_hz": 99975000.0,
+      "power_dbm": -151.97618719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99977500.0,
+      "frequency_output_hz": 99977500.0,
+      "power_dbm": -151.9760871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99980000.0,
+      "frequency_output_hz": 99980000.0,
+      "power_dbm": -151.9759871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99982500.0,
+      "frequency_output_hz": 99982500.0,
+      "power_dbm": -151.9758871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99985000.0,
+      "frequency_output_hz": 99985000.0,
+      "power_dbm": -151.9757871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99987500.0,
+      "frequency_output_hz": 99987500.0,
+      "power_dbm": -151.9756871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99990000.0,
+      "frequency_output_hz": 99990000.0,
+      "power_dbm": -151.9755871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99992500.0,
+      "frequency_output_hz": 99992500.0,
+      "power_dbm": -151.9754871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 99995000.0,
+      "frequency_output_hz": 99995000.0,
+      "power_dbm": -151.97538719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 99997500.0,
+      "frequency_output_hz": 99997500.0,
+      "power_dbm": -151.9752871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100000000.0,
+      "frequency_output_hz": 100000000.0,
+      "power_dbm": -151.9751871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100002500.0,
+      "frequency_output_hz": 100002500.0,
+      "power_dbm": -151.9752871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100005000.0,
+      "frequency_output_hz": 100005000.0,
+      "power_dbm": -151.97538719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100007500.0,
+      "frequency_output_hz": 100007500.0,
+      "power_dbm": -151.9754871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100010000.0,
+      "frequency_output_hz": 100010000.0,
+      "power_dbm": -151.9755871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100012500.0,
+      "frequency_output_hz": 100012500.0,
+      "power_dbm": -151.9756871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100015000.0,
+      "frequency_output_hz": 100015000.0,
+      "power_dbm": -151.9757871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100017500.0,
+      "frequency_output_hz": 100017500.0,
+      "power_dbm": -151.9758871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100020000.0,
+      "frequency_output_hz": 100020000.0,
+      "power_dbm": -151.9759871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100022500.0,
+      "frequency_output_hz": 100022500.0,
+      "power_dbm": -151.9760871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100025000.0,
+      "frequency_output_hz": 100025000.0,
+      "power_dbm": -151.97618719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100027500.0,
+      "frequency_output_hz": 100027500.0,
+      "power_dbm": -151.97628719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100030000.0,
+      "frequency_output_hz": 100030000.0,
+      "power_dbm": -151.9763871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100032500.0,
+      "frequency_output_hz": 100032500.0,
+      "power_dbm": -151.9764871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100035000.0,
+      "frequency_output_hz": 100035000.0,
+      "power_dbm": -151.9765871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100037500.0,
+      "frequency_output_hz": 100037500.0,
+      "power_dbm": -151.9766871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100040000.0,
+      "frequency_output_hz": 100040000.0,
+      "power_dbm": -151.9767871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100042500.0,
+      "frequency_output_hz": 100042500.0,
+      "power_dbm": -151.9768871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100045000.0,
+      "frequency_output_hz": 100045000.0,
+      "power_dbm": -151.97698719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100047500.0,
+      "frequency_output_hz": 100047500.0,
+      "power_dbm": -151.9770871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100050000.0,
+      "frequency_output_hz": 100050000.0,
+      "power_dbm": -151.97718719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100052500.0,
+      "frequency_output_hz": 100052500.0,
+      "power_dbm": -151.9772871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100055000.0,
+      "frequency_output_hz": 100055000.0,
+      "power_dbm": -151.9773871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100057500.0,
+      "frequency_output_hz": 100057500.0,
+      "power_dbm": -151.9774871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100060000.0,
+      "frequency_output_hz": 100060000.0,
+      "power_dbm": -151.9775871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100062500.0,
+      "frequency_output_hz": 100062500.0,
+      "power_dbm": -151.9776871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100065000.0,
+      "frequency_output_hz": 100065000.0,
+      "power_dbm": -151.9777871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100067500.0,
+      "frequency_output_hz": 100067500.0,
+      "power_dbm": -151.97788719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100070000.0,
+      "frequency_output_hz": 100070000.0,
+      "power_dbm": -151.9779871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100072500.0,
+      "frequency_output_hz": 100072500.0,
+      "power_dbm": -151.97808719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100075000.0,
+      "frequency_output_hz": 100075000.0,
+      "power_dbm": -151.9781871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100077500.0,
+      "frequency_output_hz": 100077500.0,
+      "power_dbm": -151.9782871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100080000.0,
+      "frequency_output_hz": 100080000.0,
+      "power_dbm": -151.9783871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100082500.0,
+      "frequency_output_hz": 100082500.0,
+      "power_dbm": -151.9784871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100085000.0,
+      "frequency_output_hz": 100085000.0,
+      "power_dbm": -151.9785871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100087500.0,
+      "frequency_output_hz": 100087500.0,
+      "power_dbm": -151.97868719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100090000.0,
+      "frequency_output_hz": 100090000.0,
+      "power_dbm": -151.97878719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100092500.0,
+      "frequency_output_hz": 100092500.0,
+      "power_dbm": -151.9788871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100095000.0,
+      "frequency_output_hz": 100095000.0,
+      "power_dbm": -151.97898719422813,
+      "path": []
+    },
+    {
+      "frequency_hz": 100097500.0,
+      "frequency_output_hz": 100097500.0,
+      "power_dbm": -151.9790871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100100000.0,
+      "frequency_output_hz": 100100000.0,
+      "power_dbm": -151.9791871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100102500.0,
+      "frequency_output_hz": 100102500.0,
+      "power_dbm": -151.9792871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100105000.0,
+      "frequency_output_hz": 100105000.0,
+      "power_dbm": -151.9793871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100107500.0,
+      "frequency_output_hz": 100107500.0,
+      "power_dbm": -151.9794871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100110000.0,
+      "frequency_output_hz": 100110000.0,
+      "power_dbm": -151.97958719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100112500.0,
+      "frequency_output_hz": 100112500.0,
+      "power_dbm": -151.97968719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100115000.0,
+      "frequency_output_hz": 100115000.0,
+      "power_dbm": -151.9797871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100117500.0,
+      "frequency_output_hz": 100117500.0,
+      "power_dbm": -151.9798871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100120000.0,
+      "frequency_output_hz": 100120000.0,
+      "power_dbm": -151.9799871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100122500.0,
+      "frequency_output_hz": 100122500.0,
+      "power_dbm": -151.9800871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100125000.0,
+      "frequency_output_hz": 100125000.0,
+      "power_dbm": -151.9801871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100127500.0,
+      "frequency_output_hz": 100127500.0,
+      "power_dbm": -151.9802871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100130000.0,
+      "frequency_output_hz": 100130000.0,
+      "power_dbm": -151.9803871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100132500.0,
+      "frequency_output_hz": 100132500.0,
+      "power_dbm": -151.98048719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100135000.0,
+      "frequency_output_hz": 100135000.0,
+      "power_dbm": -151.98058719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100137500.0,
+      "frequency_output_hz": 100137500.0,
+      "power_dbm": -151.9806871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100140000.0,
+      "frequency_output_hz": 100140000.0,
+      "power_dbm": -151.9807871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100142500.0,
+      "frequency_output_hz": 100142500.0,
+      "power_dbm": -151.9808871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100145000.0,
+      "frequency_output_hz": 100145000.0,
+      "power_dbm": -151.9809871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100147500.0,
+      "frequency_output_hz": 100147500.0,
+      "power_dbm": -151.9810871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100150000.0,
+      "frequency_output_hz": 100150000.0,
+      "power_dbm": -151.9811871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100152500.0,
+      "frequency_output_hz": 100152500.0,
+      "power_dbm": -151.9812871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100155000.0,
+      "frequency_output_hz": 100155000.0,
+      "power_dbm": -151.98138719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100157500.0,
+      "frequency_output_hz": 100157500.0,
+      "power_dbm": -151.98148719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100160000.0,
+      "frequency_output_hz": 100160000.0,
+      "power_dbm": -151.9815871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100162500.0,
+      "frequency_output_hz": 100162500.0,
+      "power_dbm": -151.9816871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100165000.0,
+      "frequency_output_hz": 100165000.0,
+      "power_dbm": -151.9817871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100167500.0,
+      "frequency_output_hz": 100167500.0,
+      "power_dbm": -151.9818871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100170000.0,
+      "frequency_output_hz": 100170000.0,
+      "power_dbm": -151.9819871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100172500.0,
+      "frequency_output_hz": 100172500.0,
+      "power_dbm": -151.98208719422811,
+      "path": []
+    },
+    {
+      "frequency_hz": 100175000.0,
+      "frequency_output_hz": 100175000.0,
+      "power_dbm": -151.9821871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100177500.0,
+      "frequency_output_hz": 100177500.0,
+      "power_dbm": -151.9822871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100180000.0,
+      "frequency_output_hz": 100180000.0,
+      "power_dbm": -151.98238719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100182500.0,
+      "frequency_output_hz": 100182500.0,
+      "power_dbm": -151.9824871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100185000.0,
+      "frequency_output_hz": 100185000.0,
+      "power_dbm": -151.9825871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100187500.0,
+      "frequency_output_hz": 100187500.0,
+      "power_dbm": -151.9826871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100190000.0,
+      "frequency_output_hz": 100190000.0,
+      "power_dbm": -151.98278719422808,
+      "path": []
+    },
+    {
+      "frequency_hz": 100192500.0,
+      "frequency_output_hz": 100192500.0,
+      "power_dbm": -151.9828871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100195000.0,
+      "frequency_output_hz": 100195000.0,
+      "power_dbm": -151.98298719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100197500.0,
+      "frequency_output_hz": 100197500.0,
+      "power_dbm": -151.9830871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100200000.0,
+      "frequency_output_hz": 100200000.0,
+      "power_dbm": -151.9831871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100202500.0,
+      "frequency_output_hz": 100202500.0,
+      "power_dbm": -151.98328719422813,
+      "path": []
+    },
+    {
+      "frequency_hz": 100205000.0,
+      "frequency_output_hz": 100205000.0,
+      "power_dbm": -151.9833871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100207500.0,
+      "frequency_output_hz": 100207500.0,
+      "power_dbm": -151.9834871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100210000.0,
+      "frequency_output_hz": 100210000.0,
+      "power_dbm": -151.9835871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100212500.0,
+      "frequency_output_hz": 100212500.0,
+      "power_dbm": -151.9836871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100215000.0,
+      "frequency_output_hz": 100215000.0,
+      "power_dbm": -151.9837871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100217500.0,
+      "frequency_output_hz": 100217500.0,
+      "power_dbm": -151.98388719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100220000.0,
+      "frequency_output_hz": 100220000.0,
+      "power_dbm": -151.9839871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100222500.0,
+      "frequency_output_hz": 100222500.0,
+      "power_dbm": -151.9840871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100225000.0,
+      "frequency_output_hz": 100225000.0,
+      "power_dbm": -151.98418719422813,
+      "path": []
+    },
+    {
+      "frequency_hz": 100227500.0,
+      "frequency_output_hz": 100227500.0,
+      "power_dbm": -151.9842871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100230000.0,
+      "frequency_output_hz": 100230000.0,
+      "power_dbm": -151.9843871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100232500.0,
+      "frequency_output_hz": 100232500.0,
+      "power_dbm": -151.9844871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100235000.0,
+      "frequency_output_hz": 100235000.0,
+      "power_dbm": -151.98458719422808,
+      "path": []
+    },
+    {
+      "frequency_hz": 100237500.0,
+      "frequency_output_hz": 100237500.0,
+      "power_dbm": -151.98468719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100240000.0,
+      "frequency_output_hz": 100240000.0,
+      "power_dbm": -151.98478719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100242500.0,
+      "frequency_output_hz": 100242500.0,
+      "power_dbm": -151.9848871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100245000.0,
+      "frequency_output_hz": 100245000.0,
+      "power_dbm": -151.9849871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100247500.0,
+      "frequency_output_hz": 100247500.0,
+      "power_dbm": -151.9850871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100250000.0,
+      "frequency_output_hz": 100250000.0,
+      "power_dbm": -151.9851871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100252500.0,
+      "frequency_output_hz": 100252500.0,
+      "power_dbm": -151.9852871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100255000.0,
+      "frequency_output_hz": 100255000.0,
+      "power_dbm": -151.9853871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100257500.0,
+      "frequency_output_hz": 100257500.0,
+      "power_dbm": -151.98548719422809,
+      "path": []
+    },
+    {
+      "frequency_hz": 100260000.0,
+      "frequency_output_hz": 100260000.0,
+      "power_dbm": -151.98558719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100262500.0,
+      "frequency_output_hz": 100262500.0,
+      "power_dbm": -151.98568719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100265000.0,
+      "frequency_output_hz": 100265000.0,
+      "power_dbm": -151.9857871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100267500.0,
+      "frequency_output_hz": 100267500.0,
+      "power_dbm": -151.9858871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100270000.0,
+      "frequency_output_hz": 100270000.0,
+      "power_dbm": -151.9859871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100272500.0,
+      "frequency_output_hz": 100272500.0,
+      "power_dbm": -151.9860871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100275000.0,
+      "frequency_output_hz": 100275000.0,
+      "power_dbm": -151.9861871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100277500.0,
+      "frequency_output_hz": 100277500.0,
+      "power_dbm": -151.9862871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100280000.0,
+      "frequency_output_hz": 100280000.0,
+      "power_dbm": -151.9863871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100282500.0,
+      "frequency_output_hz": 100282500.0,
+      "power_dbm": -151.98648719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100285000.0,
+      "frequency_output_hz": 100285000.0,
+      "power_dbm": -151.98658719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100287500.0,
+      "frequency_output_hz": 100287500.0,
+      "power_dbm": -151.9866871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100290000.0,
+      "frequency_output_hz": 100290000.0,
+      "power_dbm": -151.9867871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100292500.0,
+      "frequency_output_hz": 100292500.0,
+      "power_dbm": -151.9868871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100295000.0,
+      "frequency_output_hz": 100295000.0,
+      "power_dbm": -151.9869871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100297500.0,
+      "frequency_output_hz": 100297500.0,
+      "power_dbm": -151.9870871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100300000.0,
+      "frequency_output_hz": 100300000.0,
+      "power_dbm": -151.9871871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100302500.0,
+      "frequency_output_hz": 100302500.0,
+      "power_dbm": -151.9872871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100305000.0,
+      "frequency_output_hz": 100305000.0,
+      "power_dbm": -151.9873871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100307500.0,
+      "frequency_output_hz": 100307500.0,
+      "power_dbm": -151.98748719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100310000.0,
+      "frequency_output_hz": 100310000.0,
+      "power_dbm": -151.9875871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100312500.0,
+      "frequency_output_hz": 100312500.0,
+      "power_dbm": -151.9876871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100315000.0,
+      "frequency_output_hz": 100315000.0,
+      "power_dbm": -151.9877871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100317500.0,
+      "frequency_output_hz": 100317500.0,
+      "power_dbm": -151.9878871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100320000.0,
+      "frequency_output_hz": 100320000.0,
+      "power_dbm": -151.9879871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100322500.0,
+      "frequency_output_hz": 100322500.0,
+      "power_dbm": -151.98808719422811,
+      "path": []
+    },
+    {
+      "frequency_hz": 100325000.0,
+      "frequency_output_hz": 100325000.0,
+      "power_dbm": -151.9881871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100327500.0,
+      "frequency_output_hz": 100327500.0,
+      "power_dbm": -151.9882871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100330000.0,
+      "frequency_output_hz": 100330000.0,
+      "power_dbm": -151.98838719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100332500.0,
+      "frequency_output_hz": 100332500.0,
+      "power_dbm": -151.9884871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100335000.0,
+      "frequency_output_hz": 100335000.0,
+      "power_dbm": -151.9885871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100337500.0,
+      "frequency_output_hz": 100337500.0,
+      "power_dbm": -151.9886871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100340000.0,
+      "frequency_output_hz": 100340000.0,
+      "power_dbm": -151.9887871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100342500.0,
+      "frequency_output_hz": 100342500.0,
+      "power_dbm": -151.98888719422808,
+      "path": []
+    },
+    {
+      "frequency_hz": 100345000.0,
+      "frequency_output_hz": 100345000.0,
+      "power_dbm": -151.98898719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100347500.0,
+      "frequency_output_hz": 100347500.0,
+      "power_dbm": -151.9890871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100350000.0,
+      "frequency_output_hz": 100350000.0,
+      "power_dbm": -151.9891871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100352500.0,
+      "frequency_output_hz": 100352500.0,
+      "power_dbm": -151.9892871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100355000.0,
+      "frequency_output_hz": 100355000.0,
+      "power_dbm": -151.9893871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100357500.0,
+      "frequency_output_hz": 100357500.0,
+      "power_dbm": -151.9894871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100360000.0,
+      "frequency_output_hz": 100360000.0,
+      "power_dbm": -151.9895871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100362500.0,
+      "frequency_output_hz": 100362500.0,
+      "power_dbm": -151.9896871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100365000.0,
+      "frequency_output_hz": 100365000.0,
+      "power_dbm": -151.9897871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100367500.0,
+      "frequency_output_hz": 100367500.0,
+      "power_dbm": -151.98988719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100370000.0,
+      "frequency_output_hz": 100370000.0,
+      "power_dbm": -151.9899871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100372500.0,
+      "frequency_output_hz": 100372500.0,
+      "power_dbm": -151.9900871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100375000.0,
+      "frequency_output_hz": 100375000.0,
+      "power_dbm": -151.9901871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100377500.0,
+      "frequency_output_hz": 100377500.0,
+      "power_dbm": -151.9902871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100380000.0,
+      "frequency_output_hz": 100380000.0,
+      "power_dbm": -151.9903871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100382500.0,
+      "frequency_output_hz": 100382500.0,
+      "power_dbm": -151.9904871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100385000.0,
+      "frequency_output_hz": 100385000.0,
+      "power_dbm": -151.9905871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100387500.0,
+      "frequency_output_hz": 100387500.0,
+      "power_dbm": -151.9906871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100390000.0,
+      "frequency_output_hz": 100390000.0,
+      "power_dbm": -151.99078719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100392500.0,
+      "frequency_output_hz": 100392500.0,
+      "power_dbm": -151.9908871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100395000.0,
+      "frequency_output_hz": 100395000.0,
+      "power_dbm": -151.9909871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100397500.0,
+      "frequency_output_hz": 100397500.0,
+      "power_dbm": -151.9910871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100400000.0,
+      "frequency_output_hz": 100400000.0,
+      "power_dbm": -151.9911871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100402500.0,
+      "frequency_output_hz": 100402500.0,
+      "power_dbm": -151.9912871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100405000.0,
+      "frequency_output_hz": 100405000.0,
+      "power_dbm": -151.9913871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100407500.0,
+      "frequency_output_hz": 100407500.0,
+      "power_dbm": -151.9914871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100410000.0,
+      "frequency_output_hz": 100410000.0,
+      "power_dbm": -151.9915871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100412500.0,
+      "frequency_output_hz": 100412500.0,
+      "power_dbm": -151.9916871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100415000.0,
+      "frequency_output_hz": 100415000.0,
+      "power_dbm": -151.9917871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100417500.0,
+      "frequency_output_hz": 100417500.0,
+      "power_dbm": -151.9918871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100420000.0,
+      "frequency_output_hz": 100420000.0,
+      "power_dbm": -151.9919871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100422500.0,
+      "frequency_output_hz": 100422500.0,
+      "power_dbm": -151.9920871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100425000.0,
+      "frequency_output_hz": 100425000.0,
+      "power_dbm": -151.9921871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100427500.0,
+      "frequency_output_hz": 100427500.0,
+      "power_dbm": -151.9922871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100430000.0,
+      "frequency_output_hz": 100430000.0,
+      "power_dbm": -151.99238719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100432500.0,
+      "frequency_output_hz": 100432500.0,
+      "power_dbm": -151.9924871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100435000.0,
+      "frequency_output_hz": 100435000.0,
+      "power_dbm": -151.9925871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100437500.0,
+      "frequency_output_hz": 100437500.0,
+      "power_dbm": -151.9926871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100440000.0,
+      "frequency_output_hz": 100440000.0,
+      "power_dbm": -151.9927871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100442500.0,
+      "frequency_output_hz": 100442500.0,
+      "power_dbm": -151.9928871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100445000.0,
+      "frequency_output_hz": 100445000.0,
+      "power_dbm": -151.9929871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100447500.0,
+      "frequency_output_hz": 100447500.0,
+      "power_dbm": -151.9930871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100450000.0,
+      "frequency_output_hz": 100450000.0,
+      "power_dbm": -151.9931871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100452500.0,
+      "frequency_output_hz": 100452500.0,
+      "power_dbm": -151.99328719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100455000.0,
+      "frequency_output_hz": 100455000.0,
+      "power_dbm": -151.9933871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100457500.0,
+      "frequency_output_hz": 100457500.0,
+      "power_dbm": -151.9934871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100460000.0,
+      "frequency_output_hz": 100460000.0,
+      "power_dbm": -151.9935871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100462500.0,
+      "frequency_output_hz": 100462500.0,
+      "power_dbm": -151.9936871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100465000.0,
+      "frequency_output_hz": 100465000.0,
+      "power_dbm": -151.9937871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100467500.0,
+      "frequency_output_hz": 100467500.0,
+      "power_dbm": -151.9938871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100470000.0,
+      "frequency_output_hz": 100470000.0,
+      "power_dbm": -151.9939871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100472500.0,
+      "frequency_output_hz": 100472500.0,
+      "power_dbm": -151.99408719422811,
+      "path": []
+    },
+    {
+      "frequency_hz": 100475000.0,
+      "frequency_output_hz": 100475000.0,
+      "power_dbm": -151.99418719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100477500.0,
+      "frequency_output_hz": 100477500.0,
+      "power_dbm": -151.9942871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100480000.0,
+      "frequency_output_hz": 100480000.0,
+      "power_dbm": -151.9943871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100482500.0,
+      "frequency_output_hz": 100482500.0,
+      "power_dbm": -151.9944871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100485000.0,
+      "frequency_output_hz": 100485000.0,
+      "power_dbm": -151.9945871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100487500.0,
+      "frequency_output_hz": 100487500.0,
+      "power_dbm": -151.9946871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100490000.0,
+      "frequency_output_hz": 100490000.0,
+      "power_dbm": -151.9947871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100492500.0,
+      "frequency_output_hz": 100492500.0,
+      "power_dbm": -151.9948871942281,
+      "path": []
+    },
+    {
+      "frequency_hz": 100495000.0,
+      "frequency_output_hz": 100495000.0,
+      "power_dbm": -151.99498719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100497500.0,
+      "frequency_output_hz": 100497500.0,
+      "power_dbm": -151.99508719422812,
+      "path": []
+    },
+    {
+      "frequency_hz": 100500000.0,
+      "frequency_output_hz": 100500000.0,
+      "power_dbm": -151.9951871942281,
+      "path": []
+    }
+  ],
+  "integrated_noise_dbm": -91.98518335639507,
+  "bandwidth_hz": 1000000.0,
+  "model": "noise_wave_band_integration_v2",
+  "calculation_hash": "6f945140d20030e10a41fc3d09d1f0f2b7e4560ecbc12c7e08232daa600766e5"
+}

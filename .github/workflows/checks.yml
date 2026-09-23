@@ -1,0 +1,36 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: pip install --no-deps -e .
+      - run: python -m pytest -q
+      - run: python -m ruff check src scripts tests desktop.py container_entrypoint.py app.py workbench.py
+      - run: node --check src/rf_link_calculator/presentation/web/app.js && node --check src/rf_link_calculator/presentation/web/auth.js
+  container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t rf-link .
+      - name: Check mounted storage and local gateway
+        run: |
+          docker run -d --name rf-smoke -e RF_MODE=desktop -v rf-data:/var/lib/rflink rf-link
+          for attempt in $(seq 1 30); do
+            if docker exec rf-smoke python -c "import urllib.request; assert b'ok' in urllib.request.urlopen('http://127.0.0.1:10000/health').read()"; then break; fi
+            sleep 2
+          done
+          docker exec rf-smoke python -c "import urllib.request; assert b'ok' in urllib.request.urlopen('http://127.0.0.1:10000/health').read()"
+          docker exec rf-smoke python -c "from pathlib import Path; assert Path('/var/lib/rflink/accounts/accounts.sqlite3').stat().st_uid == 10001"

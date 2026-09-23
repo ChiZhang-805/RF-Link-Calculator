@@ -1,0 +1,480 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "解析双音谐波",
+  "project_name": "解析双音谐波",
+  "link_name": "解析双音谐波",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 10000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -20,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": true,
+      "each_tone_power_dbm": -30,
+      "spacing_hz": 2000000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "analytic",
+      "order": 1,
+      "enabled": true,
+      "name": "解析放大器",
+      "type": "amplifier",
+      "gain_db": 6.020599913279624,
+      "noise": {
+        "mode": "unknown",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "unknown",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "unknown",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic",
+        "note": "显式实射频多项式构造模型"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": "构造行为模型，未经商用软件或目标器件验收",
+  "lab": {
+    "models": {
+      "analytic": {
+        "harmonic": {
+          "kind": "harmonic",
+          "coefficients": [
+            2.0,
+            0.1,
+            -0.2
+          ],
+          "metadata": {
+            "source": "synthetic",
+            "max_input": 1,
+            "filename": "analytic.csv",
+            "sha256": "ab1c0e1644ae4d6e04a71b9bdc9f33953600986d3d3b8e7a9273a192525b9278"
+          }
+        }
+      }
+    },
+    "settings": {
+      "hb_fundamental_hz": 1000000.0,
+      "hb_harmonics": 64
+    },
+    "reference": {
+      "kind": "reference",
+      "rows": [
+        {
+          "scope": "frequency:0",
+          "metric": "power_dbm",
+          "value": "-73.9794000867204",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:0",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:0",
+          "metric": "wave_real",
+          "value": "0.0002",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:0",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:2000000",
+          "metric": "power_dbm",
+          "value": "-76.9897000433602",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:2000000",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:2000000",
+          "metric": "wave_real",
+          "value": "0.0001",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:2000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:7000000",
+          "metric": "power_dbm",
+          "value": "-100.457574905607",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:7000000",
+          "metric": "phase_deg",
+          "value": "180",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:7000000",
+          "metric": "wave_real",
+          "value": "-6.70820393249937e-06",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:7000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:9000000",
+          "metric": "power_dbm",
+          "value": "-23.9833096167678",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:9000000",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:9000000",
+          "metric": "wave_real",
+          "value": "0.0447012349381983",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:9000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:11000000",
+          "metric": "power_dbm",
+          "value": "-23.9833096167678",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:11000000",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:11000000",
+          "metric": "wave_real",
+          "value": "0.0447012349381983",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:11000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:13000000",
+          "metric": "power_dbm",
+          "value": "-100.457574905607",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:13000000",
+          "metric": "phase_deg",
+          "value": "180",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:13000000",
+          "metric": "wave_real",
+          "value": "-6.70820393249937e-06",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:13000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:18000000",
+          "metric": "power_dbm",
+          "value": "-83.0102999566398",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:18000000",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:18000000",
+          "metric": "wave_real",
+          "value": "5e-05",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:18000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:20000000",
+          "metric": "power_dbm",
+          "value": "-76.9897000433602",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:20000000",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:20000000",
+          "metric": "wave_real",
+          "value": "0.0001",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:20000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:22000000",
+          "metric": "power_dbm",
+          "value": "-83.0102999566398",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:22000000",
+          "metric": "phase_deg",
+          "value": "0",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:22000000",
+          "metric": "wave_real",
+          "value": "5e-05",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:22000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:27000000",
+          "metric": "power_dbm",
+          "value": "-110",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:27000000",
+          "metric": "phase_deg",
+          "value": "180",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:27000000",
+          "metric": "wave_real",
+          "value": "-2.23606797749979e-06",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:27000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:29000000",
+          "metric": "power_dbm",
+          "value": "-100.457574905607",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:29000000",
+          "metric": "phase_deg",
+          "value": "180",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:29000000",
+          "metric": "wave_real",
+          "value": "-6.70820393249937e-06",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:29000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:31000000",
+          "metric": "power_dbm",
+          "value": "-100.457574905607",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:31000000",
+          "metric": "phase_deg",
+          "value": "180",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:31000000",
+          "metric": "wave_real",
+          "value": "-6.70820393249937e-06",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:31000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:33000000",
+          "metric": "power_dbm",
+          "value": "-110",
+          "unit": "dBm",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:33000000",
+          "metric": "phase_deg",
+          "value": "180",
+          "unit": "deg",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:33000000",
+          "metric": "wave_real",
+          "value": "-2.23606797749979e-06",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        },
+        {
+          "scope": "frequency:33000000",
+          "metric": "wave_imag",
+          "value": "0",
+          "unit": "sqrt_mW",
+          "status": "valid"
+        }
+      ],
+      "metadata": {
+        "software": "三角恒等式解析参考",
+        "version": "1",
+        "solver": "cosine polynomial identities",
+        "source": "synthetic",
+        "analysis": {
+          "kind": "harmonic",
+          "parameters": {
+            "fundamental_hz": 1000000.0,
+            "harmonics": 64,
+            "tones": [
+              {
+                "frequency_hz": 9000000.0,
+                "power_dbm": -30
+              },
+              {
+                "frequency_hz": 11000000.0,
+                "power_dbm": -30
+              }
+            ]
+          }
+        },
+        "calculation_hash": "aafb9381c144220afda85f08ae29443758ac5620a268ad043d6a06af2a940e5c"
+      }
+    }
+  }
+}

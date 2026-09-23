@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "27967075-32ba-5d2e-bbb6-0ab097d5a4c1",
+  "project_name": "构造基准D",
+  "link_name": "全部理想线性",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 100000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -30,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": false,
+      "each_tone_power_dbm": -40.0,
+      "spacing_hz": 100000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "f3963fd1-862d-580c-80b8-58f2582007a2",
+      "order": 1,
+      "enabled": true,
+      "name": "3 dB衰减器",
+      "type": "attenuator",
+      "gain_db": 0,
+      "noise": {
+        "mode": "ideal",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "ideal",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic_example",
+        "note": "匹配热无源与理想线性是明确示例假设"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": ""
+}

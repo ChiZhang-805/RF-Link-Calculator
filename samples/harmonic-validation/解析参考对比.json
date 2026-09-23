@@ -1,0 +1,625 @@
+{
+  "rows": [
+    {
+      "scope": "frequency:0",
+      "metric": "phase_deg",
+      "value": "0",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:0",
+      "metric": "wave_real",
+      "value": "0.0002",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0002,
+      "delta": 0.0,
+      "tolerance": 2.3027176455325815e-08,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:0",
+      "metric": "wave_imag",
+      "value": "0",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:0",
+      "metric": "power_dbm",
+      "value": "-73.9794000867204",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -73.9794000867204,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:2000000",
+      "metric": "phase_deg",
+      "value": "1.21820149376266e-14",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:2000000",
+      "metric": "wave_real",
+      "value": "0.0001",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0001,
+      "delta": 0.0,
+      "tolerance": 1.1513588227662907e-08,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:2000000",
+      "metric": "wave_imag",
+      "value": "2.12616270188716e-20",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 2.12616270188716e-20,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:2000000",
+      "metric": "power_dbm",
+      "value": "-76.9897000433602",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -76.9897000433602,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:7000000",
+      "metric": "phase_deg",
+      "value": "180",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 180.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:7000000",
+      "metric": "wave_real",
+      "value": "-6.70820393249936e-06",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": -6.70820393249937e-06,
+      "delta": 1.0164395367051604e-20,
+      "tolerance": 7.723549782598665e-10,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:7000000",
+      "metric": "wave_imag",
+      "value": "7.92642602902991e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 7.92642602902991e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:7000000",
+      "metric": "power_dbm",
+      "value": "-100.457574905607",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -100.457574905607,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:9000000",
+      "metric": "phase_deg",
+      "value": "8.80625680137056e-18",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:9000000",
+      "metric": "wave_real",
+      "value": "0.0447012349381983",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0447012349381983,
+      "delta": 0.0,
+      "tolerance": 5.146716123464339e-06,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:9000000",
+      "metric": "wave_imag",
+      "value": "6.87049827316321e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 6.87049827316321e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:9000000",
+      "metric": "power_dbm",
+      "value": "-23.9833096167678",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -23.9833096167678,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:11000000",
+      "metric": "phase_deg",
+      "value": "-1.2888465471504e-17",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:11000000",
+      "metric": "wave_real",
+      "value": "0.0447012349381983",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0447012349381983,
+      "delta": 0.0,
+      "tolerance": 5.146716123464339e-06,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:11000000",
+      "metric": "wave_imag",
+      "value": "-1.00553710575316e-20",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": -1.00553710575316e-20,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:11000000",
+      "metric": "power_dbm",
+      "value": "-23.9833096167678",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -23.9833096167678,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:13000000",
+      "metric": "phase_deg",
+      "value": "-180",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 180.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:13000000",
+      "metric": "wave_real",
+      "value": "-6.70820393249936e-06",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": -6.70820393249937e-06,
+      "delta": 1.0164395367051604e-20,
+      "tolerance": 7.723549782598665e-10,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:13000000",
+      "metric": "wave_imag",
+      "value": "-1.54329021418533e-20",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": -1.54329021418533e-20,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:13000000",
+      "metric": "power_dbm",
+      "value": "-100.457574905607",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -100.457574905607,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:18000000",
+      "metric": "phase_deg",
+      "value": "-1.63994007238404e-15",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:18000000",
+      "metric": "wave_real",
+      "value": "5e-05",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 5e-05,
+      "delta": 0.0,
+      "tolerance": 5.756794113831454e-09,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:18000000",
+      "metric": "wave_imag",
+      "value": "-1.43111768992479e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": -1.43111768992479e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:18000000",
+      "metric": "power_dbm",
+      "value": "-83.0102999566398",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -83.0102999566398,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:20000000",
+      "metric": "phase_deg",
+      "value": "2.56810473239698e-15",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:20000000",
+      "metric": "wave_real",
+      "value": "0.0001",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0001,
+      "delta": 0.0,
+      "tolerance": 1.1513588227662907e-08,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:20000000",
+      "metric": "wave_imag",
+      "value": "4.48218831163753e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 4.48218831163753e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:20000000",
+      "metric": "power_dbm",
+      "value": "-76.9897000433602",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -76.9897000433602,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:22000000",
+      "metric": "phase_deg",
+      "value": "7.86812232164202e-15",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:22000000",
+      "metric": "wave_real",
+      "value": "5e-05",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 5e-05,
+      "delta": 0.0,
+      "tolerance": 5.756794113831454e-09,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:22000000",
+      "metric": "wave_imag",
+      "value": "6.86623202311568e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 6.86623202311568e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:22000000",
+      "metric": "power_dbm",
+      "value": "-83.0102999566398",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -83.0102999566398,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:27000000",
+      "metric": "phase_deg",
+      "value": "180",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 180.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:27000000",
+      "metric": "wave_real",
+      "value": "-2.23606797749979e-06",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": -2.23606797749979e-06,
+      "delta": 0.0,
+      "tolerance": 2.574516594199559e-10,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:27000000",
+      "metric": "wave_imag",
+      "value": "1.07036065913495e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": 1.07036065913495e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:27000000",
+      "metric": "power_dbm",
+      "value": "-110",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -110.0,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:29000000",
+      "metric": "phase_deg",
+      "value": "-180",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 180.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:29000000",
+      "metric": "wave_real",
+      "value": "-6.70820393249937e-06",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": -6.70820393249937e-06,
+      "delta": 0.0,
+      "tolerance": 7.723549782598677e-10,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:29000000",
+      "metric": "wave_imag",
+      "value": "-3.53214701501565e-22",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": -3.53214701501565e-22,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:29000000",
+      "metric": "power_dbm",
+      "value": "-100.457574905607",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -100.457574905607,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:31000000",
+      "metric": "phase_deg",
+      "value": "-180",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 180.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:31000000",
+      "metric": "wave_real",
+      "value": "-6.70820393249937e-06",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": -6.70820393249937e-06,
+      "delta": 0.0,
+      "tolerance": 7.723549782598677e-10,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:31000000",
+      "metric": "wave_imag",
+      "value": "-3.69596390209128e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": -3.69596390209128e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:31000000",
+      "metric": "power_dbm",
+      "value": "-100.457574905607",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -100.457574905607,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:33000000",
+      "metric": "phase_deg",
+      "value": "-180",
+      "unit": "deg",
+      "status": "valid",
+      "reference": 180.0,
+      "delta": 0.0,
+      "tolerance": 0.01,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:33000000",
+      "metric": "wave_real",
+      "value": "-2.23606797749979e-06",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": -2.23606797749979e-06,
+      "delta": 0.0,
+      "tolerance": 2.574516594199559e-10,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:33000000",
+      "metric": "wave_imag",
+      "value": "-6.0095101542778e-21",
+      "unit": "sqrt_mW",
+      "status": "valid",
+      "reference": 0.0,
+      "delta": -6.0095101542778e-21,
+      "tolerance": 1e-12,
+      "comparison": "pass"
+    },
+    {
+      "scope": "frequency:33000000",
+      "metric": "power_dbm",
+      "value": "-110",
+      "unit": "dBm",
+      "status": "valid",
+      "reference": -110.0,
+      "delta": 0.0,
+      "tolerance": 0.001,
+      "comparison": "pass"
+    }
+  ],
+  "status": "internal_only",
+  "independent_source_declared": false,
+  "error_summary": {
+    "phase_deg": {
+      "count": 13,
+      "max_abs_error": 0.0,
+      "rms_error": 0.0
+    },
+    "wave_real": {
+      "count": 13,
+      "max_abs_error": 1.0164395367051604e-20,
+      "rms_error": 3.9868038708052484e-21
+    },
+    "wave_imag": {
+      "count": 13,
+      "max_abs_error": 2.12616270188716e-20,
+      "rms_error": 8.865237908882181e-21
+    },
+    "power_dbm": {
+      "count": 13,
+      "max_abs_error": 0.0,
+      "rms_error": 0.0
+    }
+  },
+  "metadata": {
+    "software": "三角恒等式解析参考",
+    "version": "1",
+    "solver": "cosine polynomial identities",
+    "source": "synthetic",
+    "analysis": {
+      "kind": "harmonic",
+      "parameters": {
+        "fundamental_hz": 1000000.0,
+        "harmonics": 64,
+        "tones": [
+          {
+            "frequency_hz": 9000000.0,
+            "power_dbm": -30
+          },
+          {
+            "frequency_hz": 11000000.0,
+            "power_dbm": -30
+          }
+        ]
+      }
+    },
+    "calculation_hash": "aafb9381c144220afda85f08ae29443758ac5620a268ad043d6a06af2a940e5c"
+  },
+  "calculation_hash": "aafb9381c144220afda85f08ae29443758ac5620a268ad043d6a06af2a940e5c"
+}

@@ -1,0 +1,141 @@
+{
+  "model": "intrinsic_ebers_moll_rc_hb_v1",
+  "fundamental_hz": 1000000.0,
+  "harmonics": 16,
+  "samples": 264,
+  "output_resistor": "R1",
+  "points": [
+    {
+      "frequency_hz": 0.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 1000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 2000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 3000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 4000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 5000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 6000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 7000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 8000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 9000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 10000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 11000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 12000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 13000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 14000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 15000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    },
+    {
+      "frequency_hz": 16000000.0,
+      "voltage_real_v": 0.0,
+      "voltage_imag_v": 0.0,
+      "power_dbm": -3000.0
+    }
+  ],
+  "nodes": [
+    {
+      "node": "0",
+      "dc_v": 0.0,
+      "peak_v": 0.0
+    },
+    {
+      "node": "out",
+      "dc_v": 0.0,
+      "peak_v": 0.0
+    }
+  ],
+  "solver": {
+    "status": "converged",
+    "residual_a": 0.0,
+    "quadrature_residual_a": 0.0,
+    "iterations": 0,
+    "dc_iterations": 0
+  },
+  "scope": "RC network; intrinsic reciprocal Ebers-Moll NPN; constant capacitances; no Early, high-injection, transit-time, breakdown or self-heating model",
+  "convergence": {
+    "status": "pass",
+    "harmonic_limits": [
+      8,
+      16
+    ],
+    "max_voltage_delta_v": 0.0,
+    "limit_v": 1e-09
+  },
+  "calculation_hash": "8375347c88e0627740022aa22491745cc0d39e41fbbe0c0453e528c4b54a32d2"
+}

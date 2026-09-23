@@ -1,0 +1,10 @@
+{
+  "kind": "circuit-noise-convergence",
+  "parameters": {
+    "fundamental_hz": 1000000.0,
+    "harmonics": 8,
+    "offset_hz": 10000.0,
+    "sidebands": 8,
+    "output_harmonics": 1
+  }
+}

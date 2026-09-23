@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://www.minicircuits.com/pages/s-params/PGA-103+_S2P.zip",
+    "file": "PGA-103+_S2P.zip",
+    "bytes": 603104,
+    "sha256": "e897f981f5fcf59faa05b6404c620fcede6353e49c34b1805c49db156985c74a",
+    "source": "Mini-Circuits official product page PGA-103+; numeric device measurements"
+  },
+  {
+    "url": "https://www.minicircuits.com/pages/s-params/PGA-103+_VIEW.pdf",
+    "file": "PGA-103+_VIEW.pdf",
+    "bytes": 128885,
+    "sha256": "bc61fc7c6544424359f2f264fac7c48d529e2286bf5319c5778baf2e485f5a80",
+    "source": "Mini-Circuits official product page PGA-103+; numeric device measurements"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/LICENSE",
+    "file": "opendpd/LICENSE",
+    "bytes": 11350,
+    "sha256": "deb902d88d3c587ddc0aec3e144f85abf83f0b48ce08080ad2971f7dd358ef71",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/spec.json",
+    "file": "opendpd/spec.json",
+    "bytes": 502,
+    "sha256": "8b22413423a46a2cbb98f33452c4e97ecc4a99553b24ecd382686186806a0c07",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/train_input.csv",
+    "file": "opendpd/train_input.csv",
+    "bytes": 570842,
+    "sha256": "05da7e48c14d1eadb003a43363d6b9f658a164b564b660f5edee21b9e9d4d0f3",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/train_output.csv",
+    "file": "opendpd/train_output.csv",
+    "bytes": 570990,
+    "sha256": "f3d9b3173e78a4c292028b304271ee16c52c2262dd122f593ca7b8b65097dff3",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/val_input.csv",
+    "file": "opendpd/val_input.csv",
+    "bytes": 190341,
+    "sha256": "aa7b345c57eef8476ca6b5b5eb73fd0dce0f8d72f5e716ed36cfb0b91af8b8a3",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/val_output.csv",
+    "file": "opendpd/val_output.csv",
+    "bytes": 190335,
+    "sha256": "5c012ab8218062cd870eed700fc273dd7e72820462c480df8380f08cf4f1092a",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/test_input.csv",
+    "file": "opendpd/test_input.csv",
+    "bytes": 190211,
+    "sha256": "262e1fe4365992735ef9d6f67c4ff557e8e4d8a4f4885b7bc5c7011d07f1b4c0",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lab-emi/OpenDPD/aba888b87199d7ae7802ce931987e3aa3c951410/datasets/DPA_200MHz/test_output.csv",
+    "file": "opendpd/test_output.csv",
+    "bytes": 190275,
+    "sha256": "57d13dc65abf2b8cf77a05d0f1cf90ca0b3520f2da6bb85eb7ba31048d46d9a8",
+    "source": "OpenDPD measured DPA_200MHz; normalized amplitude; fixed repository commit"
+  }
+]

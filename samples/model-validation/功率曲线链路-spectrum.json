@@ -1,0 +1,597 @@
+{
+  "points": [
+    {
+      "frequency_hz": 96950000.0,
+      "offset_hz": -3049999.9999999995,
+      "power_dbm": -96.26666428309791,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 96950000.0,
+          "power_dbm": -96.26666428309791
+        }
+      ]
+    },
+    {
+      "frequency_hz": 97150000.0,
+      "offset_hz": -2849999.9999999995,
+      "power_dbm": -92.1736381787676,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 97150000.0,
+          "power_dbm": -92.1736381787676
+        }
+      ]
+    },
+    {
+      "frequency_hz": 97250000.0,
+      "offset_hz": -2749999.9999999995,
+      "power_dbm": -95.56281131737529,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 97250000.0,
+          "power_dbm": -95.56281131737529
+        }
+      ]
+    },
+    {
+      "frequency_hz": 97550000.0,
+      "offset_hz": -2449999.9999999995,
+      "power_dbm": -93.86639430044414,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 97550000.0,
+          "power_dbm": -93.86639430044414
+        }
+      ]
+    },
+    {
+      "frequency_hz": 97750000.0,
+      "offset_hz": -2249999.9999999995,
+      "power_dbm": -86.18510397274528,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 97750000.0,
+          "power_dbm": -86.18510397274528
+        }
+      ]
+    },
+    {
+      "frequency_hz": 97850000.0,
+      "offset_hz": -2149999.9999999995,
+      "power_dbm": -95.2369373422353,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 97850000.0,
+          "power_dbm": -95.2369373422353
+        }
+      ]
+    },
+    {
+      "frequency_hz": 97950000.0,
+      "offset_hz": -2049999.9999999998,
+      "power_dbm": -90.46921135451285,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 97950000.0,
+          "power_dbm": -90.46921135451285
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98150000.0,
+      "offset_hz": -1849999.9999999998,
+      "power_dbm": -87.15929946458766,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98150000.0,
+          "power_dbm": -87.15929946458766
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98350000.0,
+      "offset_hz": -1649999.9999999998,
+      "power_dbm": -79.70350102849719,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98350000.0,
+          "power_dbm": -79.70350102849719
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98550000.0,
+      "offset_hz": -1449999.9999999998,
+      "power_dbm": -86.15033808839273,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98550000.0,
+          "power_dbm": -86.15033808839273
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98650000.0,
+      "offset_hz": -1349999.9999999998,
+      "power_dbm": -88.21496970516678,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98650000.0,
+          "power_dbm": -88.21496970516678
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98750000.0,
+      "offset_hz": -1249999.9999999998,
+      "power_dbm": -78.00795003778629,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98750000.0,
+          "power_dbm": -78.00795003778629
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98850000.0,
+      "offset_hz": -1149999.9999999998,
+      "power_dbm": -84.01954219556364,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98850000.0,
+          "power_dbm": -84.01954219556364
+        }
+      ]
+    },
+    {
+      "frequency_hz": 98950000.0,
+      "offset_hz": -1049999.9999999998,
+      "power_dbm": -72.0204208005706,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 98950000.0,
+          "power_dbm": -72.0204208005706
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99050000.0,
+      "offset_hz": -949999.9999999999,
+      "power_dbm": -94.27528254749818,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99050000.0,
+          "power_dbm": -94.27528254749818
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99150000.0,
+      "offset_hz": -849999.9999999999,
+      "power_dbm": -84.27616849275013,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99150000.0,
+          "power_dbm": -84.27616849275013
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99250000.0,
+      "offset_hz": -749999.9999999999,
+      "power_dbm": -73.51375726603362,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99250000.0,
+          "power_dbm": -73.51375726603362
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99350000.0,
+      "offset_hz": -649999.9999999999,
+      "power_dbm": -65.2867349550659,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99350000.0,
+          "power_dbm": -65.2867349550659
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99450000.0,
+      "offset_hz": -549999.9999999999,
+      "power_dbm": -65.6094555730676,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99450000.0,
+          "power_dbm": -65.6094555730676
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99550000.0,
+      "offset_hz": -449999.99999999994,
+      "power_dbm": -58.85770614271513,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99550000.0,
+          "power_dbm": -58.85770614271513
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99650000.0,
+      "offset_hz": -349999.99999999994,
+      "power_dbm": -78.55950681305296,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99650000.0,
+          "power_dbm": -78.55950681305296
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99750000.0,
+      "offset_hz": -249999.99999999997,
+      "power_dbm": -63.50410590672873,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99750000.0,
+          "power_dbm": -63.50410590672873
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99850000.0,
+      "offset_hz": -149999.99999999997,
+      "power_dbm": -35.75924357198046,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99850000.0,
+          "power_dbm": -35.75924357198046
+        }
+      ]
+    },
+    {
+      "frequency_hz": 99950000.0,
+      "offset_hz": -49999.99999999999,
+      "power_dbm": -0.301258737218871,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 99950000.0,
+          "power_dbm": -0.301258737218871
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100050000.0,
+      "offset_hz": 49999.99999999999,
+      "power_dbm": -0.301258737218871,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100050000.0,
+          "power_dbm": -0.301258737218871
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100150000.0,
+      "offset_hz": 149999.99999999997,
+      "power_dbm": -35.75924357198047,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100150000.0,
+          "power_dbm": -35.75924357198047
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100250000.0,
+      "offset_hz": 249999.99999999997,
+      "power_dbm": -63.504105906728995,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100250000.0,
+          "power_dbm": -63.504105906728995
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100350000.0,
+      "offset_hz": 349999.99999999994,
+      "power_dbm": -78.55950681305666,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100350000.0,
+          "power_dbm": -78.55950681305666
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100450000.0,
+      "offset_hz": 449999.99999999994,
+      "power_dbm": -58.857706142715074,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100450000.0,
+          "power_dbm": -58.857706142715074
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100550000.0,
+      "offset_hz": 549999.9999999999,
+      "power_dbm": -65.60945557306738,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100550000.0,
+          "power_dbm": -65.60945557306738
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100650000.0,
+      "offset_hz": 649999.9999999999,
+      "power_dbm": -65.28673495506567,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100650000.0,
+          "power_dbm": -65.28673495506567
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100750000.0,
+      "offset_hz": 749999.9999999999,
+      "power_dbm": -73.51375726603534,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100750000.0,
+          "power_dbm": -73.51375726603534
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100850000.0,
+      "offset_hz": 849999.9999999999,
+      "power_dbm": -84.27616849275546,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100850000.0,
+          "power_dbm": -84.27616849275546
+        }
+      ]
+    },
+    {
+      "frequency_hz": 100950000.0,
+      "offset_hz": 949999.9999999999,
+      "power_dbm": -94.27528254749538,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 100950000.0,
+          "power_dbm": -94.27528254749538
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101050000.0,
+      "offset_hz": 1049999.9999999998,
+      "power_dbm": -72.02042080056883,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101050000.0,
+          "power_dbm": -72.02042080056883
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101150000.0,
+      "offset_hz": 1149999.9999999998,
+      "power_dbm": -84.01954219555408,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101150000.0,
+          "power_dbm": -84.01954219555408
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101250000.0,
+      "offset_hz": 1249999.9999999998,
+      "power_dbm": -78.00795003778882,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101250000.0,
+          "power_dbm": -78.00795003778882
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101350000.0,
+      "offset_hz": 1349999.9999999998,
+      "power_dbm": -88.21496970517123,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101350000.0,
+          "power_dbm": -88.21496970517123
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101450000.0,
+      "offset_hz": 1449999.9999999998,
+      "power_dbm": -86.15033808839264,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101450000.0,
+          "power_dbm": -86.15033808839264
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101650000.0,
+      "offset_hz": 1649999.9999999998,
+      "power_dbm": -79.70350102849895,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101650000.0,
+          "power_dbm": -79.70350102849895
+        }
+      ]
+    },
+    {
+      "frequency_hz": 101850000.0,
+      "offset_hz": 1849999.9999999998,
+      "power_dbm": -87.15929946458743,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 101850000.0,
+          "power_dbm": -87.15929946458743
+        }
+      ]
+    },
+    {
+      "frequency_hz": 102050000.0,
+      "offset_hz": 2049999.9999999998,
+      "power_dbm": -90.46921135451294,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 102050000.0,
+          "power_dbm": -90.46921135451294
+        }
+      ]
+    },
+    {
+      "frequency_hz": 102150000.0,
+      "offset_hz": 2149999.9999999995,
+      "power_dbm": -95.23693734224354,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 102150000.0,
+          "power_dbm": -95.23693734224354
+        }
+      ]
+    },
+    {
+      "frequency_hz": 102250000.0,
+      "offset_hz": 2249999.9999999995,
+      "power_dbm": -86.1851039727544,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 102250000.0,
+          "power_dbm": -86.1851039727544
+        }
+      ]
+    },
+    {
+      "frequency_hz": 102450000.0,
+      "offset_hz": 2449999.9999999995,
+      "power_dbm": -93.86639430043357,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 102450000.0,
+          "power_dbm": -93.86639430043357
+        }
+      ]
+    },
+    {
+      "frequency_hz": 102750000.0,
+      "offset_hz": 2749999.9999999995,
+      "power_dbm": -95.56281131737329,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 102750000.0,
+          "power_dbm": -95.56281131737329
+        }
+      ]
+    },
+    {
+      "frequency_hz": 102850000.0,
+      "offset_hz": 2849999.9999999995,
+      "power_dbm": -92.17363817875805,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 102850000.0,
+          "power_dbm": -92.17363817875805
+        }
+      ]
+    },
+    {
+      "frequency_hz": 103050000.0,
+      "offset_hz": 3049999.9999999995,
+      "power_dbm": -96.26666428310091,
+      "path": [
+        {
+          "stage_id": "curve-amplifier",
+          "frequency_hz": 103050000.0,
+          "power_dbm": -96.26666428310091
+        }
+      ]
+    }
+  ],
+  "sample_rate_hz": 6400000.0,
+  "samples": 4096,
+  "carrier_hz": 100000000.0,
+  "input_tones": [
+    {
+      "offset_hz": -50000.0,
+      "power_dbm": -20,
+      "phase_deg": 0
+    },
+    {
+      "offset_hz": 50000.0,
+      "power_dbm": -20,
+      "phase_deg": 0
+    }
+  ],
+  "model": "feedforward_complex_envelope_fft_v2",
+  "calculation_hash": "e3efce2aaeab72cc39ccae9ea997e18d2362de373cd0b2e5c7be1fba689b27ad"
+}

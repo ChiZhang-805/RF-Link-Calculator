@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "谐波反馈链路",
+  "project_name": "谐波反馈链路",
+  "link_name": "谐波反馈链路",
+  "link_type": "receiver",
+  "analysis": {
+    "source_frequency_hz": 10000000.0,
+    "signal_bandwidth_hz": 1000000.0,
+    "noise_bandwidth_hz": 1000000.0,
+    "source_noise_temperature_k": 290.0,
+    "reference_temperature_k": 290.0,
+    "reference_impedance_ohm": 50.0,
+    "input_power_dbm": -20,
+    "signal_mode": "cw",
+    "required_snr_db": 10.0,
+    "implementation_loss_db": 0.0,
+    "compression_backoff_db": 3.0,
+    "compression_model": "p1_anchored_soft_saturation_v1",
+    "default_compression_p": 2.0,
+    "two_tone": {
+      "enabled": true,
+      "each_tone_power_dbm": -30,
+      "spacing_hz": 2000000.0
+    }
+  },
+  "stages": [
+    {
+      "id": "feedback",
+      "order": 1,
+      "enabled": true,
+      "name": "反馈放大器",
+      "type": "amplifier",
+      "gain_db": 6.020599913279624,
+      "noise": {
+        "mode": "unknown",
+        "value_db": null
+      },
+      "ip3": {
+        "mode": "unknown",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "p1db": {
+        "mode": "unknown",
+        "reference": "input",
+        "value_dbm": null
+      },
+      "physical_temperature_k": 290.0,
+      "compression_p": null,
+      "frequency_range_hz": null,
+      "mixer": null,
+      "absolute_max_input_dbm": null,
+      "source": {
+        "kind": "synthetic",
+        "note": "显式实射频多项式构造模型"
+      },
+      "notes": ""
+    }
+  ],
+  "assumptions": [],
+  "notes": "构造行为模型，未经商用软件或目标器件验收",
+  "lab": {
+    "models": {
+      "feedback": {
+        "harmonic": {
+          "kind": "harmonic",
+          "coefficients": [
+            2.0,
+            0.1,
+            -0.2
+          ],
+          "metadata": {
+            "source": "synthetic",
+            "version": "1",
+            "amplitude_unit": "sqrt_mw",
+            "max_input": 2.0,
+            "s11": 0.1,
+            "s12": 0.2,
+            "s22": -0.1,
+            "pole_hz": 20000000.0,
+            "filename": "feedback-polynomial.csv",
+            "sha256": "9986769a9d87ec9ba6281b9c5e500140cee560be25fb21fb8a3f2a064e6c6772"
+          }
+        }
+      }
+    },
+    "settings": {
+      "hb_fundamental_hz": 1000000.0,
+      "hb_harmonics": 64,
+      "source_gamma": [
+        0.3,
+        0
+      ],
+      "load_gamma": [
+        0.2,
+        0
+      ]
+    }
+  }
+}

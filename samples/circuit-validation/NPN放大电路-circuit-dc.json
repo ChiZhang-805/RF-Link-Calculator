@@ -1,0 +1,40 @@
+{
+  "model": "intrinsic_ebers_moll_rc_v1",
+  "nodes": [
+    {
+      "node": "0",
+      "voltage_v": 0.0
+    },
+    {
+      "node": "b",
+      "voltage_v": 0.7111522629952048
+    },
+    {
+      "node": "c",
+      "voltage_v": 3.741114817653177
+    },
+    {
+      "node": "in",
+      "voltage_v": 0.72
+    },
+    {
+      "node": "vcc",
+      "voltage_v": 5.0
+    }
+  ],
+  "devices": [
+    {
+      "id": "Q1",
+      "vbe_v": 0.7111522629952048,
+      "vce_v": 3.741114817653177,
+      "ic_a": 0.0008847737005815038,
+      "ib_a": 8.847737004795038e-06
+    }
+  ],
+  "solver": {
+    "status": "converged",
+    "residual_a": 1.5178830414797062e-18,
+    "iterations": 50
+  },
+  "calculation_hash": "c080f24430769856ba7c3a1950e501ceb61e4a4975c19d9c787ef0e6a10212ec"
+}

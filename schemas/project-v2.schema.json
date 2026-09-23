@@ -1,0 +1,450 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "project_id": {
+      "type": "string",
+      "maxLength": 512,
+      "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$",
+      "minLength": 1
+    },
+    "project_name": {
+      "type": "string",
+      "maxLength": 512,
+      "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$",
+      "minLength": 1
+    },
+    "link_name": {
+      "type": "string",
+      "maxLength": 512,
+      "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$",
+      "minLength": 1
+    },
+    "link_type": {
+      "enum": [
+        "receiver",
+        "transmitter",
+        "upconverter",
+        "downconverter",
+        "other"
+      ]
+    },
+    "analysis": {
+      "type": "object",
+      "properties": {
+        "source_frequency_hz": {
+          "type": "number",
+          "minimum": 1e-12,
+          "maximum": 1000000000000000.0
+        },
+        "signal_bandwidth_hz": {
+          "type": "number",
+          "minimum": 1e-12,
+          "maximum": 1000000000000000.0
+        },
+        "noise_bandwidth_hz": {
+          "type": "number",
+          "minimum": 1e-12,
+          "maximum": 1000000000000000.0
+        },
+        "source_noise_temperature_k": {
+          "type": "number",
+          "minimum": 1e-09,
+          "maximum": 1000000.0
+        },
+        "reference_temperature_k": {
+          "const": 290
+        },
+        "reference_impedance_ohm": {
+          "const": 50
+        },
+        "input_power_dbm": {
+          "type": "number",
+          "minimum": -1000,
+          "maximum": 1000
+        },
+        "signal_mode": {
+          "enum": [
+            "cw",
+            "two_tone"
+          ]
+        },
+        "required_snr_db": {
+          "type": "number",
+          "minimum": -300,
+          "maximum": 300
+        },
+        "implementation_loss_db": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 300
+        },
+        "compression_backoff_db": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 300
+        },
+        "compression_model": {
+          "const": "p1_anchored_soft_saturation_v1"
+        },
+        "default_compression_p": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "two_tone": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "each_tone_power_dbm": {
+              "type": "number",
+              "minimum": -1000,
+              "maximum": 1000
+            },
+            "spacing_hz": {
+              "type": "number",
+              "minimum": 1e-12,
+              "maximum": 1000000000000000.0
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "stages": {
+      "type": "array",
+      "maxItems": 200,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 512,
+            "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$",
+            "minLength": 1
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 512,
+            "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "lna",
+              "amplifier",
+              "pa",
+              "vga",
+              "filter_bpf",
+              "filter_lpf",
+              "filter_hpf",
+              "filter_bsf",
+              "attenuator",
+              "cable",
+              "connector",
+              "switch",
+              "isolator",
+              "mixer",
+              "coupler",
+              "splitter",
+              "custom",
+              "input",
+              "output",
+              "antenna",
+              "adc",
+              "dac",
+              "digital"
+            ]
+          },
+          "gain_db": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": -300,
+            "maximum": 300
+          },
+          "noise": {
+            "type": "object",
+            "properties": {
+              "mode": {
+                "enum": [
+                  "unknown",
+                  "ideal",
+                  "manual",
+                  "passive_thermal"
+                ]
+              },
+              "value_db": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 300
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "ip3": {
+            "type": "object",
+            "properties": {
+              "mode": {
+                "enum": [
+                  "unknown",
+                  "ideal",
+                  "finite"
+                ]
+              },
+              "reference": {
+                "enum": [
+                  "input",
+                  "output"
+                ]
+              },
+              "value_dbm": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": -1000,
+                "maximum": 1000
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "p1db": {
+            "type": "object",
+            "properties": {
+              "mode": {
+                "enum": [
+                  "unknown",
+                  "ideal",
+                  "finite"
+                ]
+              },
+              "reference": {
+                "enum": [
+                  "input",
+                  "actual_output",
+                  "linear_output"
+                ]
+              },
+              "value_dbm": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": -1000,
+                "maximum": 1000
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "physical_temperature_k": {
+            "type": "number",
+            "minimum": 1e-09,
+            "maximum": 1000000.0
+          },
+          "compression_p": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 10
+          },
+          "frequency_range_hz": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "number",
+              "minimum": 1e-12,
+              "maximum": 1000000000000000.0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "mixer": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "lo_frequency_hz": {
+                    "type": "number",
+                    "minimum": 1e-12,
+                    "maximum": 1000000000000000.0
+                  },
+                  "relation": {
+                    "enum": [
+                      "sum",
+                      "difference"
+                    ]
+                  },
+                  "noise_convention": {
+                    "enum": [
+                      "SSB",
+                      "DSB",
+                      "unknown"
+                    ]
+                  },
+                  "noise_compatible": {
+                    "type": "boolean"
+                  },
+                  "lo_power_dbm": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": -1000,
+                    "maximum": 1000
+                  }
+                },
+                "required": [],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "absolute_max_input_dbm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": -1000,
+            "maximum": 1000
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "type": "string",
+                "maxLength": 4096,
+                "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 4096,
+                "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+              },
+              "url": {
+                "type": "string",
+                "maxLength": 4096,
+                "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+              },
+              "version": {
+                "type": "string",
+                "maxLength": 4096,
+                "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+              },
+              "bias": {
+                "type": "string",
+                "maxLength": 4096,
+                "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+              },
+              "specification": {
+                "enum": [
+                  "typ",
+                  "min",
+                  "max",
+                  "assumed",
+                  ""
+                ]
+              },
+              "test_frequency_hz": {
+                "type": "number",
+                "minimum": 1e-12,
+                "maximum": 1000000000000000.0
+              },
+              "temperature_k": {
+                "type": "number",
+                "minimum": 1e-09,
+                "maximum": 1000000.0
+              },
+              "conditions_mismatch": {
+                "type": "boolean"
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "notes": {
+            "type": "string",
+            "maxLength": 4096,
+            "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+          }
+        },
+        "required": [
+          "id",
+          "order",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "maxItems": 200,
+      "items": {
+        "type": "string",
+        "maxLength": 4096,
+        "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+      }
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 4096,
+      "pattern": "^[^\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]*$"
+    },
+    "lab": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "models": {
+          "type": "object"
+        },
+        "circuit": {
+          "type": "object"
+        },
+        "settings": {
+          "type": "object"
+        },
+        "iq": {
+          "type": "object"
+        },
+        "reference": {
+          "type": "object"
+        }
+      }
+    }
+  },
+  "required": [
+    "lab",
+    "schema_version"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rf-link-calculator.local/project-v2.schema.json"
+}
