@@ -1,1 +1,326 @@
-:root{font:15px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;color:#263746;background:#f4f6f8;--teal:#087f8c}*{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center}button,input{font:inherit}button{cursor:pointer;border:1px solid #dce3e9;border-radius:6px;background:#fff;color:inherit;padding:10px 18px}button:disabled{opacity:.5;cursor:default}input{display:block;width:100%;height:44px;padding:8px 12px;margin-top:7px;border:1px solid #dce3e9;border-radius:5px;color:inherit;background:#fff}input:focus,button:focus-visible{outline:2px solid #087f8c;outline-offset:2px}.auth-shell{width:min(960px,calc(100vw - 48px));display:grid;grid-template-columns:1fr 400px;gap:64px;align-items:center}.identity>svg{width:60px;height:60px;fill:none;stroke:var(--teal);stroke-width:1.4}.identity h1{font-size:44px;font-weight:500;letter-spacing:-1px;margin:12px 0}.identity h2{font-size:20px;font-weight:400;color:#647986}.auth-card{background:#fff;border:1px solid #dce3e9;border-radius:12px;padding:30px;box-shadow:0 12px 40px #213f4a08}nav{display:flex;border-bottom:1px solid #e8edef;margin-bottom:24px}nav button{width:50%;border:0;border-radius:0;background:none}nav button.active{color:var(--teal);border-bottom:3px solid var(--teal);font-weight:600}form h2{font-size:22px;margin:0 0 20px;font-weight:500}label{display:block;margin:16px 0;font-size:13px}.primary{width:100%;color:#fff;background:var(--teal);border-color:var(--teal);height:44px}.links{display:flex;flex-wrap:wrap;justify-content:space-between;margin-top:16px}.links button{border:0;color:#557583;padding:5px 0;font-size:12px}.signal-art{display:flex;align-items:center;margin-top:60px}.signal-art span{width:56px;height:40px;border:2px solid #76b2b8;background:#e6f2f3}.signal-art i{width:44px;height:2px;background:#76b2b8}#message{font-size:13px;color:#537482;overflow-wrap:anywhere;min-height:20px}#message.error{color:#ac3543}[hidden]{display:none!important}#recovery{font-size:12px}#recovery-row button{padding:8px 12px;font-size:12px}@media(max-width:760px){.auth-shell{grid-template-columns:1fr;max-width:420px;gap:20px;padding:24px 0}.identity{display:flex;gap:12px;align-items:center}.identity>svg{width:36px;height:36px}.identity h1{font-size:28px;margin:0}.identity h2,.signal-art{display:none}.auth-card{padding:24px}}
+:root {
+  font: 15px/1.5 "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  color: #152939;
+  background: #f4f6f8;
+  --teal: #087f8c;
+  --border: #dce3e9;
+  --muted: #617584;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 88% -4%, rgba(255,255,255,.2) 0 120px, transparent 121px),
+    radial-gradient(circle at 11% 96%, rgba(255,255,255,.18) 0 190px, transparent 191px),
+    linear-gradient(135deg, #1295ee 0%, #258af0 50%, #58a4f3 100%);
+}
+
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, input:focus-visible { outline: 2px solid #0a94a4; outline-offset: 2px; }
+
+.auth-shell {
+  width: min(1220px, calc(100vw - 96px));
+  height: min(680px, calc(100dvh - 96px));
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) 430px;
+  border-radius: 30px;
+  background: rgba(255,255,255,.86);
+  box-shadow: 0 32px 90px rgba(16,50,92,.26);
+  overflow: hidden;
+}
+
+.identity {
+  position: relative;
+  padding: 54px 58px;
+  background:
+    linear-gradient(90deg, rgba(235,248,249,.14), rgba(244,250,255,.2)),
+    url("/login-hero-bg.png") center / cover no-repeat,
+    #e9f5f7;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+  font-size: 28px;
+  font-weight: 650;
+  letter-spacing: -.4px;
+}
+
+.brand svg {
+  width: 38px;
+  height: 38px;
+  fill: none;
+  stroke: var(--teal);
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.headline {
+  margin-top: 54px;
+  position: relative;
+  z-index: 1;
+}
+
+.headline h1 {
+  margin: 0;
+  font-size: 56px;
+  line-height: 1.06;
+  letter-spacing: -.9px;
+  font-weight: 760;
+}
+
+.headline p {
+  margin: 18px 0 0;
+  font-size: 23px;
+  color: #4f6878;
+}
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 52px;
+  background: #fff;
+}
+
+.auth-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.auth-head h2 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -.3px;
+}
+
+nav {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+nav button {
+  min-width: 54px;
+  height: 34px;
+  border: 0;
+  background: #fff;
+  color: #5d7180;
+  padding: 0 16px;
+}
+
+nav button.active {
+  background: var(--teal);
+  color: #fff;
+  font-weight: 650;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #526775;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 8px;
+  padding: 0 13px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: #152939;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--teal);
+}
+
+.code-line {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.code-line input {
+  margin-top: 0;
+  min-width: 0;
+}
+
+.code-line button {
+  width: 114px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--teal);
+  font-weight: 650;
+}
+
+.code-line button:hover:not(:disabled) {
+  background: #f4fbfb;
+  border-color: #b7cbd3;
+}
+
+.row-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3px;
+  min-height: 24px;
+}
+
+.remember {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.row-tools button,
+.links button {
+  border: 0;
+  background: none;
+  color: var(--teal);
+  padding: 0;
+  font-weight: 650;
+}
+
+#message {
+  min-height: 20px;
+  margin: 9px 0 10px;
+  color: #537482;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+#message.error { color: #ac3543; }
+
+.primary {
+  width: 100%;
+  height: 48px;
+  border: 0;
+  border-radius: 7px;
+  background: var(--teal);
+  color: #fff;
+  font-weight: 650;
+  box-shadow: 0 12px 28px rgba(8,127,140,.2);
+}
+
+.primary:hover:not(:disabled) { background: #066d79; }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 16px;
+  min-height: 20px;
+  margin-top: 14px;
+}
+
+#recovery { font-size: 12px; }
+
+.recovery-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.recovery-actions button {
+  flex: 1;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: #435968;
+}
+
+.social-logins {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #edf1f4;
+}
+
+.social-login {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: #fff;
+  color: #607586;
+  padding: 0;
+}
+
+.social-login:hover {
+  border-color: #b7cbd3;
+  background: #f4fbfb;
+}
+
+.social-login[data-provider="支付宝"] { color: #1677ff; }
+.social-login[data-provider="微信"] { color: #18a058; }
+.social-login[data-provider="GitHub"] { color: #24292f; }
+
+.social-login img {
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
+[hidden] { display: none !important; }
+
+@media (max-width: 920px) {
+  body { overflow: auto; }
+  .auth-shell {
+    width: min(460px, calc(100vw - 32px));
+    height: auto;
+    min-height: 0;
+    grid-template-columns: 1fr;
+    margin: 24px 0;
+  }
+  .identity {
+    min-height: 300px;
+    padding: 32px;
+  }
+  .headline {
+    margin-top: 32px;
+  }
+  .headline h1 {
+    font-size: 36px;
+  }
+  .headline p {
+    font-size: 17px;
+  }
+  .auth-card {
+    padding: 34px 32px 38px;
+  }
+}

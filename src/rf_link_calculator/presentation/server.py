@@ -35,6 +35,10 @@ ASSETS = {
     "/circuit.js": "circuit.js",
     "/style.css": "style.css",
     "/icons.svg": "icons.svg",
+    "/login-hero-bg.png": "login-hero-bg.png",
+    "/brand-alipay.svg": "brand-alipay.svg",
+    "/brand-wechat.svg": "brand-wechat.svg",
+    "/brand-github.svg": "brand-github.svg",
 }
 
 

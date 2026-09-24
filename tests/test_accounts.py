@@ -52,6 +52,17 @@ def test_pending_account_verification_and_password_change(tmp_path):
         store.login("alice@example.com", PASSWORD)
 
 
+def test_registration_code_single_use(tmp_path):
+    store = Accounts(tmp_path / "accounts.db")
+    code = store.issue_code("Alice@example.com", "register")
+    assert len(code) == 6 and code.isdigit()
+    with pytest.raises(ValueError):
+        store.redeem_code("alice@example.com", "register", "000000")
+    store.redeem_code("alice@example.com", "register", code)
+    with pytest.raises(ValueError):
+        store.redeem_code("alice@example.com", "register", code)
+
+
 @pytest.fixture
 def portal(tmp_path):
     app = create_app(Settings(tmp_path))
@@ -138,17 +149,22 @@ def test_hosted_settings_and_mail_flow(tmp_path, monkeypatch):
     monkeypatch.setattr(
         Settings, "send", lambda self, email, purpose, token: sent.append((email, purpose, token))
     )
+    assert Settings(tmp_path, True, "https://rf.example.com/rf-link").origin == "https://rf.example.com"
     app = create_app(
-        Settings(tmp_path, True, "https://rf.example.com", "smtp.example.com", mail_from="rf@example.com")
+        Settings(tmp_path, True, "https://rf.example.com/rf-link", "smtp.example.com", mail_from="rf@example.com")
     )
     with TestClient(app, base_url="https://rf.example.com") as client:
 
         def submit(action, data):
             return post(client, "/auth/" + action, data, origin="https://rf.example.com")
 
-        assert submit("register", {"email": "alice@example.com", "password": PASSWORD}).json()["verification"]
-        assert submit("login", {"email": "alice@example.com", "password": PASSWORD}).status_code == 400
-        assert submit("verify", {"token": sent[-1][2]}).status_code == 200
+        assert submit("code", {"email": "alice@example.com"}).status_code == 200
+        assert sent[-1][0] == "alice@example.com" and sent[-1][1] == "code"
+        assert submit("register", {"email": "alice@example.com", "password": PASSWORD}).status_code == 400
+        assert (
+            submit("register", {"email": "alice@example.com", "password": PASSWORD, "code": sent[-1][2]})
+            .json()["verification"]
+        )
         assert (
             "Secure"
             in submit("login", {"email": "alice@example.com", "password": PASSWORD}).headers["set-cookie"]

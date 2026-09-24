@@ -17,7 +17,7 @@ desktop = ["pywebview>=6,<7"]
 where = ["src"]
 
 [tool.setuptools.package-data]
-rf_link_calculator = ["project-v1.schema.json", "project-v2.schema.json", "presentation/web/*.html", "presentation/web/*.css", "presentation/web/*.js", "presentation/web/*.svg"]
+rf_link_calculator = ["project-v1.schema.json", "project-v2.schema.json", "presentation/web/*.html", "presentation/web/*.css", "presentation/web/*.js", "presentation/web/*.svg", "presentation/web/*.png"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

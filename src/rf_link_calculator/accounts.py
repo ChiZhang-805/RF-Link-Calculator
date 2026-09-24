@@ -58,6 +58,9 @@ class Accounts:
                 CREATE TABLE IF NOT EXISTS tokens (
                     token TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id),
                     purpose TEXT NOT NULL, expires REAL NOT NULL);
+                CREATE TABLE IF NOT EXISTS auth_codes (
+                    email TEXT NOT NULL, purpose TEXT NOT NULL, code TEXT NOT NULL, expires REAL NOT NULL,
+                    PRIMARY KEY(email,purpose));
                 CREATE TABLE IF NOT EXISTS projects (
                     owner TEXT NOT NULL REFERENCES users(id), id TEXT NOT NULL,
                     name TEXT NOT NULL, link TEXT NOT NULL, body TEXT NOT NULL, updated REAL NOT NULL,
@@ -147,6 +150,32 @@ class Accounts:
                 "INSERT INTO tokens VALUES(?,?,?,?)", (digest(token), uid, purpose, time.time() + 1800)
             )
         return token
+
+    def issue_code(self, email, purpose):
+        email = email_address(email)
+        code = f"{secrets.randbelow(1000000):06d}"
+        with self.db() as db:
+            db.execute("DELETE FROM auth_codes WHERE expires<?", (time.time(),))
+            db.execute(
+                """INSERT INTO auth_codes VALUES(?,?,?,?) ON CONFLICT(email,purpose)
+                DO UPDATE SET code=excluded.code,expires=excluded.expires""",
+                (email, purpose, digest(code), time.time() + 600),
+            )
+        return code
+
+    def redeem_code(self, email, purpose, code):
+        email = email_address(email)
+        if not isinstance(code, str) or not re.fullmatch(r"\d{6}", code.strip()):
+            raise ValueError("验证码不正确")
+        with self.db() as db:
+            db.execute("BEGIN IMMEDIATE")
+            row = db.execute(
+                "SELECT code FROM auth_codes WHERE email=? AND purpose=? AND expires>?",
+                (email, purpose, time.time()),
+            ).fetchone()
+            if not row or not secrets.compare_digest(row["code"], digest(code.strip())):
+                raise ValueError("验证码不正确或已失效")
+            db.execute("DELETE FROM auth_codes WHERE email=? AND purpose=?", (email, purpose))
 
     def redeem(self, token, purpose, password=None):
         encoded = password_hash(password) if purpose == "reset" else None

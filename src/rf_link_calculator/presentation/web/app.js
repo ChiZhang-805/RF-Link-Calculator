@@ -4,7 +4,7 @@ const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const copy = value => structuredClone(value);
-const icon = name => `<svg class="ico" aria-hidden="true"><use href="/icons.svg#${name}"></use></svg>`;
+const icon = name => `<svg class="ico" aria-hidden="true"><use href="icons.svg#${name}"></use></svg>`;
 const button = (name, action, label = '', extra = '') => `<button type="button" class="${label ? '' : 'icon ghost'}" data-action="${action}" aria-label="${esc(label || actionNames[action] || action)}" title="${esc(label || actionNames[action] || action)}" ${extra}>${icon(name)}${label ? `<span>${esc(label)}</span>` : ''}</button>`;
 const actionNames = {new:'新建项目',open:'打开项目',save:'保存项目',undo:'撤销',redo:'重做',settings:'设置',copy:'复制器件',delete:'删除器件',up:'上移',down:'下移',fit:'适应画布','zoom-in':'放大','zoom-out':'缩小','previous':'上一页','next':'下一页','close':'关闭','inspector':'器件参数','issues':'检查结果','project-edit':'项目属性'};
 const unitScales = {Hz:1,kHz:1e3,MHz:1e6,GHz:1e9};
@@ -26,8 +26,8 @@ function toast(message, error = false) {
 }
 
 async function api(action, data, binary = false) {
-  const response = await fetch('/api/' + action, {method:'POST',headers:{'Content-Type':'application/json',...(config?.account?{'X-CSRF-Token':config.account.csrf}:{})},body:JSON.stringify(data)});
-  if(response.status===401){sessionStorage.removeItem(storedKey);location.assign('/');throw new Error('请重新登录');}
+  const response = await fetch('api/' + action, {method:'POST',headers:{'Content-Type':'application/json',...(config?.account?{'X-CSRF-Token':config.account.csrf}:{})},body:JSON.stringify(data)});
+  if(response.status===401){sessionStorage.removeItem(storedKey);location.assign('.');throw new Error('请重新登录');}
   if (!response.ok) { const body = await response.json(); throw new Error(body.error || '操作未完成'); }
   return binary ? response : response.json();
 }
@@ -429,7 +429,7 @@ function modalError(error) {
 
 async function projectPicker() {
   let saved='';
-  if(config.account){const response=await fetch('/api/projects');if(!response.ok){location.assign('/');return;}const result=await response.json();saved=`<div class="section-label">我的项目</div><div class="project-list">${result.projects.map(p=>`<button data-saved-project="${esc(p.id)}">${icon('folder')}${esc(p.name)} · ${esc(p.link)}</button>`).join('')}</div>`;}
+  if(config.account){const response=await fetch('api/projects');if(!response.ok){location.assign('.');return;}const result=await response.json();saved=`<div class="section-label">我的项目</div><div class="project-list">${result.projects.map(p=>`<button data-saved-project="${esc(p.id)}">${icon('folder')}${esc(p.name)} · ${esc(p.link)}</button>`).join('')}</div>`;}
   const body=`<div class="row" style="margin-bottom:16px">${button('folder','open','打开')}${button('edit','project-edit','项目属性')}<span class="spacer"></span>${button('new','new','新建')}</div>${saved}<div class="section-label">示例</div><div class="project-list">${Object.keys(config.examples).map(name=>`<button data-example="${esc(name)}">${icon('wave')}${esc(name)}</button>`).join('')}</div>`;
   openModal('项目',body,'','projects');
 }
@@ -635,10 +635,10 @@ async function action(name, target=null) {
   if(name==='export'){if(state.view==='analysis'&&state.analysisTab==='circuit')await circuitAction('export-dialog');else exportModal();return;}
   if(name==='settings'){settingsModal();return;}
   if(name==='logout'||name==='password-change'){
-    const response=await fetch('/auth/'+(name==='logout'?'logout':'password'),{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':config.account.csrf},body:JSON.stringify(name==='logout'?{}:{old:$('#account-old').value,password:$('#account-new').value})});
+    const response=await fetch('auth/'+(name==='logout'?'logout':'password'),{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':config.account.csrf},body:JSON.stringify(name==='logout'?{}:{old:$('#account-old').value,password:$('#account-new').value})});
     if(!response.ok){const result=await response.json();modalError(result.error);return;}
     for(const key of Object.keys(sessionStorage)){if(key.startsWith('rf-link-workbench'))sessionStorage.removeItem(key);}
-    location.assign('/');return;
+    location.assign('.');return;
   }
   if(name==='issues'){issuesModal();return;}
   if(name==='all-metrics'){allMetrics();return;}
@@ -684,7 +684,7 @@ document.addEventListener('click',event=>{
   if(target.dataset.inspectorTab){state.inspectorTab=target.dataset.inspectorTab;renderInspector();$('.inspector-fields').scrollTop=0;return;}
   if(target.dataset.analysis){state.analysisTab=target.dataset.analysis;state.analysisPage=0;renderWorkspace();return;}
   if(target.dataset.conditionTab){conditionsModal(target.dataset.conditionTab);return;}
-  if(target.dataset.savedProject){void (async()=>{try{const response=await fetch('/api/projects/'+encodeURIComponent(target.dataset.savedProject));const result=await response.json();if(!response.ok)throw new Error(result.error);await loadProject(result.project);}catch(error){modalError(error);}})();return;}
+  if(target.dataset.savedProject){void (async()=>{try{const response=await fetch('api/projects/'+encodeURIComponent(target.dataset.savedProject));const result=await response.json();if(!response.ok)throw new Error(result.error);await loadProject(result.project);}catch(error){modalError(error);}})();return;}
   if(target.dataset.example){void loadProject(config.examples[target.dataset.example]);return;}
   if(target.dataset.selectStage){chooseStage(target.dataset.selectStage,true);return;}
   if(target.dataset.dragStage){chooseStage(target.dataset.dragStage);return;}
@@ -778,7 +778,7 @@ $('#modal').addEventListener('cancel',()=>{state.modal=null;});
 async function boot() {
   $('#app').innerHTML=`<div class="loading">${icon('wave')}RF Link</div>`;
   try {
-    const response=await fetch('/api/bootstrap');if(response.status===401){location.assign('/');return;}if(!response.ok)throw new Error('无法连接计算服务');
+    const response=await fetch('api/bootstrap');if(response.status===401){location.assign('.');return;}if(!response.ok)throw new Error('无法连接计算服务');
     config=await response.json();if(config.account)storedKey='rf-link-workbench-'+config.account.id;state.project=config.project;state.result=config.result;state.computed=fingerprint();state.directory=config.directory;
     let restored=false;
     try {

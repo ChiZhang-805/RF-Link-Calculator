@@ -53,18 +53,29 @@ class Settings:
     def validate(self):
         if self.hosted:
             url = urlsplit(self.public_url)
-            if url.scheme != "https" or not url.hostname or url.path or url.query or url.fragment:
+            if url.scheme != "https" or not url.hostname or url.query or url.fragment:
                 raise RuntimeError("RF_PUBLIC_URL 必须是部署后的 HTTPS 站点地址")
             if not self.smtp_host or not self.mail_from:
                 raise RuntimeError("云端注册与找回密码需要配置 RF_SMTP_HOST 和 RF_MAIL_FROM")
 
+    @property
+    def origin(self):
+        url = urlsplit(self.public_url)
+        if not url.scheme or not url.netloc:
+            return self.public_url
+        return f"{url.scheme}://{url.netloc}"
+
     def send(self, email, purpose, token):
         message = EmailMessage()
-        message["Subject"] = "RF Link · " + ("验证邮箱" if purpose == "verify" else "重置密码")
+        subjects = {"verify": "验证邮箱", "reset": "重置密码", "code": "注册验证码"}
+        message["Subject"] = "RF Link · " + subjects.get(purpose, "账户验证码")
         message["From"], message["To"] = self.mail_from, email
-        message.set_content(
-            f"{self.public_url}/#{purpose}={token}\n\n链接有效期为 30 分钟。若非本人操作，请忽略。"
-        )
+        if purpose == "code":
+            message.set_content(f"验证码：{token}\n\n验证码有效期为 10 分钟。若非本人操作，请忽略。")
+        else:
+            message.set_content(
+                f"{self.public_url}/#{purpose}={token}\n\n链接有效期为 30 分钟。若非本人操作，请忽略。"
+            )
         smtp_type = smtplib.SMTP_SSL if self.smtp_port == 465 else smtplib.SMTP
         with smtp_type(self.smtp_host, self.smtp_port, timeout=15) as smtp:
             if self.smtp_port != 465:
@@ -146,7 +157,7 @@ def create_app(settings=None):
         if not allowed:
             return JSONResponse({"error": "请求主机无效"}, 403)
         if request.method not in ("GET", "HEAD"):
-            origin = settings.public_url if settings.hosted else "http://" + host
+            origin = settings.origin if settings.hosted else "http://" + host
             if request.headers.get("origin") != origin:
                 return JSONResponse({"error": "请求来源无效"}, 403)
             if request.headers.get("content-type", "").split(";")[0] != "application/json":
@@ -216,18 +227,27 @@ def create_app(settings=None):
             response = JSONResponse({"ok": True})
             response.delete_cookie(COOKIE)
             return response
-        if action not in ("register", "login", "forgot", "resend", "verify", "reset", "recover", "password"):
+        if action not in ("code", "register", "login", "forgot", "resend", "verify", "reset", "recover", "password"):
             raise HTTPException(404, "未找到")
         email = (
             email_address(data.get("email", ""))
-            if action in ("register", "login", "forgot", "resend", "recover")
+            if action in ("code", "register", "login", "forgot", "resend", "recover")
             else ""
         )
-        limit(request, action, email, 6 if action in ("forgot", "resend", "register") else 10)
-        if action == "register":
-            uid, recovery = store.register(email, data.get("password"), verified=not settings.hosted)
+        limit(request, action, email, 6 if action in ("code", "forgot", "resend", "register") else 10)
+        if action == "code":
+            code = store.issue_code(email, "register")
             if settings.hosted:
-                settings.send(email, "verify", store.issue(uid, "verify"))
+                if not store.user(email):
+                    settings.send(email, "code", code)
+                return {"ok": True}
+            return {"ok": True, "code": code}
+        if action == "register":
+            if settings.hosted:
+                store.redeem_code(email, "register", str(data.get("code", "")))
+            uid, recovery = store.register(email, data.get("password"), verified=True)
+            if settings.hosted:
+                recovery = None
             return {"ok": True, "recovery": recovery, "verification": settings.hosted}
         if action == "login":
             token, _ = store.login(email, data.get("password"))
@@ -326,7 +346,7 @@ def create_app(settings=None):
         if path in ("", "workbench"):
             logged_in = store.session(request.cookies.get(COOKIE, ""))
             if path == "workbench" and not logged_in:
-                return RedirectResponse("/", 303)
+                return RedirectResponse("./", 303)
             name = "index.html" if path == "workbench" else "auth.html"
         else:
             name = ASSETS.get("/" + path) or ({"auth.js": "auth.js", "auth.css": "auth.css"}.get(path))

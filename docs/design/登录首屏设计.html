@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RF Link 登录首屏设计</title>
+  <style>
+    :root {
+      font-family: "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+      color: #152939;
+      background: #f4f6f8;
+      --teal: #087f8c;
+      --teal-2: #0aa2aa;
+      --ink: #152939;
+      --muted: #6e7f8b;
+      --line: #dce3e9;
+      --soft: #e8f6f6;
+      --panel: #ffffff;
+      --blue: #2685ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      width: 100vw;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 88% -4%, rgba(255,255,255,.2) 0 120px, transparent 121px),
+        radial-gradient(circle at 12% 96%, rgba(255,255,255,.18) 0 190px, transparent 191px),
+        linear-gradient(135deg, #0d93f1 0%, #2487f1 48%, #5aa6f4 100%);
+    }
+
+    .shell {
+      width: min(1220px, calc(100vw - 96px));
+      height: min(680px, calc(100vh - 96px));
+      min-height: 600px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) 430px;
+      border-radius: 30px;
+      background: rgba(255,255,255,.82);
+      box-shadow: 0 32px 90px rgba(16,50,92,.26);
+      overflow: hidden;
+    }
+
+    .hero {
+      position: relative;
+      padding: 54px 58px;
+      background:
+        linear-gradient(135deg, rgba(235,248,249,.96), rgba(230,241,253,.92)),
+        #e9f5f7;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+    }
+
+    .hero::before {
+      width: 360px;
+      height: 360px;
+      left: -168px;
+      bottom: -166px;
+      background: rgba(8,127,140,.09);
+    }
+
+    .hero::after {
+      width: 290px;
+      height: 290px;
+      right: -112px;
+      top: -120px;
+      background: rgba(38,133,239,.1);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 28px;
+      font-weight: 650;
+      letter-spacing: -.4px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .brand svg {
+      width: 38px;
+      height: 38px;
+      fill: none;
+      stroke: var(--teal);
+      stroke-width: 1.9;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .headline {
+      margin-top: 54px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .headline h1 {
+      margin: 0;
+      font-size: 44px;
+      line-height: 1.08;
+      letter-spacing: -.8px;
+      font-weight: 700;
+    }
+
+    .headline p {
+      margin: 16px 0 0;
+      font-size: 18px;
+      color: #526a79;
+    }
+
+    .chain-card {
+      position: absolute;
+      left: 42px;
+      right: 34px;
+      bottom: 38px;
+      z-index: 1;
+      height: 292px;
+      border: 0;
+      border-radius: 0;
+      background: none;
+      box-shadow: none;
+      padding: 0;
+    }
+
+    .chain-card::before {
+      content: "";
+      position: absolute;
+      left: 30px;
+      right: 28px;
+      top: 70px;
+      bottom: 36px;
+      border-radius: 50%;
+      background:
+        radial-gradient(ellipse at 50% 50%, rgba(255,255,255,.72), rgba(222,247,249,.34) 48%, transparent 74%);
+      filter: blur(2px);
+      pointer-events: none;
+    }
+
+    .chain-card img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      object-position: center;
+      filter: drop-shadow(0 22px 28px rgba(28,68,88,.10));
+    }
+
+    .art-line {
+      stroke: #263746;
+      stroke-width: 2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .art-soft {
+      stroke: rgba(8,127,140,.34);
+      stroke-width: 1.6;
+      fill: #fff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .art-teal {
+      fill: rgba(8,127,140,.12);
+      stroke: #087f8c;
+      stroke-width: 2;
+    }
+
+    .art-blue {
+      fill: rgba(38,133,239,.14);
+      stroke: rgba(38,133,239,.56);
+      stroke-width: 1.8;
+    }
+
+    .art-fill {
+      fill: #ffffff;
+      stroke: #263746;
+      stroke-width: 2;
+    }
+
+    .art-label {
+      font-size: 13px;
+      fill: #536874;
+      font-weight: 600;
+      letter-spacing: 0;
+    }
+
+    .art-value {
+      font-size: 20px;
+      fill: #152939;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .spectrum-bar {
+      fill: #087f8c;
+      opacity: .72;
+    }
+
+    .spectrum-bar:nth-of-type(2n) {
+      opacity: .45;
+    }
+
+    .auth {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 52px 52px;
+      background: var(--panel);
+    }
+
+    .auth-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 34px;
+    }
+
+    .auth-top h2 {
+      margin: 0;
+      font-size: 30px;
+      letter-spacing: -.3px;
+    }
+
+    .mode {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      overflow: hidden;
+    }
+
+    .mode button {
+      width: 54px;
+      height: 34px;
+      border: 0;
+      background: #fff;
+      color: #5d7180;
+      font: inherit;
+      font-size: 13px;
+    }
+
+    .mode button.active {
+      background: var(--teal);
+      color: #fff;
+      font-weight: 650;
+    }
+
+    .form {
+      display: grid;
+      gap: 17px;
+    }
+
+    label {
+      display: grid;
+      gap: 8px;
+      color: #526775;
+      font-size: 13px;
+    }
+
+    input {
+      width: 100%;
+      height: 46px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 13px;
+      font: inherit;
+      font-size: 15px;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .split {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: -2px;
+      color: #627684;
+      font-size: 13px;
+    }
+
+    .remember {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    .remember i {
+      width: 16px;
+      height: 16px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 4px;
+      background: var(--teal);
+      color: #fff;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 1;
+    }
+
+    .link {
+      color: var(--teal);
+      font-weight: 600;
+    }
+
+    .primary {
+      height: 48px;
+      border: 0;
+      border-radius: 7px;
+      background: var(--teal);
+      color: #fff;
+      font: inherit;
+      font-size: 15px;
+      font-weight: 650;
+      box-shadow: 0 12px 28px rgba(8,127,140,.2);
+    }
+
+    .secondary {
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      color: #435968;
+      font: inherit;
+      font-size: 14px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #edf1f4;
+      margin: 10px 0 4px;
+    }
+
+    .foot {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+      color: #778894;
+      font-size: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .status {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #2db477;
+    }
+
+    @media (max-width: 920px) {
+      body {
+        overflow: auto;
+      }
+
+      .shell {
+        width: min(460px, calc(100vw - 32px));
+        height: auto;
+        min-height: 0;
+        grid-template-columns: 1fr;
+        margin: 24px 0;
+      }
+
+      .hero {
+        min-height: 240px;
+        padding: 32px;
+      }
+
+      .headline {
+        margin-top: 32px;
+      }
+
+      .headline h1 {
+        font-size: 34px;
+      }
+
+      .chain-card {
+        display: none;
+      }
+
+      .auth {
+        padding: 34px 32px 38px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="brand">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12h4l3-8 4 16 3-12 3 4h5"/></svg>
+        <span>RF Link</span>
+      </div>
+
+      <div class="headline">
+        <h1>射频链路工作台</h1>
+        <p>一款AI赋能的射频智能设计与优化软件。</p>
+      </div>
+
+      <div class="chain-card">
+        <img src="login-rf-illustration.png" alt="射频信号插画">
+      </div>
+    </section>
+
+    <section class="auth">
+      <div class="auth-top">
+        <h2>登录</h2>
+        <div class="mode" aria-label="账户模式">
+          <button class="active">登录</button>
+          <button>注册</button>
+        </div>
+      </div>
+
+      <form class="form">
+        <label>邮箱
+          <input value="engineer@example.com" aria-label="邮箱">
+        </label>
+        <label>密码
+          <input type="password" value="************" aria-label="密码">
+        </label>
+        <div class="split">
+          <span class="remember"><i>✓</i>保持登录</span>
+          <span class="link">找回密码</span>
+        </div>
+        <button class="primary" type="button">进入工作台</button>
+        <div class="divider"></div>
+        <button class="secondary" type="button">使用恢复密钥</button>
+      </form>
+
+      <div class="foot"><span class="status"></span><span>本机账户 · 项目隔离</span></div>
+    </section>
+  </main>
+</body>
+</html>
